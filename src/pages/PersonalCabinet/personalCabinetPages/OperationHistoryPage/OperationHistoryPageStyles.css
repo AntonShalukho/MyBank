@@ -1,0 +1,93 @@
+.operation-history-wrapper {
+  width: 100%;
+  margin: 30px 0px 80px 50px;
+}
+
+.operation-history-modal {
+  padding: 56px;
+  width: 664px;
+  height: 734px;
+  border-radius: 0;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08), 0px 5px 50px rgba(0, 0, 0, 0.25);
+}
+
+.operation-history-nav-tab {
+  width: 172px;
+}
+
+.operation-history-page-main-title {
+  margin: 16px 0 48px;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.operation-history-page-sub-title {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+.operation-history-page-nav-tabs-wrapper {
+  display: flex;
+}
+
+.operation-history-tool-bar {
+  margin: 40px 0 24px;
+  display: flex;
+}
+
+.operation-history-tool-bar-input {
+  border: 1px solid var(--secondary-gray);
+  border-radius: 8px;
+  outline: none;
+  padding: 12px;
+  width: 328px;
+  height: 48px;
+}
+
+.operation-history-tool-bar-input::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.operation-history-tool-bar-input-wrapper {
+  margin-right: 96px;
+  position: relative;
+}
+
+.operation-history-tool-bar-input-search-icon {
+  position: absolute;
+  top: 12px;
+  left: 289px;
+  width: 24px;
+  height: 24px;
+}
+
+.operation-history-tool-bar-filter-btn {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  width: 109px;
+  height: 48px;
+  padding: 12px 16px;
+  border: 1px solid transparent;
+  background-color: var(--primary-yellow);
+  border-radius: 8px;
+}
+
+.operation-history-tool-bar-filter-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.operation-history-modal .button-container.close {
+  right: 56px;
+  top: 62px;
+}
+
+.operation-history-wrapper {
+  width: 100%;
+  margin: 30px 0px 80px 50px;
+}

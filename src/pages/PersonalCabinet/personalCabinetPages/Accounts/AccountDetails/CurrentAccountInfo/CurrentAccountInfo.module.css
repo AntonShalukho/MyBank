@@ -1,0 +1,41 @@
+.current_account_info {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+}
+  
+.current_account_number{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  width: 281px;
+  display: flex;
+  align-items: flex-end;
+  color: var(--secondary-gray-account);
+  resize: none;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+  
+.current_account_number:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-gray-account);
+}
+  
+.current_copy_logo {
+  margin-left: 8px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.copy_field {
+    display: none;
+}
+
+.copy_field_active {
+    position: absolute;
+    left: 230px;
+    top: -40px;
+}

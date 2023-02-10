@@ -1,0 +1,38 @@
+.loan-section-wrapper {
+  border: 1px solid var(--secondary-light-gray);
+  border-radius: 8px;
+  background-color: var(--primary-white);
+}
+
+.loan-section-title,
+.loan-section-apr {
+  padding: 24px 32px;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--secondary-light-gray);
+  background-color: var(--secondary-hover-gray);
+  font-weight: 700;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.loan-product-small-card{
+  width: 416px;
+  height: 320px;
+  margin-right: 24px;
+  font-size: 16px;
+}
+.loan-product-small-card:last-child {
+  margin-right: 0;
+}
+.loan-product-big-card {
+  width: 856px;
+  height: 342px;
+  margin: 64px 0;
+}
+
+.loan-section-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary-hover-gray);
+}

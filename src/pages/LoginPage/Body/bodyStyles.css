@@ -1,0 +1,6 @@
+.body-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 0 auto;
+}
+

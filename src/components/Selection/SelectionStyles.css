@@ -1,0 +1,47 @@
+.selection-container {
+  position:relative;
+  width: 100%;
+}
+.selection-container ul {
+  overflow: hidden;
+}
+
+.selection-input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 0 12px 40px;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: var(--primary-dark-gray) !important;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid var(--secondary-light-gray);
+}
+
+.selection-button {
+  width: 100%;
+  position:relative;
+  top: -5px;
+  border: none !important;
+}
+
+.selection-list {
+  position: absolute;
+  background-color: var(--primary-white);
+  z-index: 1;
+  width: 100%;
+  box-shadow: 5px 10px 20px rgb(0 0 0 / 10%);
+  max-height: 240px;
+  min-height: 50px;
+  overflow-x: hidden;
+  border: 1px solid var(--secondary-light-gray) !important;
+}
+.selection-list-item {
+  position:relative;
+  top: 5px;
+}
+.selection-button-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}

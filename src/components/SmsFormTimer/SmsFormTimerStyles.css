@@ -1,0 +1,16 @@
+.sms-input_code-sending {
+  margin-bottom: 24px;
+  color: var(--primary-dark-gray);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  border: none;
+  background: transparent;
+}
+
+.sms-input_send-code-again {
+  border-bottom: solid 2px;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 14px;
+}

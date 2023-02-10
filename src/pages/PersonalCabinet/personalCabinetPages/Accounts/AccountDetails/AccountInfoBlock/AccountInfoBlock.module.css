@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    line-height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .infoBlock__title {
+    color: var(--secondary-gray);
+    margin-bottom: 8px;
+  }
+  
+  .infoBlock__value {
+    color: var(--primary-dark-gray);
+  }
+
+  .infoBlock_interest,
+  .infoBlock_type,
+  .infoBlock_date {
+    width: 33%;
+  }
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .infoBlock_type {
+    margin: 8px 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .infoBlock_interest,
+  .infoBlock_type,
+  .infoBlock_date {
+    width: 311px;
+  }
+
+  .infoBlock_type {
+    margin: 16px 0;
+  }
+}

@@ -1,0 +1,14 @@
+.notification-popup-wrapper {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  border-left: solid 4px var(--primary-red);
+  position: fixed;
+  top: 144px;
+  right: 72px;
+  font-size: 14px;
+}
+
+.notification-popup-text {
+  margin: 0 25px 0 16px;
+}

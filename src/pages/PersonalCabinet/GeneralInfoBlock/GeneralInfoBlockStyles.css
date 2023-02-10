@@ -1,0 +1,9 @@
+.general-info-block h4 {
+  margin-top: 10px;
+  color: var(--secondary-gray);
+  font-weight: 400;
+}
+
+.general-info-block p {
+  margin: 25px 25px 25px 0;
+}

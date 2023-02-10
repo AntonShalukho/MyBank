@@ -1,0 +1,19 @@
+.profile-picture-block {
+  position: relative;
+  display: flex;
+  width: 75%;
+  margin-top: 20px;
+  gap: 25px;
+  align-items: center;
+}
+
+.profile-picture-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.upload-modal {
+  min-width: 600px;
+  width: 40%;
+}

@@ -1,0 +1,24 @@
+.successful-updated-avatar-modal-content-wrapper {
+  padding-top: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.successful-updated-avatar-modal-content-img {
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+  margin-bottom: 32px;
+}
+
+.successful-updated-avatar-modal-content-title {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+.successful-updated-avatar-modal-content-description {
+  font-size: 16px;
+  line-height: 24px;
+}

@@ -1,0 +1,8 @@
+.personal-page-wrapper {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.personal-page-bg-container {
+  background-color: var(--secondary-very-light-gray);
+}

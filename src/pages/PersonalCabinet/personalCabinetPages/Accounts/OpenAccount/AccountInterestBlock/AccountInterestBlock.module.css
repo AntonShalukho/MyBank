@@ -1,0 +1,27 @@
+.account_name_wrapper {
+  width: 320px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 4px;
+  background-color: var(--secondary);
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.account_name__title {
+  line-height: 18.75px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--primary-dark-gray)
+}
+
+.account_name__input {
+  font-size: 14px;
+  width: 100%;
+  border: none;
+  background-color: var(--secondary);
+  outline: none;
+  color: var(--primary-dark-gray)
+}

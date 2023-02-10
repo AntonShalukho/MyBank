@@ -1,0 +1,30 @@
+@import url("../../../assets/theme/palette.css");
+
+.first-middle-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.personal-info-resident-inputs {
+  margin: 16px auto 8px auto;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.form-inputs-wrapper {
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 4px;
+}
+
+.residency-block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  align-items: center;
+}

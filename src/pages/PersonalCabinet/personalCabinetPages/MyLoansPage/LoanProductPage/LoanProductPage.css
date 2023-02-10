@@ -1,0 +1,50 @@
+.loan-product-page-wrapper {
+    padding-left: 30px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+.loan-product-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loan-product-main-title {  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 40px;
+    margin-top: 24px;
+}
+
+.loan-card-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.text-box-personalloan, .text-box-weddingloan {
+    width: 352px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+.text-box-carloan {
+    width: 190px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+ 
+.loan-card-find-box {
+    margin-left: 32px;
+    margin-top: 16px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+

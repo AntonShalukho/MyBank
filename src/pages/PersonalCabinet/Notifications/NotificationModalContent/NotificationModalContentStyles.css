@@ -1,0 +1,17 @@
+.notification-modal-content-exclamation-point-icon {
+  display: block;
+  margin: 0 auto 32px;
+}
+
+.notification-modal-content-description,
+.notification-modal-content-warming {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.notification-modal-content-btn {
+  margin: 20px auto 0;
+  width: 100%;
+}

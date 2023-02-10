@@ -1,0 +1,22 @@
+.add-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 282px;
+  height: 172px;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-light-gray);
+  color: inherit;
+}
+
+.add-button-wrapper:hover {
+  background-color: var(--secondary-light-yellow);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.add-button-title {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}

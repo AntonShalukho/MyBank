@@ -1,0 +1,74 @@
+.cards-block-wrapper {
+  margin-top: 24px;
+}
+
+.cards-block-card-list {
+  width: 552px;
+  height: 138px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+.cards-block-card-list.show-more {
+  width: 552px;
+  height: 138px;
+  padding-right: 10px;
+  overflow-y: scroll;
+}
+
+.cards-block-card-list.show-more::-webkit-scrollbar {
+  width: 4px;
+  background-color: var(--secondary-very-light-gray);
+}
+
+.cards-block-card-list.show-more::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: var(--primary-yellow);
+}
+
+.cards-block-card-list.show-more::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: var(--secondary-very-light-gray);
+}
+
+.cards-block-card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.cards-block-card-label {
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 32px;
+}
+
+.cards-block-card-input {
+  outline: none;
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.cards-block-card-input:checked + .cards-block-card-checkbox {
+  background-image: url(../../../../../uikit/static/radio-btn-on.svg);
+}
+
+.cards-block-card-checkbox {
+  margin-right: 8px;
+  margin-left: -55px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../../../uikit/static/radio-btn-off.svg);
+}
+
+.cards-block-card-show-more-btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: var(--primary-yellow);
+}

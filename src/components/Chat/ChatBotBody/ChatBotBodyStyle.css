@@ -1,0 +1,123 @@
+.chat-bot-body-wrapper-second {
+  width: 100%;
+  height: 376px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 8px;
+  transition: 0.2s;
+}
+
+.chat-bot-body-question {
+  width: 328px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-light-gray);
+  padding: 8px 0;
+  line-height: 12px;
+}
+
+.chat-bot-body-input-block {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-white);
+  color: var(--primary-gray);
+  margin-bottom: 8px;
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+.chat-bot-body-main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 310px;
+  row-gap: 8px;
+  overflow-y: auto;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.chat-bot-body-main-content::-webkit-scrollbar {
+  width: 2px;
+  background-color: var(--secondary-light-gray);
+}
+
+.chat-bot-body-main-content::-webkit-scrollbar-thumb {
+  width: 2px;
+  background-color: var(--primary-yellow);
+}
+
+.chat-bot-body-input {
+  padding: 7px 0px;
+}
+
+.chat-bot-body-input, .chat-bot-body-input-div {
+  width: 92%;
+  outline: none;
+  color: var(--secondary-dark-gray);
+  min-height: 100%;
+  resize: none;
+  outline: none;
+  border: none;
+  font-size: 12px;
+}
+
+.chat-bot-body-input::placeholder {
+  color: var(--secondary-gray);
+}
+
+.chat-bot-body-input::-webkit-scrollbar {
+  width: 0px;
+}
+
+.chat-bot-body-input-div {
+  position: absolute;
+  top: 0;
+  width: 290.71px;
+  min-height: 16px;
+  word-break: break-word;
+  z-index: -999999;
+  opacity: 0;
+  cursor: context-menu;
+}
+
+.chat-bot-body-input-image {
+  cursor: pointer;
+}
+
+.chat-bot-body-input-button {
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.chat-bot-body-input-body {
+  width: 100%;
+  min-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 2px;
+  border: 1px solid var(--primary-gray);
+  border-radius: 7px;
+}
+
+.chat-bot-body-input-body-error {
+  border: 1px solid var(--primary-red);
+}
+
+.chat-bot-body-input-character {
+  align-self: flex-start;
+  padding-left: 9px;
+  padding-top: 4px;
+}
+
+.chat-bot-body-input-character-error {
+  color: var(--primary-red);
+}

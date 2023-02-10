@@ -1,0 +1,10 @@
+.change-question-container .secret-question-buttons-block {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.change-question-container .form-button {
+  min-width: 150px;
+}

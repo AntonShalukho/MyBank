@@ -1,0 +1,5 @@
+.input-error-text {
+  font-size: 12px;
+  line-height: 1.3em;
+  color: var(--primary-red);
+}

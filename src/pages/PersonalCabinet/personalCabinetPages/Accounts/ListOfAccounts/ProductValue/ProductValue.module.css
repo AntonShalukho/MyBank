@@ -1,0 +1,85 @@
+.current_account_info {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+}
+
+.current_account_number{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  width: 281px;
+  display: flex;
+  align-items: flex-end;
+  color: var(--secondary-gray-account);
+  resize: none;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.current_account_number:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-gray-account);
+}
+
+.current_copy_logo {
+  margin-left: 8px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.current_account_link {
+  display: flex;
+  justify-content: end;
+  margin-top: 16px;
+}
+
+.account_link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: var(--primary);
+}
+
+.current_account_arrow {
+  margin-left: 8px;
+  margin-right: 24px;
+}
+.copy_field {
+  display: none;
+}
+.copy_field_active {
+  position: absolute;
+  left: 230px;
+  top: -40px;
+}
+
+@media screen and (max-width: 768px) {
+  .current_account_number {
+    margin-left: 20px;
+    height: 36px;
+  }
+  .current_account_link {
+    display: flex;
+    justify-content: start;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .current_account_info {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .current_account_number {
+    margin-left: 16px;
+  }
+}

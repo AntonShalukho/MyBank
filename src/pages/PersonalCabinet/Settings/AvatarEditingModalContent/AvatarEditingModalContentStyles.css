@@ -1,0 +1,38 @@
+
+.avatar-editing-modal-content-wrapper {
+  margin-top: 68px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid var(--primary-red);
+  width: 560px;
+  background: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 346px;
+}
+
+.avatar-editor-crop {
+  display: block;
+}
+
+.avatar-editing-modal-content-avatar {
+  margin: 0 auto;
+  width: 298px;
+  height: 348px;
+  background-color: var(--primary-black);
+  height: 100%;
+}
+.avatar-editing-modal-content-btn {
+  margin: 31px auto 0;
+}
+
+.avatar-editing-modal {
+  padding: 70px 21px 65px;
+}
+
+.avatar-editing-modal-save-changes-btn {
+  width: 343px;
+  margin: 20px auto 0;
+  padding: 10px;
+}

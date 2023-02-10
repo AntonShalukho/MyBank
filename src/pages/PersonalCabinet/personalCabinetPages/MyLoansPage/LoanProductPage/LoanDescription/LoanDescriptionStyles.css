@@ -1,0 +1,106 @@
+.loan-description-wrapper {
+    margin-left: 152px;
+}
+.table-container {
+    box-sizing: border-box;
+    width: 526px;
+    height: 600px;
+    border: solid 2px #EEEEEE;
+    
+}
+.description-text-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    margin-top: 56px;
+    text-align: center;
+}
+.table-title {
+    height: 120px;
+    border: solid 2px #EEEEEE;
+    
+}
+.selected-loan-name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 156px;
+}
+.table-apr,
+.table-guarantors,
+.table-repayment,
+.table-statement {
+    display: flex;
+}
+
+.table-apr-name,
+.table-guarantors-name,
+.table-repayment-name,
+.table-statement-name {
+    width: 263px;
+    height: 120px;
+    border: solid 2px #EEEEEE;  
+}
+.table-apr-value,
+.table-guarantors-value,
+.table-repayment-value,
+.table-statement-value {
+    width: 263px;
+    height: 120px;
+    border: solid 2px #EEEEEE;  
+}
+
+.description-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #616161;
+    margin-top: 56px;
+    margin-left: 40px;
+}
+.description-text-data {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.back-button-description {
+    margin-left: 136px;
+}
+.bottom-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #616161;
+}
+.amount-min-value,
+.amount-max-value,
+.period-min-value,
+.period-max-value {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #212529;
+    margin-bottom: 32px;
+}
+.amount,
+.period {
+    display: flex;
+    width: 600px;
+    margin-top: 64px;
+}
+.amount-min,
+.period-min {
+    width: 300px;
+}
+.amount-graf {
+    width: 300px;
+    border: 5px solid #FFF176;
+}
+.period-graf {
+    width: 400px;
+    border: 5px solid #FFF176;
+}

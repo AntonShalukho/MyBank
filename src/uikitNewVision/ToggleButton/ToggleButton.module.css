@@ -1,0 +1,61 @@
+.toggle_control {
+  display: flex;
+  gap: 55px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle_control input {
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.toggle_control input:checked ~ .control {
+  background-color: var(--secondary-yellow);
+}
+
+.toggle_control input:checked ~ .control:after {
+  left: 22px;
+  background: var(--primary-yellow);
+}
+
+.toggle_control .control {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 17px;
+  width: 40px;
+  border-radius: 25px;
+  background-color: var(--secondary-gray);
+}
+
+.toggle_control .control::after, .control::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  background: var(--primary-white);
+  transition: left 0.10s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 5px;
+}
+
+.control::before {
+  background-color: var(--secondary-gray);
+  top: -1px;
+}
+
+.toggle_control input:checked ~ .control::before {
+  left: 22px;
+}
+
+.toggle_off {
+  color: var(--secondary-dark-gray);
+}
+
+.toggle_on {
+  color: var(--primary-yellow);
+}
+

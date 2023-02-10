@@ -1,0 +1,34 @@
+.footer-download-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  bottom: -7%;
+  right: 9%;
+}
+
+@media (min-width: 1400px) {
+  .footer-download-section {
+    bottom: 3%;
+    right: 7%;
+  }
+}
+
+.footer-download-section-icons {
+  margin-top: 16px;
+}
+
+.footer-download-section-link{
+  position: relative;
+}
+
+.footer-download-section-link:nth-child(1) {
+  right: 13px;
+}
+
+.footer-download-section-link:nth-child(2) {
+  left: 14px;
+}

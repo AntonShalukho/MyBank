@@ -1,0 +1,54 @@
+.logo_currency {
+    margin-left: 20px;
+    height: 22px;
+    border-radius: 2.4px;
+    margin-top: 6px;
+  }
+  
+  .value_currency {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-dark-gray);
+    margin-left: 8px;
+  }
+  
+  .name_currency {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    color: var(--primary-dark-gray);
+    margin-left: 8px;
+  }
+  
+  .currency_block__icon {
+    width: 24px;
+    height: 18px;
+    border: 1px solid var(--secondary-light-gray);
+  }
+  
+  .current_account_data {
+    display: flex;
+    margin-top: 16px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .current_value_block {
+      margin-bottom: 12px;
+    }
+
+    .logo_currency {
+      margin-left: 16px;
+    }
+
+    .current_account_data {
+      margin-top: 12px;
+    }     
+  }  
+  

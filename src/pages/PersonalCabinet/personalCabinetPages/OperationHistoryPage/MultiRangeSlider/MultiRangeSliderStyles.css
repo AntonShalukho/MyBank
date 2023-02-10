@@ -1,0 +1,148 @@
+.multi-range-slider-container {
+  height: 160px;
+}
+
+.multi-range-slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.multi-range-slider {
+  position: relative;
+  width: 548px;
+  z-index: 4;
+}
+
+.multi-range-slider__track,
+.multi-range-slider__range {
+  position: absolute;
+}
+
+.multi-range-slider__track,
+.multi-range-slider__range {
+  border-radius: 2px;
+  height: 5px;
+}
+
+.multi-range-slider__track {
+  width: 100%;
+  z-index: 1;
+}
+
+.multi-range-slider__range {
+  background-color: var(--primary-yellow);
+  width: 2px;
+  margin: -3px;
+}
+
+.multi-range-slider__left-value,
+.multi-range-slider__right-value {
+  color: var(--secondary-gray);
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -62px;
+}
+
+.multi-range-slider__left-value {
+  left: 30px;
+}
+
+.multi-range-slider__right-value {
+  right: 195px;
+}
+
+.multi-range-slider__thumb,
+.multi-range-slider__thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.multi-range-slider__thumb {
+  pointer-events: none;
+  position: absolute;
+  height: 0;
+  width: 100%;
+  padding: 0 56px;
+  outline: none;
+}
+
+.multi-range-slider__thumb--zindex-3 {
+  z-index: 3;
+}
+
+.multi-range-slider__thumb--zindex-4 {
+  z-index: 4;
+}
+
+.multi-range-slider__thumb--zindex-5 {
+  z-index: 5;
+}
+
+.multi-range-slider__thumb::-webkit-slider-thumb {
+  border: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+  z-index: 6;
+}
+
+.multi-range-slider__thumb::-moz-range-thumb {
+  border: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+  z-index: 6;
+}
+
+.multi-range-slider-poundStarling-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.multi-range-slider-poundStarling-label {
+  position: relative;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--secondary-gray);
+}
+
+.multi-range-slider-poundStarling-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 12px 12px 36px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--secondary-gray);
+  width: 260px;
+  height: 48px;
+  outline: none;
+  border: 1px solid var(--secondary-gray);
+  border-radius: 4px;
+  text-align: left;
+  margin-top: 4px;
+}
+
+.multi-range-slider-poundStarling-icon {
+  position: absolute;
+  top: 35px;
+  left: 13px;
+}
+
+.multi-range-slider-value-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--secondary-gray);
+}

@@ -1,0 +1,11 @@
+.chat-bot-title {
+  background-color: var(--primary-yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 64px;
+  border-radius: 8px 8px 0px 0px;
+  padding: 0;
+  align-self: center;
+}

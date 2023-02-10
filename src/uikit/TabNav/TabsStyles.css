@@ -1,0 +1,23 @@
+@import url("../../assets/theme/palette.css");
+
+.tabNav {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.tabNav__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tabNav__item.active {
+  border-bottom: 2px solid var(--primary-yellow);
+  font-weight: 700;
+}

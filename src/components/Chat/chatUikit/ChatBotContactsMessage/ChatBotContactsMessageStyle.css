@@ -1,0 +1,53 @@
+.chat-bot-contacts-message {
+  width: 238px;
+  height: 146px;
+  display: flex;
+  align-self: flex-start;
+  border-radius: 10px;
+  background-color: var(--secondary-light-gray);
+  padding: 11px;
+  margin-bottom: 4px;
+  line-height: 12px;
+}
+
+.chat-bot-contacts-messsage-phone-section {
+  width: 19px;
+  position: relative;
+  height: 100%;
+  top: 0px;
+  left: 0px
+}
+
+.chat-bot-contacts-messsage-phone-section-svg1, .chat-bot-contacts-messsage-phone-section-svg2 {
+  position: absolute;
+  top: 43%;
+  left: 0px;
+}
+
+.chat-bot-de-de {
+  top: 35%;
+}
+
+.chat-bot-contacts-messsage-phone-section-svg2 {
+  top: 67%;
+  left: 0px;
+}
+
+.chat-bot-de-de2 {
+  top: 55%;
+}
+
+.chat-bot-contacts-messsage-contacts-section {
+  width: 183px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 12px;
+}
+
+.chat-bot-contacts-messsage-contacts-section-input1, .chat-bot-contacts-messsage-contacts-section-input2 {
+  width: 50px;
+  outline: none;
+  border: none;
+  background-color: var(--secondary-light-gray);
+}

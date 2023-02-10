@@ -1,0 +1,39 @@
+@import url("../../../assets/theme/palette.css");
+
+.phone-num-form {
+  position: relative;
+  margin-top: 40px;
+}
+
+.phone-num-input-wrapper {
+  position: relative;
+}
+
+.phone-num-form-agreement-box {
+  background-color: var(--secondary-light-gray);
+  padding: 8px 12px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--secondary-dark-gray);
+  margin-bottom: 24px;
+  margin-top: 15px;
+}
+
+.phone-num-form-agreement-box a {
+  color: var(--secondary-blue);
+}
+
+.mask {
+  position: absolute;
+  top: 39px;
+  left: 13px;
+  color: var(--primary-dark-gray);
+  pointer-events: none;
+}
+
+.phone-input {
+  color: var(--secondary-gray);
+}

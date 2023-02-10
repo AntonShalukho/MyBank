@@ -1,0 +1,15 @@
+.account-tabs-container {
+  width: 900px;
+  min-height: 600px;
+}
+
+.account-tabs-container > ul {
+  width: 80%;
+  margin: auto;
+}
+
+.account-content-container {
+  width: 85%;
+  margin: 40px auto 0;
+}
+

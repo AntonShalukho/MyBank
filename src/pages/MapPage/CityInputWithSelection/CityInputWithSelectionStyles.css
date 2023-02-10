@@ -1,0 +1,30 @@
+.selection-container.unstyled .selection-list button:hover {
+  cursor: default;
+  background-color: var(--primary-white);
+}
+
+.selection-list {
+  scrollbar-color: var(--secondary-dark-gray) transparent;
+  scrollbar-width: thin;
+}
+
+.selection-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.selection-list::-webkit-scrollbar-track {
+  border-radius: 6px;
+}
+
+.selection-list::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color:  var(--secondary-gray);
+}
+
+.selection-list::-webkit-scrollbar-thumb:hover {
+  background-color: var(--secondary-dark-gray);
+}
+
+.selection-list::-webkit-scrollbar-thumb:active {
+  background-color: var(--secondary-dark-gray);
+}

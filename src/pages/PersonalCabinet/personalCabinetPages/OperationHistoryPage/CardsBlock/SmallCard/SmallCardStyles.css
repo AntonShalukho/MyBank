@@ -1,0 +1,78 @@
+.small-card-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-white);
+  padding: 4px;
+  box-sizing: border-box;
+  font-size: 3.9px;
+  line-height: 6.24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.small-visa-infinite {
+  background-image: url("../../../../../../uikit/static/visaInfinite.svg");
+}
+
+.small-master-card-polybank {
+  background-image: url("../../../../../../uikit/static/mastercardPolybank.svg");
+}
+
+.small-mastercard-premium {
+  background-image: url("../../../../../../uikit/static/mastercardPremium.svg");
+}
+
+.small-visa-smart-payout {
+  background-image: url("../../../../../../uikit/static/visaSmartPayout.svg");
+}
+
+.small-visa-purchase-plus {
+  background-image: url("../../../../../../uikit/static/visaPurchasePlus.svg");
+}
+
+.small-card-tariff-title {
+  position: relative;
+  font-size: 3.9px;
+  line-height: 6.24px;
+  margin-bottom: 5px;
+}
+
+.small-card-dots-wrapper {
+  display: flex;
+  font-size: 0.9px;
+  margin-top: 1px;
+  margin-right: 3px;
+}
+
+.small-card-expiration-date {
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.small-card-balance-wrapper {
+  display: flex;
+  font-weight: 700;
+  font-size: 3.9px;
+  line-height: 6px;
+}
+
+.small-card-currency {
+  margin-left: 3px;
+}
+
+.small-card-bank-logo {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: auto;
+  height: 6px;
+}
+
+.small-payment-system-icon {
+  position: absolute;
+  height: 5.46px;
+  right: 4px;
+  bottom: 5px;
+}

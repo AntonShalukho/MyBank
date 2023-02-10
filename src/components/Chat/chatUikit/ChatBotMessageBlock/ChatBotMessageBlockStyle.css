@@ -1,0 +1,20 @@
+.chat-bot-bot-greeting-message, .chat-bot-user-message {
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: flex-start;
+  border-radius: 10px;
+  background-color: var(--secondary-light-gray);
+  padding: 11px;
+  margin-bottom: 4px;
+  line-height: 12px;
+}
+
+.chat-bot-user-message {
+  align-self: flex-end;
+  background-color: var(--secondary-light-yellow);
+  word-break: break-all;
+  margin-right: 16px;
+}

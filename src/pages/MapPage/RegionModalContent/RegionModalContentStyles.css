@@ -1,0 +1,38 @@
+.region-modal-container {
+  display: grid;
+  align-items: center;
+  grid-template-rows: 1fr 1fr 3fr;
+  height: 40vh;
+}
+
+.region-modal-container h4 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.region-modal-input-container {
+  position: relative;
+}
+
+.region-modal-input-container input {
+  width: 370px;
+}
+
+.region-modal-input-container .selection-list {
+  width: 370px;
+}
+
+.region-modal-input-container > svg {
+  z-index: 2;
+  position: absolute;
+  top: 16px;
+}
+
+.region-modal-input-container > svg:nth-child(1) {
+  left: 15px;
+}
+
+.region-modal-input-container > svg:nth-child(3) {
+  left: 335px;
+  cursor: pointer;
+}

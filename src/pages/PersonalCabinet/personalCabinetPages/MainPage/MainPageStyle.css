@@ -1,0 +1,10 @@
+.main-page-wrapper {
+  padding-top: 36px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  width: 80%;
+}
+.main-page-left {
+  display: flex;
+  justify-content: space-between;
+}

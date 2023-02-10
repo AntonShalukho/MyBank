@@ -1,0 +1,108 @@
+.wrapper {
+    margin: 24px;
+    width: 1584px;
+}
+
+.account {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-white);
+    border: 1px solid var( --secondary-light-gray);
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--primary-dark-gray);
+    margin-bottom: 20px;
+}
+
+.account_content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.account_info {
+    display: flex;
+    flex-direction: row;
+    margin: 24px;
+}
+
+.account_name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-dark-gray);
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+.account_name__title {
+    margin-right: 15px;
+  }
+
+.backdrop {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.55);
+    z-index: 15;
+  }
+
+@media screen and (max-width: 1440px) {
+  .wrapper {
+    width: 1104px;
+  }
+}
+  
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    width: 944px;
+  }
+}
+  
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 688px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    margin: 24px;
+  }  
+
+  .account_content {
+    flex-direction: column;
+  }
+
+  .account_info {
+    margin: 0 16px 16px;
+  }
+
+  .account_name {
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+    .wrapper {
+      margin: 16px;
+    }  
+  }

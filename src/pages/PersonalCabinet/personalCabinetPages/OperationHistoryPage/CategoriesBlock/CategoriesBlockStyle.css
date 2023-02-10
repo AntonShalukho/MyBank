@@ -1,0 +1,22 @@
+.categories-block-wrapper {
+  margin-top: 24px;
+}
+
+.categories-block-filter-btn-wrapper {
+  margin-top: 16px;
+}
+
+.categories-block-filter-btn {
+  padding: 8px 16px;
+  border-radius: 16px;
+  background-color: var(--secondary-hover-gray);
+  margin-right: 13px;
+}
+
+.categories-block-filter-btn-active {
+  padding: 8px 16px;
+  border-radius: 16px;
+  background-color: var(--secondary-hover-gray);
+  margin-right: 13px;
+  background-color: var(--secondary-yellow);
+}

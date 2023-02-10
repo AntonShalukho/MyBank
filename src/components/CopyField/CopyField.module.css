@@ -1,0 +1,13 @@
+.copy_field {
+    padding: 8px 16px;
+    width: 76px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: var(--primary-dark-gray);
+    background: var(--tertiary);
+    border: 1px solid var(--tertiary);
+    border-radius: 8px;
+  }

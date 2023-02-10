@@ -1,0 +1,30 @@
+.store-links-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+  .store-links-wrapper-icon {
+    width: 152px;
+    height: 46px;
+  }
+  .store-links-icon:first-child {
+    margin-right: 16px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .store-links-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .store-links-icon {
+    width: 135px;
+    height: 40px;
+  }
+
+  .store-links-icon:first-child {
+    margin-right: 0px;
+  }
+}

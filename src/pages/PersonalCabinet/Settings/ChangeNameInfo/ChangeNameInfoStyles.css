@@ -1,0 +1,27 @@
+.change-name-container {
+  position: relative;
+}
+
+.change-name-container h4 {
+  margin: 20px 0;
+}
+
+.change-name-container ul {
+  margin-top: 15px;
+}
+
+.change-name-container li {
+  margin-left: 30px;
+  padding-top: 5px;
+  list-style-type: disc;
+}
+
+.change-name-container ul :last-child {
+  margin-bottom: 15px;
+}
+
+.deactivate-button {
+  width: fit-content;
+  padding: 0 20px;
+  margin: 40px 0 80px;
+}

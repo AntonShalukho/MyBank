@@ -1,0 +1,17 @@
+@import url("../../../assets/theme/palette.css");
+
+table {
+  border-collapse: collapse;
+}
+
+.table-row {
+  border-bottom: 1px solid var(--primary-gray);
+}
+
+.table-body tr:last-of-type {
+  border-bottom: none;
+}
+
+.table-cell {
+  padding: 18px 30px 12px 0px;
+}

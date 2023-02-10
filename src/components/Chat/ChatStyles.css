@@ -1,0 +1,26 @@
+@import url("../../assets/theme/palette.css");
+
+.chat-bubble {
+  display: inline;
+  position: fixed;
+  right: 3vw;
+  bottom: 8vh;
+  filter: drop-shadow(2px 2px 12px var(--secondary-gray));
+  transition: 0.2s;
+}
+
+.chat-bubble:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 17px var(--secondary-gray));
+}
+
+.chat-bubble:active {
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 12px var(--secondary-gray));
+}
+
+.chat-bot {
+  position: fixed;
+  bottom: 120px;
+  right: 155px;
+}

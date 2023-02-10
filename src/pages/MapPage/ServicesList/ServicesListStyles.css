@@ -1,0 +1,26 @@
+.filters-list {
+  padding: 10px;
+}
+
+.filter-property {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.filter-property svg {
+  height: 25px;
+  width: 25px;
+}
+
+.filter-property .svg-container {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: var(--secondary-light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

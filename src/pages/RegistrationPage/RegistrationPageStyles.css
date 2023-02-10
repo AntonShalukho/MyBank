@@ -1,0 +1,78 @@
+@import url("../../assets/theme/palette.css");
+
+.page {
+  height: 88vh;
+  width: 100vw;
+}
+
+.registration-form {
+  display: grid;
+  grid-template-rows: 90% 10%;
+  width: 100vw;
+  min-height: 90vh;
+  align-items: center;
+}
+
+.registration-wrapper {
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.registration-background {
+  filter: brightness(30%);
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+.registration-background img {
+  display: block;
+  object-fit: fill;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+.passport-input {
+  color: var(--primary-dark-gray) !important;
+}
+
+.registration-button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  border: none;
+  margin-top: 16px;
+  background: var(--primary-white);
+}
+
+.registration-button a {
+  color: var(--primary-dark-gray);
+  background-color: transparent;
+}
+
+.sms-input_send-code-again {
+  border-bottom: solid 2px;
+  margin: 10px 0 24px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.confirmation-modal {
+  width: 30%;
+  padding: 45px;
+}
+
+.registration-modal {
+  padding: 60px 45px 45px 45px;
+}

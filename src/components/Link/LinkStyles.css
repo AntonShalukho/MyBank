@@ -1,0 +1,20 @@
+@import url('../../assets/theme/palette.css');
+
+.customLink {
+  height: fit-content;
+  color: inherit;
+  text-underline-offset: 5px;
+}
+
+.customLink a {
+  text-decoration: none;
+}
+
+.customLink.active {
+  text-decoration: underline 1px solid var(--primary-yellow);
+}
+
+.customLink:hover {
+  text-decoration: underline 1px dashed var(--primary-yellow);
+  
+}

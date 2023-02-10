@@ -1,0 +1,16 @@
+.converters-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.converter-arrows-block {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}

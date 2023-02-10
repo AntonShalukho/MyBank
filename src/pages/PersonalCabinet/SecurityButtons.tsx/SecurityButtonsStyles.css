@@ -1,0 +1,12 @@
+.security-button-container button {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 2fr 5fr 2fr;
+  align-items: center;
+  text-align: start;
+  margin-top: 40px;
+}
+
+.security-button-container button :nth-child(3) {
+  justify-self: end;
+}

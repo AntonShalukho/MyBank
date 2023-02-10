@@ -1,0 +1,132 @@
+.contacts-wrapper {
+  padding-bottom: 80px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.contacts-title {
+  padding-bottom: 20px;
+}
+
+.back-btn-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 178px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.contacts-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0 auto;
+}
+
+.contacts-info-card-wrapper {
+  padding: 0 187px;
+  box-sizing: border-box;
+}
+
+.contacts-info-block-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-info-block-wrapper {
+  width: 30%;
+}
+
+.contacts-info-card-item:nth-child(1) {
+  margin-bottom: 60px;
+}
+
+.notification {
+  margin: 240px auto 0;
+  width: 455px;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  padding: 8px;
+  box-sizing: border-box;
+  background: var(--secondary-light-gray);
+}
+
+@media screen and (max-width: 1440px) {
+  .contacts-info-block-wrapper {
+    width: 46%;
+  }
+
+  .contacts-wrapper {
+    padding-bottom: 71px;
+  }
+
+  .notification {
+    margin: 54px auto 0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .notification {
+    margin: 174px auto 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .info-card-wrapper {
+    width: 100%;
+  }
+
+  .contacts-info-block-wrapper {
+    width: 70%;
+  }
+
+  .notification {
+    margin: 174px auto 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts-wrapper {
+    padding: 24px 32px 72px;
+  }
+
+  .contacts-info-card-wrapper {
+    padding: 0;
+  }
+
+  .back-btn-wrapper {
+    padding: 10px 0 0;
+  }
+
+  .notification {
+    margin: 47px auto 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .contacts-wrapper {
+    padding: 24px 16px;
+  }
+
+  .notification {
+    width: 238px;
+    margin: 47px auto 0;
+  }
+
+  .contacts-info-block-wrapper {
+    width: 100%;
+    flex-direction: column;
+    height: 95px;
+  }
+
+  .back-btn-wrapper {
+    margin-bottom: 0;
+  }
+
+  .contacts-title {
+    display: none;
+  }
+}

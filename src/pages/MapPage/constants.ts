@@ -1,0 +1,8 @@
+export const ESRI_GEOCODER_API_KEY =
+  "AAPKc78deb3118d147f3bca0d98a155d9c37aIiWBuHmPE9E0x3XiuIqzOPnpJWZn8kaCX1VWs0QLUqDNWPRgiCJ-vWnFCXTdA5h";
+
+export const DEFAULT_MAP_ZOOM = 12;
+
+export const USER_MAP_ZOOM = 13;
+
+export const DEFAULT_PADDING = 400;

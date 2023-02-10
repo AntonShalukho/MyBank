@@ -1,0 +1,65 @@
+@import url("../../../assets/theme/palette.css");
+
+.registration-form-body-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 0px 100px;
+  width: 100%;
+}
+
+.registration-form-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.registration-form-body-text_big {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--primary-dark-gray);
+}
+
+.registration-form-body_progress_bar {
+  margin-top: 24px;
+}
+
+.registration-form-body_list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 46px;
+}
+
+.registration-content-input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .registration-form-body-wrapper {
+    padding: 0 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .registration-content-input {
+    width: 348px;
+  }
+
+  .registration-form-body-wrapper {
+    padding: 0;
+  }
+
+  .registration-form-body-text_big {
+    margin-left: -32px;
+  }
+}

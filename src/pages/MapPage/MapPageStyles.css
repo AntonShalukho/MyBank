@@ -1,0 +1,85 @@
+@import url("../../assets/theme/palette.css");
+
+.maps-page-container {
+  overflow: hidden;
+}
+
+.atms-container {
+  position: relative;
+  width: 400px;
+  height: 92vh;
+  background: transparent;
+  z-index: 1;
+}
+
+.atms-container .selection-container {
+  top: 30px;
+  width: 90%;
+  margin: auto;
+  z-index: 1;
+}
+
+.atms-container > svg {
+  z-index: 2;
+  position: absolute;
+  top: 46px;
+}
+
+.atms-container > svg:nth-child(1) {
+  left: 8%;
+}
+
+.atms-container > svg:nth-child(3) {
+  left: 88%;
+  cursor: pointer;
+}
+.cookie-popup {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin: 0 5vw;
+  height: 90px;
+  bottom: 2vh;
+  width: 90vw;
+  gap: 30px;
+}
+
+.leaflet-container {
+  width: 100vw;
+  height: 88vh;
+  margin: auto;
+  position: absolute;
+  top: 12vh;
+  z-index: 0;
+  outline: none;
+}
+
+.leaflet-bar.leaflet-control {
+  position: absolute;
+  bottom: 25vh;
+  right: 4vw;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 20px;
+}
+
+.leaflet-control a {
+  border-radius: 100% !important;
+  width: 40px !important;
+  height: 40px !important;
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 12%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaflet-control a span {
+  margin-left: -2px;
+  margin-top: 2px;
+}
+
+.leaflet-control-attribution.leaflet-control {
+  display: none;
+}

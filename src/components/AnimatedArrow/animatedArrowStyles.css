@@ -1,0 +1,43 @@
+@import url("../../assets/theme/palette.css");
+
+.animated-arrow-wrapper {
+  position: absolute;
+  left: 50vw;
+  bottom: 16vh;
+}
+
+.animated-arrow-span {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  border-bottom: 6px solid var(--primary-yellow);
+  border-right: 6px solid var(--primary-yellow);
+  margin: auto;
+  transform: rotate(45deg);
+  opacity: 0;
+  left: 0;
+  right: 0;
+  animation: 2s ease 0s infinite arrow-animation;
+}
+
+.animated-arrow-span:nth-child(2) {
+  top: 24px;
+  animation-delay: 0.15s;
+}
+
+.animated-arrow-span:nth-child(3) {
+  top: 48px;
+  animation-delay: 0.3s;
+}
+
+@keyframes arrow-animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

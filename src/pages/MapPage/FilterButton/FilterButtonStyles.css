@@ -1,0 +1,19 @@
+.filter-button {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--secondary-light-gray);
+  border-radius: 20px;
+  background-color: var(--secondary-very-light-gray);
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.filter-button:hover {
+  background-color: var(--secondary-hover-gray);
+}
+
+.filter-button.pressed{
+  background-color: var(--secondary-light-yellow);
+}

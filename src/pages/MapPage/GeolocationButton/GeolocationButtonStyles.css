@@ -1,0 +1,12 @@
+.geolocation-button {
+  position: absolute;
+  bottom: 10vh;
+  right: 4vw;
+  z-index: 1000;
+  margin-right: 7px;
+}
+
+.geolocation-button:disabled {
+  cursor: not-allowed;
+  background: transparent;
+}

@@ -1,0 +1,14 @@
+.fallback-img-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter: brightness(30%);
+  min-width: 100%;
+  z-index: -1;
+}
+
+.fallback-img-container img {
+  display: flex;
+  min-width: 100%;
+  min-height: 770px;
+}

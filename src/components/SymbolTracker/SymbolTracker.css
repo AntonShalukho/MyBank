@@ -1,0 +1,17 @@
+@import url("../../assets/theme/palette.css");
+
+.message {
+  display: block;
+  font-size: 12px;
+  line-height: 1.3em;
+  text-align: end;
+  padding-right: 10px;
+  color: var(--primary-yellow)
+}
+
+.warning {
+  text-align: start;
+  color: var(--primary-red);
+  position: relative;
+  top: -8px;
+}

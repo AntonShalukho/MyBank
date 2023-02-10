@@ -1,0 +1,65 @@
+@import url("../../assets/theme/palette.css");
+
+.sms-code-input-wrapper {
+  position: relative;
+}
+
+.sms-form {
+  min-width: 360px;
+}
+
+.sms-notification_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.sms-input-timer {
+  margin-bottom: 21px;
+}
+
+.sms-input-timer-text {
+  margin: 10px 0 24px;
+  color: var(--primary-dark-gray);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+}
+
+.sms-input-container {
+  width: 343px;
+  position: relative;
+}
+
+.sms-input {
+  color: var(--secondary-gray);
+}
+
+.sms-input:disabled {
+  cursor: not-allowed;
+}
+
+.sms-mask {
+  position: absolute;
+  top: 39px;
+  left: 13px;
+  color: var(--primary-dark-gray);
+  pointer-events: none;
+}
+
+.sms-mask.grayMask {
+  color: var(--secondary-gray);
+}
+
+@media screen and (max-width: 360px) {
+  .sms-input-container,
+  .sms-notification_text {
+    width: 328px !important;
+  }
+  .form-button {
+    margin: 0;
+  }
+}

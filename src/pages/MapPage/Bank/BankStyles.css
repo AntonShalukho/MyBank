@@ -1,0 +1,45 @@
+.bank-list-item-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  row-gap: 15px;
+  padding: 15px;
+  border-bottom: 1px solid var(--secondary-light-gray);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.bank-list-item-container:nth-child(1) {
+  border-top: none;
+}
+
+.bank-list-item-container.increasedHeight .branch-adress {
+  text-overflow: initial;
+  white-space: initial;
+}
+
+.bank-list-item-container:hover, .bank-list-item-container:focus {
+  outline: none;
+  background-color: var(--secondary-very-light-gray);
+}
+
+.branch-adress {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+}
+
+.time-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.open-text {
+  color: var(--secondary-green);
+}
+
+.closed-text {
+  color: var(--primary-red);
+}

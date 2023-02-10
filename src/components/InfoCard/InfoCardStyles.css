@@ -1,0 +1,45 @@
+.info-card-wrapper {
+  width: 540px;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.info-card-title {
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 12px;
+}
+
+.info-card-description {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.info-card-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.info-card-description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.info-card-work-schedule {
+  display: flex;
+  align-items: flex-end;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 16px;
+  width: 210px;
+  height: 35px;
+}
+
+.info-card-info-block-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

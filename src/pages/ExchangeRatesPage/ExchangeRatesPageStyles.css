@@ -1,0 +1,37 @@
+.exchange-rates-page-body {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.exchange-rates-content {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  width: 90%;
+  margin: auto;
+  gap: 5%;
+}
+
+.exchange-rates-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 48px;
+  margin-bottom: 30px;
+  color: var(--primary-dark-gray);
+}
+
+.exchange-rates-navigation {
+  margin-bottom: 5vh;
+}
+
+.exchange-rates-table-block {
+  margin: 0 auto;
+}
+
+.exchange-rates-currency-converter-block {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 40px;
+}

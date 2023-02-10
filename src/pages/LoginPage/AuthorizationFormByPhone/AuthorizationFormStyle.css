@@ -1,0 +1,19 @@
+@import url("../../../assets/theme/palette.css");
+
+.login-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form button {
+  margin-top: 10px;
+}
+
+.passportID {
+  color: var(--primary-dark-gray) !important;
+}
+
+.logInButton {
+  margin-top: 12px;
+}

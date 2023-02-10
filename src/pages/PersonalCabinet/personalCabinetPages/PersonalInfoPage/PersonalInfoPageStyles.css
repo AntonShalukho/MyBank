@@ -1,0 +1,7 @@
+.personal-info-page-wrapper {
+  margin: 0 auto;
+  border: 1px solid var(--secondary-light-gray);
+  border-radius: 8px;
+  padding: 40px 57px 0 0;
+  margin-bottom: 228px;
+}
