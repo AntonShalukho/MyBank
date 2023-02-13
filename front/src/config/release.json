@@ -1,71 +1,71 @@
 {
   "api": {
-    "passportNumberUrl": "https://abank-auth-ms-release.andersenlab.dev/a-banking/recovery-management/password-recovery/verification/credentials/passport",
+    "passportNumberUrl": "",
 
-    "telegramRequestUrl": "https://abank-auth-ms-release.andersenlab.dev/a-banking/recovery-management/user/verification-code/new-code",
+    "telegramRequestUrl": "",
 
-    "registrationTelegramUrl": "https://abank-registration-ms-release.andersenlab.dev/a-banking/registration-management/user/verification-code/new-code",
+    "registrationTelegramUrl": "",
 
-    "verificationCodeUrl": "https://abank-verification-code-ms-release.andersenlab.dev/a-banking/verification-management/validation/is-expired",
+    "verificationCodeUrl": "",
 
-    "loginRequestUrl": "https://abank-auth-ms-release.andersenlab.dev/a-banking/auth/login",
+    "loginRequestUrl": "",
 
-    "phoneNumberUrl": "https://abank-registration-ms-release.andersenlab.dev/a-banking/registration-management/verification/credentials/phone-number",
+    "phoneNumberUrl": "",
 
-    "confidentialityPolicyUrl": "https://wiki.andersenlab.com/pages/viewpage.action?pageId=193740598",
+    "confidentialityPolicyUrl": "",
 
-    "onlineBankingServicesUrl": "https://wiki.andersenlab.com/pages/viewpage.action?pageId=193740654",
+    "onlineBankingServicesUrl": "",
 
     "googlePlayStoreUrl": "https://play.google.com/store",
 
     "appleAppStoreUrl": "https://www.apple.com/store",
 
-    "registrationClientUrl": "https://abank-registration-ms-release.andersenlab.dev/a-banking/registration-management/registration/client",
+    "registrationClientUrl": "",
 
-    "registrationNonClientUrl": "https://abank-registration-ms-release.andersenlab.dev/a-banking/registration-management/registration/non-client",
+    "registrationNonClientUrl": "",
 
-    "exchangeRatesUrl": "https://abank-currency-rates-ms-release.andersenlab.dev/a-banking/exchange-rates?date=",
+    "exchangeRatesUrl": "",
 
-    "passwordRecoveryUrl": "https://abank-auth-ms-release.andersenlab.dev/a-banking/recovery-management/password-recovery/by-passport/by-code",
+    "passwordRecoveryUrl": "",
 
-    "profilePictureUrl": "https://abank-user-management-ms-release.andersenlab.dev/a-banking/profile/settings/photo",
+    "profilePictureUrl": "",
 
-    "accountInfoUrl": "https://abank-user-management-ms-release.andersenlab.dev/a-banking/profile/general-information",
+    "accountInfoUrl": "",
 
-    "changePasswordUrl": "https://abank-user-management-ms-release.andersenlab.dev/a-banking/profile/security-management/password",
+    "changePasswordUrl": "",
 
-    "changeQuestionUrl": "https://abank-user-management-ms-release.andersenlab.dev/a-banking/profile/security-management/secret-question",
+    "changeQuestionUrl": "",
 
-    "notificationsUrl": "https://abank-user-management-ms-release.andersenlab.dev/a-banking/profile/notifications",
+    "notificationsUrl": "",
 
-    "setNotificationsStatus": "https://abank-user-management-ms-release.andersenlab.dev/a-banking/profile/notifications/",
+    "setNotificationsStatus": "",
 
-    "getCitiesData": "https://abank-atm-ms-release.andersenlab.dev/a-banking/cities?city=",
+    "getCitiesData": "",
 
-    "getCardsData": "https://abank-card-ms-release.andersenlab.dev/a-banking/cards",
+    "getCardsData": "",
 
-    "getTransactionHistoryData": "https://abank-card-ms-release.andersenlab.dev/a-banking/transactions/history?pageNumber=0&pageSize=3",
+    "getTransactionHistoryData": "",
 
-    "getEmailVerificationCodeUrl": "https://abank-user-management-ms-release.andersenlab.dev/a-banking/profile/email-management/verification-code?email=",
+    "getEmailVerificationCodeUrl": "",
 
-    "changeEmailUrl": "https://abank-user-management-ms-release.andersenlab.dev/a-banking/profile/email-management/email",
+    "changeEmailUrl": "",
 
-    "getLoansProducts": "https://abank-loan-ms-release.andersenlab.dev/a-banking/loans/products",
+    "getLoansProducts": "",
 
-    "getLoansProductsDescription": "https://abank-loan-ms-release.andersenlab.dev/a-banking/loans/products/details?loanName=",
+    "getLoansProductsDescription": "",
 
-    "getAccountProducts": "https://abank-user-management-ms-release.andersenlab.dev/a-banking/product-type/",
+    "getAccountProducts": "",
 
     "setAccountProduct":
-    "https://abank-user-management-ms-release.andersenlab.dev/a-banking/client-product/",
+    "",
 
     "getListsOfAccounts":
-    "https://abank-user-management-ms-release.andersenlab.dev/a-banking/client-product/",
+    "",
 
     "getAccountDetails":
-    "https://abank-user-management-ms-release.andersenlab.dev/a-banking/client-product/",
+    "",
 
     "setAccountDetails":
-    "https://abank-user-management-ms-release.andersenlab.dev/a-banking/client-product/"
+    ""
   }
 }
