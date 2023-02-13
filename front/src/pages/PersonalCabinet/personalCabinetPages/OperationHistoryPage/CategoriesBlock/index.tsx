@@ -6,7 +6,7 @@ import { categoriesFilterData } from "./categoriesFilterData";
 
 import { Button } from "../../../../../uikit/Button";
 
-import "./ CategoriesBlockStyle.css";
+import "./CategoriesBlockStyle.css";
 
 export const CategoriesBlock = () => {
   const [clickedId, setClickedId] = useState(-1);
