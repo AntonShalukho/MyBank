@@ -1,0 +1,77 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+.wrapper {
+  width: 428px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-white);
+  border: 1px solid var(--secondary-light-gray);
+  border-radius: 8px;
+}
+
+.button_block .change_btn {
+  background: var(--secondary-button-active);
+}
+
+.button_block .change_btn:hover {
+  background: var(--primary-button-hover);
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--primary-dark-gray);
+}
+
+.input_block {
+  width: 380px;
+}
+
+.button_block {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button_block button {
+  width: 173.5px;
+  height: 40px;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: var(--primary-white);
+  background-color: var(--primary);
+}
+
+.button_block .close_btn {
+  border: transparent;
+  color: var(--secondary-text);
+  background-color: var(--secondary-hover-gray);
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    width: 371px;
+    height: 216px;
+    padding: 20px;
+  }
+  .button_block button {
+    width: 155.5px;
+    height: 40px;
+  }
+}

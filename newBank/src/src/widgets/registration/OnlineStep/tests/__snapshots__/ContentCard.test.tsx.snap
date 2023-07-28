@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering ContentCard component Get snapshot 1`] = `
+<div
+  class="container"
+>
+  <img
+    alt="icon"
+    class="icon"
+    src=""
+  />
+  <p
+    class="description"
+  >
+    I am description
+  </p>
+  <button
+    class="default primarySmall button"
+    type="button"
+  >
+    Continue
+  </button>
+</div>
+`;

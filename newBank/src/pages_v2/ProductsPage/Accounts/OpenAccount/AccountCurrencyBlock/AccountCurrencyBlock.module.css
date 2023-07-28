@@ -1,0 +1,48 @@
+.currency_title {
+  line-height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 24px 0 16px 0;
+  color: var(--primary-text)
+}
+
+.currency_block {
+  width: 320px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--secondary-hover-gray);
+  border-radius: 8px;
+}
+
+.currency_block__input {
+  width: 80px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--secondary-hover-gray);
+}
+
+.currency_block__input:checked {
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary-white);
+}
+  
+.currency_block__input:checked::before {
+  content: "";
+  transform: scale(1);
+  background-color: var(--primary-white);
+}
+
+.currency_block__span {
+  position: absolute;
+  left: 8px;
+}
+
+.currency_block__icon {
+  width: 24px;
+  height: 18px;
+  border: 1px solid var(--secondary-light-gray);
+}

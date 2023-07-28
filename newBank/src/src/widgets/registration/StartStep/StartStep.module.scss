@@ -1,0 +1,42 @@
+@import '../../../shared/assets/scss/variables.module.scss';
+
+.container {
+  width: 652px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: $primary_text_2;
+}
+
+.sub_title {
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: $primary_text_2;
+}
+
+.card_container {
+  display: flex;
+  gap: 12px;
+}
+
+.button {
+  width: 320px;
+  margin: 20px auto 0;
+  font-size: 16px;
+}
+
+.phoneIcon {
+  width: 80px;
+  height: 80px;
+}
+
+.faceIcon {
+  width: 94.61px;
+}

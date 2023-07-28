@@ -1,0 +1,125 @@
+.wrapper, .wrapper_without_auth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 24px 15px 12px;
+  background: var(--primary-white);
+  border-bottom: 1px solid var(--primary-border-2);
+  height: 70px;
+  z-index: 4;
+}
+
+.wrapper_without_auth {
+  position: fixed;
+  top: 0px;
+}
+
+.logo {
+  display: flex;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin-left: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 165px;
+  height: 40px;
+  background: var(--secondary-button-active);
+  border-radius: 12px;
+  color: var(--primary-white);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.link:hover {
+  background: var(--primary-button-default);
+}
+
+.icon {
+  margin-right: 4px;
+  fill: var(--secondary-text);
+}
+
+.btn_wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.login_btn {
+  width: 92px;
+  font-size: 16px;
+  padding: 9px;
+}
+
+.contact_us_btn {
+  width: 145px;
+  position: relative;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.55);
+  z-index: 15;
+}
+
+.greyBtn {
+  background-color: var(--secondary-hover-gray);
+  color: var(--secondary-text);
+  font-size: 16px;
+  border: 2px solid var(--secondary-hover-gray);
+  width: 145px;
+}
+
+.greyBtn:hover .icon {
+  fill: var(--secondary-button-active);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .wrapper {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+  }
+
+  .logoBlock {
+    display: flex;
+    margin: 0;
+    column-gap: 10px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .wrapper {
+    display: none;
+  }
+
+  .wrapper_without_auth {
+    height: 80px;
+  }
+
+  .btn_wrapper {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 6px;
+  }
+}
+

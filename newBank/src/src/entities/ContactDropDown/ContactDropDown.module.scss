@@ -1,0 +1,120 @@
+@import "../../shared/assets/scss/variables.module.scss";
+
+.wrapper {
+  width: 540px;
+  height: 241px;
+  position: absolute;
+  top: 13px;
+  right: 16px;
+  background: $secondary_background;
+  border: 1px solid $primary_border_2;
+  border-radius: 12px;
+  z-index: 2;
+  @media screen and (min-width: 360px) and (max-width: 700px) {
+    width: 342px;
+    height: 385px;
+    top: 13px;
+    right: 16px;
+  }
+}
+
+.top, .bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.top_header, .bottom_header {
+  padding: 12px 12px 12px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bottom_header {
+  height: 52px;
+}
+
+.top_title {
+  padding-left: 12px;
+  height: 24px;
+  display: flex;
+  column-gap: 15px;
+}
+
+.top_content {
+  display: flex;
+  @media screen and (min-width: 360px) and (max-width: 700px) {
+    flex-direction: column;
+  };
+}
+
+.dr {
+  background-color: $primary_border_2;
+  border: none;
+  height: 1px;
+}
+
+.online {
+  padding: 12px;
+  width: 270px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 14px;
+  color: $primary_text;
+  &:hover {
+    background-color: $secondary_hover_gray;
+    border-bottom-left-radius: 12px;
+  }
+  @media screen and (max-width: 375px)  {
+    width: 100%;
+    &:hover {
+      border-bottom-left-radius: 0px;
+    }
+  }
+}
+
+.online_field {
+  width: 72px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-align: center;
+  color: $primary_text;
+  background: $secondary_button_default;
+}
+
+.contactWrapper {
+  width: 270px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 8px;
+  padding: 12px 0px 12px 12px;
+  &:hover {
+    background-color: $secondary_hover_gray;
+    border-bottom-right-radius: 12px;
+  }
+  @media screen and (max-width: 375px)  {
+    width: 100%;
+    &:hover {
+      border-bottom-left-radius: 12px;
+    }
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  color: $primary_text;
+}
+
+.context {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: $primary_text-2;
+}

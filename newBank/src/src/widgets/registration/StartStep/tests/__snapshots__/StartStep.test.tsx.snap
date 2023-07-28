@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering Start component Get snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1
+      class="title"
+    >
+      Sign up
+    </h1>
+    <h2
+      class="sub_title"
+    >
+      Good morning, you are about to registrate with BeeBank.
+    </h2>
+    <div
+      class="card_container"
+    >
+      <div
+        class="container"
+      >
+        <img
+          alt="icon"
+          class="icon phoneIcon"
+          src="watch.png"
+        />
+        <div
+          class="description"
+        >
+          You can fill in the data in about 5 minutes.
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <img
+          alt="icon"
+          class="icon faceIcon"
+          src="PinkHairedGirl.png"
+        />
+        <div
+          class="description"
+        >
+          Prepare an ID document.
+        </div>
+      </div>
+    </div>
+    <button
+      class="default primarySmall button"
+      type="button"
+    >
+      Continue
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,27 @@
+@import "../../assets/scss/variables.module.scss";
+
+.back {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border: none;
+  width: 68px;
+  height: 32px;
+  background: none;
+  align-self: center;
+  cursor: pointer;
+}
+
+.text {
+  color: $primary_text_3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.img {
+  max-width: 100%;
+}

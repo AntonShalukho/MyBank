@@ -1,0 +1,934 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering Footer component Footer snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="top_container"
+        >
+          <div
+            class="logo_wrapper"
+          >
+            <svg
+              class="icon"
+            >
+              mainLogo_v2.svg
+            </svg>
+            <div
+              class="wrapper"
+            >
+              <div
+                class="title"
+              >
+                Bee·Bank
+              </div>
+              <div
+                class="description"
+              >
+                Solutions for life.
+              </div>
+            </div>
+          </div>
+          <ul
+            class="list"
+          >
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg
+                  fill="socials"
+                >
+                  facebook.svg
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg
+                  fill="socials"
+                >
+                  instagram.svg
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg
+                  fill="socials"
+                >
+                  twitter.svg
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg
+                  fill="socials"
+                >
+                  skype.svg
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg
+                  fill="socials"
+                >
+                  linkedin.svg
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="middle_container"
+        >
+          <div
+            class="wrapperCards"
+          >
+            <div
+              class="card_wrapper"
+            >
+              <h3
+                class="title"
+              >
+                Cards support
+              </h3>
+              <p
+                class="schedule undefined"
+              >
+                Weekdays from 8:00 am to 8:00 pm 
+              </p>
+              <p
+                class="schedule undefined"
+              >
+                Sat, Sun from 9:00 am to 5:30 pm
+              </p>
+              <div
+                class="block_wrapper"
+              >
+                <div
+                  class="wrapper"
+                >
+                  <div
+                    class="icon"
+                  >
+                    <svg
+                      class="icon"
+                      fill="primary_text_2"
+                    >
+                      cell-phone.svg
+                    </svg>
+                  </div>
+                  <div
+                    class="data_wrapper"
+                  >
+                    <a
+                      class="number"
+                    >
+                      7788
+                    </a>
+                    <p
+                      class="description"
+                    >
+                      Working hours: 24/7
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
+                >
+                  <div
+                    class="data_wrapper"
+                  >
+                    <a
+                      class="number"
+                    >
+                      +48 79 203 32 33
+                    </a>
+                    <p
+                      class="description"
+                    >
+                      From 8:00 am to 6:00 pm
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card_wrapper"
+            >
+              <div
+                class="card_wrapper"
+              >
+                <h3
+                  class="title"
+                >
+                  For individuals
+                </h3>
+                <p
+                  class="schedule undefined"
+                >
+                  Every day from 8:00 am to 8:00 pm
+                </p>
+                <div
+                  class="block_wrapper"
+                >
+                  <div
+                    class="wrapper"
+                  >
+                    <div
+                      class="icon"
+                    >
+                      <svg
+                        class="icon"
+                        fill="primary_text_2"
+                      >
+                        cell-phone.svg
+                      </svg>
+                    </div>
+                    <div
+                      class="data_wrapper"
+                    >
+                      <a
+                        class="number"
+                      >
+                        7788
+                      </a>
+                      <p
+                        class="description"
+                      >
+                        Working hours: 24/7
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="wrapper"
+                  >
+                    <div
+                      class="data_wrapper"
+                    >
+                      <a
+                        class="number"
+                      >
+                        +48 79 203 32 33
+                      </a>
+                      <p
+                        class="description"
+                      >
+                        From 8:00 am to 6:00 pm
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card_wrapper address"
+            >
+              <h3
+                class="title"
+              >
+                Legal address
+              </h3>
+              <p
+                class="schedule address"
+              >
+                Polish Street Poland EC2R 8AH
+              </p>
+            </div>
+          </div>
+          <div
+            class="store_wrapper"
+          >
+            <ul
+              class="list"
+            >
+              <li>
+                <a
+                  class="item"
+                  rel="noreferrer"
+                >
+                  <svg>
+                    apple.svg
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="item"
+                  rel="noreferrer"
+                >
+                  <svg>
+                    google.svg
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="bottom_container"
+        >
+          If you would like to find out more about which BeeBank entity you receive services from, or if you have any other questions, please reach out to us via the in-app chat in the BeeBank app. BeeBank Ltd (No. 08804411) is authorised by the Financial Conduct Authority under the Electronic Money Regulations 2011 (Firm Reference 900562). Registered address: 7 Westferry Circus, Canary Wharf, London, England, E14 4HD. Insurance related-products are arranged by BeeBank Travel Ltd which is authorised by the Financial Conduct Authority to undertake insurance distribution activities (FCA No: 780586) and by BeeBank Ltd, an Appointed Representative of BeeBank Travel Ltd in relation to insurance distribution activities. Trading and investment products are provided by BeeBank Trading Ltd (No. 832790) is wholly owned subsidiary of BeeBank Ltd and is an appointed representative of Resolution Compliance Ltd which is authorised and regulated by the Financial Conduct Authority.
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="top_container"
+        >
+          <div
+            class="logo_wrapper"
+          >
+            <svg
+              class="icon"
+            >
+              mainLogo_v2.svg
+            </svg>
+            <div
+              class="wrapper"
+            >
+              <div
+                class="title"
+              >
+                Bee·Bank
+              </div>
+              <div
+                class="description"
+              >
+                Solutions for life.
+              </div>
+            </div>
+          </div>
+          <ul
+            class="list"
+          >
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg
+                  fill="socials"
+                >
+                  facebook.svg
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg
+                  fill="socials"
+                >
+                  instagram.svg
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg
+                  fill="socials"
+                >
+                  twitter.svg
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg
+                  fill="socials"
+                >
+                  skype.svg
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg
+                  fill="socials"
+                >
+                  linkedin.svg
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="middle_container"
+        >
+          <div
+            class="wrapperCards"
+          >
+            <div
+              class="card_wrapper"
+            >
+              <h3
+                class="title"
+              >
+                Cards support
+              </h3>
+              <p
+                class="schedule undefined"
+              >
+                Weekdays from 8:00 am to 8:00 pm 
+              </p>
+              <p
+                class="schedule undefined"
+              >
+                Sat, Sun from 9:00 am to 5:30 pm
+              </p>
+              <div
+                class="block_wrapper"
+              >
+                <div
+                  class="wrapper"
+                >
+                  <div
+                    class="icon"
+                  >
+                    <svg
+                      class="icon"
+                      fill="primary_text_2"
+                    >
+                      cell-phone.svg
+                    </svg>
+                  </div>
+                  <div
+                    class="data_wrapper"
+                  >
+                    <a
+                      class="number"
+                    >
+                      7788
+                    </a>
+                    <p
+                      class="description"
+                    >
+                      Working hours: 24/7
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
+                >
+                  <div
+                    class="data_wrapper"
+                  >
+                    <a
+                      class="number"
+                    >
+                      +48 79 203 32 33
+                    </a>
+                    <p
+                      class="description"
+                    >
+                      From 8:00 am to 6:00 pm
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card_wrapper"
+            >
+              <div
+                class="card_wrapper"
+              >
+                <h3
+                  class="title"
+                >
+                  For individuals
+                </h3>
+                <p
+                  class="schedule undefined"
+                >
+                  Every day from 8:00 am to 8:00 pm
+                </p>
+                <div
+                  class="block_wrapper"
+                >
+                  <div
+                    class="wrapper"
+                  >
+                    <div
+                      class="icon"
+                    >
+                      <svg
+                        class="icon"
+                        fill="primary_text_2"
+                      >
+                        cell-phone.svg
+                      </svg>
+                    </div>
+                    <div
+                      class="data_wrapper"
+                    >
+                      <a
+                        class="number"
+                      >
+                        7788
+                      </a>
+                      <p
+                        class="description"
+                      >
+                        Working hours: 24/7
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="wrapper"
+                  >
+                    <div
+                      class="data_wrapper"
+                    >
+                      <a
+                        class="number"
+                      >
+                        +48 79 203 32 33
+                      </a>
+                      <p
+                        class="description"
+                      >
+                        From 8:00 am to 6:00 pm
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card_wrapper address"
+            >
+              <h3
+                class="title"
+              >
+                Legal address
+              </h3>
+              <p
+                class="schedule address"
+              >
+                Polish Street Poland EC2R 8AH
+              </p>
+            </div>
+          </div>
+          <div
+            class="store_wrapper"
+          >
+            <ul
+              class="list"
+            >
+              <li>
+                <a
+                  class="item"
+                  rel="noreferrer"
+                >
+                  <svg>
+                    apple.svg
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="item"
+                  rel="noreferrer"
+                >
+                  <svg>
+                    google.svg
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="bottom_container"
+        >
+          If you would like to find out more about which BeeBank entity you receive services from, or if you have any other questions, please reach out to us via the in-app chat in the BeeBank app. BeeBank Ltd (No. 08804411) is authorised by the Financial Conduct Authority under the Electronic Money Regulations 2011 (Firm Reference 900562). Registered address: 7 Westferry Circus, Canary Wharf, London, England, E14 4HD. Insurance related-products are arranged by BeeBank Travel Ltd which is authorised by the Financial Conduct Authority to undertake insurance distribution activities (FCA No: 780586) and by BeeBank Ltd, an Appointed Representative of BeeBank Travel Ltd in relation to insurance distribution activities. Trading and investment products are provided by BeeBank Trading Ltd (No. 832790) is wholly owned subsidiary of BeeBank Ltd and is an appointed representative of Resolution Compliance Ltd which is authorised and regulated by the Financial Conduct Authority.
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="top_container"
+      >
+        <div
+          class="logo_wrapper"
+        >
+          <svg
+            class="icon"
+          >
+            mainLogo_v2.svg
+          </svg>
+          <div
+            class="wrapper"
+          >
+            <div
+              class="title"
+            >
+              Bee·Bank
+            </div>
+            <div
+              class="description"
+            >
+              Solutions for life.
+            </div>
+          </div>
+        </div>
+        <ul
+          class="list"
+        >
+          <li>
+            <a
+              class="item"
+              rel="noreferrer"
+            >
+              <svg
+                fill="socials"
+              >
+                facebook.svg
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              class="item"
+              rel="noreferrer"
+            >
+              <svg
+                fill="socials"
+              >
+                instagram.svg
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              class="item"
+              rel="noreferrer"
+            >
+              <svg
+                fill="socials"
+              >
+                twitter.svg
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              class="item"
+              rel="noreferrer"
+            >
+              <svg
+                fill="socials"
+              >
+                skype.svg
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              class="item"
+              rel="noreferrer"
+            >
+              <svg
+                fill="socials"
+              >
+                linkedin.svg
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="middle_container"
+      >
+        <div
+          class="wrapperCards"
+        >
+          <div
+            class="card_wrapper"
+          >
+            <h3
+              class="title"
+            >
+              Cards support
+            </h3>
+            <p
+              class="schedule undefined"
+            >
+              Weekdays from 8:00 am to 8:00 pm 
+            </p>
+            <p
+              class="schedule undefined"
+            >
+              Sat, Sun from 9:00 am to 5:30 pm
+            </p>
+            <div
+              class="block_wrapper"
+            >
+              <div
+                class="wrapper"
+              >
+                <div
+                  class="icon"
+                >
+                  <svg
+                    class="icon"
+                    fill="primary_text_2"
+                  >
+                    cell-phone.svg
+                  </svg>
+                </div>
+                <div
+                  class="data_wrapper"
+                >
+                  <a
+                    class="number"
+                  >
+                    7788
+                  </a>
+                  <p
+                    class="description"
+                  >
+                    Working hours: 24/7
+                  </p>
+                </div>
+              </div>
+              <div
+                class="wrapper"
+              >
+                <div
+                  class="data_wrapper"
+                >
+                  <a
+                    class="number"
+                  >
+                    +48 79 203 32 33
+                  </a>
+                  <p
+                    class="description"
+                  >
+                    From 8:00 am to 6:00 pm
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card_wrapper"
+          >
+            <div
+              class="card_wrapper"
+            >
+              <h3
+                class="title"
+              >
+                For individuals
+              </h3>
+              <p
+                class="schedule undefined"
+              >
+                Every day from 8:00 am to 8:00 pm
+              </p>
+              <div
+                class="block_wrapper"
+              >
+                <div
+                  class="wrapper"
+                >
+                  <div
+                    class="icon"
+                  >
+                    <svg
+                      class="icon"
+                      fill="primary_text_2"
+                    >
+                      cell-phone.svg
+                    </svg>
+                  </div>
+                  <div
+                    class="data_wrapper"
+                  >
+                    <a
+                      class="number"
+                    >
+                      7788
+                    </a>
+                    <p
+                      class="description"
+                    >
+                      Working hours: 24/7
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="wrapper"
+                >
+                  <div
+                    class="data_wrapper"
+                  >
+                    <a
+                      class="number"
+                    >
+                      +48 79 203 32 33
+                    </a>
+                    <p
+                      class="description"
+                    >
+                      From 8:00 am to 6:00 pm
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card_wrapper address"
+          >
+            <h3
+              class="title"
+            >
+              Legal address
+            </h3>
+            <p
+              class="schedule address"
+            >
+              Polish Street Poland EC2R 8AH
+            </p>
+          </div>
+        </div>
+        <div
+          class="store_wrapper"
+        >
+          <ul
+            class="list"
+          >
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg>
+                  apple.svg
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="item"
+                rel="noreferrer"
+              >
+                <svg>
+                  google.svg
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="bottom_container"
+      >
+        If you would like to find out more about which BeeBank entity you receive services from, or if you have any other questions, please reach out to us via the in-app chat in the BeeBank app. BeeBank Ltd (No. 08804411) is authorised by the Financial Conduct Authority under the Electronic Money Regulations 2011 (Firm Reference 900562). Registered address: 7 Westferry Circus, Canary Wharf, London, England, E14 4HD. Insurance related-products are arranged by BeeBank Travel Ltd which is authorised by the Financial Conduct Authority to undertake insurance distribution activities (FCA No: 780586) and by BeeBank Ltd, an Appointed Representative of BeeBank Travel Ltd in relation to insurance distribution activities. Trading and investment products are provided by BeeBank Trading Ltd (No. 832790) is wholly owned subsidiary of BeeBank Ltd and is an appointed representative of Resolution Compliance Ltd which is authorised and regulated by the Financial Conduct Authority.
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

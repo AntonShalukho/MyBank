@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering 'ProductsList' component Get snapshot 1`] = `<div />`;
+
+exports[`Rendering empty 'ProductsList' component Get snapshot 1`] = `
+<div>
+  <div
+    class="current_block"
+  />
+</div>
+`;

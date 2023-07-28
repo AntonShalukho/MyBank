@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering RegistrationConfirmation component Get snapshot 1`] = `
+<div
+  class="wrapper"
+>
+  <h1
+    class="title"
+  >
+    Sign up
+  </h1>
+  <h2
+    class="sub_title"
+  >
+    Do you agree to have your data processed and the questionnaire sent?
+  </h2>
+  <svg
+    class="icon_pic"
+  >
+    black-girl.svg
+  </svg>
+  <div
+    class="button_container"
+  >
+    <button
+      class="default primarySmall button"
+      type="button"
+    >
+      Agree
+    </button>
+    <button
+      class="default secondarySmall button"
+      type="button"
+    >
+      Cancel
+    </button>
+  </div>
+</div>
+`;

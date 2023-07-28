@@ -1,0 +1,63 @@
+@import '../../../../../shared/assets/scss/variables.module.scss';
+@import '../../../../../shared/assets/scss/mixins.scss';
+
+.description {
+  @include flexContainer(428px, 100%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    width: 320px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.title {
+  width: 428px;
+  font-size: 44px;
+  font-weight: 700;
+  color: $primary_text;
+  align-self: baseline;
+  word-break: normal;
+}
+
+.large_title {
+  font-size: 56px;
+}
+
+.title_desc {
+  color: $secondary_text;
+  margin: 16px 0px 32px;
+  align-self: baseline;
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
+}
+
+.button {
+  align-self: baseline;
+  font-size: 16px;
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    width: 122px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .title, .large_title {
+    font-size: 36px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title, .large_title {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,46 @@
+.wrapper {
+    width: 428px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-white);
+    padding: 24px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-text);
+}
+
+.description {
+    font-size: 14px;
+    text-align: center;
+    line-height: 140%;
+}
+
+.buttons_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    width: 180px;
+}
+
+.backdrop {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.55);
+    z-index: 15;
+  }

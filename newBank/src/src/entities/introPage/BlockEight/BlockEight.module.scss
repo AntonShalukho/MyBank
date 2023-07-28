@@ -1,0 +1,145 @@
+@import "../../../shared/assets/scss/variables.module.scss";
+@import "../../../shared/assets/scss/mixins.scss";
+
+.wrapper {
+  @include flexContainer(1120px, 799px);
+  position: relative;
+  background-image: url(../../../shared/assets/icons/static/introPage-bubbles.svg);
+  background-repeat: no-repeat;
+  background-position: 75% 55%;
+  margin: auto;
+  flex-direction: column;
+  column-gap: 192px;
+  padding-top: 40px;
+  @media screen and (max-width: 1024px) {
+    max-width: 1024px;
+    background-position: 103% 83%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 768px;
+    background-position: 333% 78%;
+  }
+  @media screen and (max-width: 767px) {
+    background-image: none;
+    width: 375px;
+  }
+}
+
+.container {
+  @include flexContainer(100%);
+  justify-content: center;
+  column-gap: 192px;
+  @media screen and (max-width: 1024px) {
+    column-gap: 151px;
+    padding-left: 40px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    column-gap: 44px;
+  }
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+
+.block_left {
+  @include flexContainer(428px);
+  flex-direction: column;
+  row-gap: 32px;
+  padding-top: 35px;
+  @media screen and (max-width: 1024px) {
+    width: 349px;
+  }
+}
+
+.left_title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  color: $primary_dark_gray;
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.left_description {
+  font-size: 16px;
+  line-height: 22px;
+  color: $secondary_text;
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.account_pic {
+  background-image: url(../../../shared/assets/icons/static/introPage-accountPic.svg);
+  background-size: cover;
+  width: 368px;
+  height: 226px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 2;
+  @media screen and (max-width: 1024px) {
+    top: 45%;
+    left: 37%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    top: 44%;
+    left: 41%;
+  }
+  @media screen and (max-width: 767px) {
+    background-image: url(../../../shared/assets/icons/static/accountPicMob.svg);
+    width: 320px;
+    height: 245px;
+    top: 65%;
+    left: 1%;
+  }
+}
+
+.blockVideo {
+  width: 500px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  z-index: 1;
+  border: 7px solid $primary_white;
+  @media screen and (max-width: 1024px) {
+    width: 484px;
+    height: 500px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 335px;
+    height: 360px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 200px;
+    height: 200px;
+    margin-left: 135px;
+  }
+}
+
+.workingTeamVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 850px;
+    height: 700px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 600px;
+    height: 500px;
+  }
+}
+
+.login_btn {
+  font-size: 16px;
+}

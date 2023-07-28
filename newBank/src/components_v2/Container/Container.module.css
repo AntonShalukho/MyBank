@@ -1,0 +1,71 @@
+.wrapper {
+  min-width: 1920px;
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  overflow: clip;
+  transition: .3s;
+}
+
+.wrapper_not_auth {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70px 1fr;
+}
+
+.wrapper_auth {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100%;
+}
+
+.wrapper_folded {
+  grid-template-columns: 72px 1fr;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+  .wrapper {
+    min-width: 1440px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .wrapper {
+    min-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .wrapper {
+    min-width: 1024px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .wrapper {
+    min-width: 768px;
+  }
+
+  .wrapper_auth {
+    grid-template-columns: 200px calc(100% - 200px);
+    grid-template-rows: 100%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .wrapper {
+    min-width: 375px;
+  }
+
+  .wrapper_auth {
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 1fr;
+  }
+  
+  .wrapper_folded {
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 1fr;
+  }
+}

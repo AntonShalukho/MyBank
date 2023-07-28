@@ -1,0 +1,7 @@
+@import '../../../shared/assets/scss/mixins.scss';
+
+.wrapper {
+  @include flexContainer(100%, 100%);
+  flex-direction: column;
+  row-gap: 100px;
+}

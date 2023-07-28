@@ -1,0 +1,25 @@
+.container_image {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  margin-right: 20px;
+  border: 1px solid var(--rimary-user-avatar);
+  border-radius: 12px;
+}
+
+.container_image_inner_block {
+  position: absolute;
+  display: none;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding-top: 30px;
+  text-align: center;
+  border-radius: 11px;
+  background-color: var(--primary-shadow);
+}
+
+.container_image:hover .container_image_inner_block {
+  display: block;
+}

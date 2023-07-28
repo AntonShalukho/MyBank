@@ -1,0 +1,50 @@
+@import "../../shared/assets/scss/variables.module.scss";
+@import "../../shared/assets/scss/mixins.scss";
+
+.container {
+  @include flexContainer(100%, calc(100% - 70px));
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.first_block {
+  @include flexContainer(100%, 100%);
+  flex-direction: column;
+  row-gap: 100px;
+  padding: 0px 400px;
+  @media screen and (max-width: 1800px) {
+    padding: 0px 300px;
+  }
+  @media screen and (max-width: 1600px) {
+    padding: 0px 200px;
+  }
+  @media screen and (min-width: 1280px) and (max-width: 1439px) {
+    padding: 0px 44px;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    padding: 0px 40px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    padding: 0px 36px;
+  }
+  @media screen and (min-width: 375px) and (max-width: 767px) {
+    padding: 0px 12px;
+  }
+}
+
+.contentBlock {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  background-color: $primary_background;
+  @media screen and (max-width: 1439px) {
+    row-gap: 40px;
+  }
+}

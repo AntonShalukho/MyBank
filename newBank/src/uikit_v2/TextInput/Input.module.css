@@ -1,0 +1,109 @@
+.wrapper, .wrapper_hide_icon {
+  width: 100%;
+  min-width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  border: 1px solid var(--primary-input-default);
+}
+
+.wrapper:not(.wrapper_error):hover {
+  border: 1px solid var(--primary-input-hover);
+}
+
+.wrapper:focus-within {
+  border: 1px solid var(--primary-input-focus);
+}
+
+.wrapper_error, .wrapper_error_icon {
+  position: relative;
+  border: 1px solid var(--primary-input-error);
+}
+
+.wrapper_error {
+  border: 1px solid var(--primary-input-error);
+}
+
+.wrapper_error_icon::before {
+  content: url("../../uikit/static/error_icon.svg");
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: calc(50% - 10px);
+  right: 20px;
+  z-index: 1;
+}
+
+.label {
+  width: 184px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--primary-text);
+  line-height: 14px;
+  margin: 4px 8px 4px 8px;
+}
+
+.label_focus {
+  color: var(--primary-text-2);
+}
+
+.input {
+  position: relative;
+  width: fit-content;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--primary-text);
+  line-height: 16px;
+  border: none;
+  background: var(--primary-input-default);
+  outline: none;
+  margin: 0px 8px 4px 8px;
+}
+
+.input:focus {
+  color: var(--primary-text-2);
+}
+
+.input_hide_icon, .label_hide_icon {
+  width: 274px;
+}
+
+.cross{
+  width: 8.75px;
+  height: 8.75px;
+  position: absolute;
+  top: calc(50% - 4px);
+  right: 8px;
+  cursor: pointer;
+}
+
+.hide_icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 16px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.counter {
+  width: 160px;
+  height: 12px;
+  margin-top: 8px;
+  padding-left: 8px;
+  color: var(--primary-characters-counter);
+  font-size: 12px;
+}

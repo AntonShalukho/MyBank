@@ -1,0 +1,128 @@
+{
+  "api": {
+    "passportNumberUrl": "https://abank-auth-ms-main.andersenlab.dev/a-banking/recovery-management/password-recovery/verification/credentials/passport",
+
+    "telegramRequestUrl": "https://abank-auth-ms-main.andersenlab.dev/a-banking/recovery-management/user/verification-code/new-code",
+
+    "registrationTelegramUrl": "https://abank-registration-ms-main.andersenlab.dev/a-banking/registration-management/user/verification-code/new-code",
+
+    "verificationCodeUrl": "https://abank-verification-code-ms-main.andersenlab.dev/a-banking/verification-management/validation/is-expired",
+
+    "loginRequestUrl": "https://abank-auth-ms-main.andersenlab.dev/a-banking/auth/login",
+
+    "phoneNumberUrl": "https://abank-registration-ms-main.andersenlab.dev/a-banking/registration-management/verification/credentials/phone-number",
+
+    "confidentialityPolicyUrl": "https://wiki.andersenlab.com/pages/viewpage.action?pageId=193740598",
+
+    "onlineBankingServicesUrl": "https://wiki.andersenlab.com/pages/viewpage.action?pageId=193740654",
+
+    "googlePlayStoreUrl": "https://play.google.com/store",
+
+    "appleAppStoreUrl": "https://www.apple.com/store",
+
+    "registrationClientUrl": "https://abank-registration-ms-main.andersenlab.dev/a-banking/registration-management/registration/client",
+
+    "registrationNonClientUrl": "https://abank-registration-ms-main.andersenlab.dev/a-banking/registration-management/registration/non-client",
+
+    "exchangeRatesUrl": "https://abank-currency-rates-ms-main.andersenlab.dev/a-banking/exchange-rates?date=",
+
+    "passwordRecoveryUrl": "https://abank-auth-ms-main.andersenlab.dev/a-banking/recovery-management/password-recovery/by-passport/by-code",
+
+    "profilePictureUrl": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/profile/settings/photo",
+
+    "accountInfoUrl": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/profile/general-information",
+
+    "changePasswordUrl": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/profile/security-management/password",
+
+    "changeQuestionUrl": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/profile/security-management/secret-question",
+
+    "notificationsUrl": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/profile/notifications",
+
+    "setNotificationsStatus": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/profile/notifications/",
+
+    "getCitiesData": "https://abank-atm-ms-main.andersenlab.dev/a-banking/cities?city=",
+
+    "getCardsData": "https://abank-card-ms-main.andersenlab.dev/a-banking/cards",
+
+    "getTransactionHistoryData": "https://abank-card-ms-main.andersenlab.dev/a-banking/transactions/history?pageNumber=0&pageSize=3",
+
+    "getEmailVerificationCodeUrl": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/profile/email-management/verification-code?email=",
+
+    "changeEmailUrl": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/profile/email-management/email",
+
+    "getLoansProducts": "https://abank-loan-ms-main.andersenlab.dev/a-banking/loans/products",
+
+    "getLoansProductsDescription": "https://abank-loan-ms-main.andersenlab.dev/a-banking/loans/products/details?loanName=",
+
+    "getAccountProducts": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/product-type/",
+
+    "setAccountProduct": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/client-product/",
+
+    "getListsOfAccounts": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/client-product/",
+
+    "getAccountDetails": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/client-product/",
+
+    "setAccountDetails": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/client-product/",
+
+    "getVerifyCode": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/user/verification-code/new-code",
+
+    "getAdvertisementProducts": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/promo-offer/",
+
+    "setRegistrationType": "https://beebank-registration-ms-main.andersenlab.dev/registration/registration-type",
+
+    "setFinancialInfo": "  https://beebank-registration-ms-main.andersenlab.dev/registration/sign-up",
+
+    "setLocationInfo": "https://beebank-registration-ms-main.andersenlab.dev/registration/offline-registration/courier",
+    
+    "getStartRegistrationStep": "https://beebank-registration-ms-main.andersenlab.dev/registration",
+
+    "getInitialRegistrationStep": "https://beebank-registration-ms-main.andersenlab.dev/registration/initial",
+    
+    "setOfflineRegistrationType": "https://beebank-registration-ms-main.andersenlab.dev/registration/offline-registration",
+
+    "getUserProfileInformation": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/client-details/",
+
+    "setUserProfilePersonalInformation": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/client-details/personal-information",
+
+    "setUserProfileSecurityInformation": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/client-details/security-information",
+
+
+
+
+
+
+    "sendOnlineRegistrationStep": "https://beebank-registration-ms-main.andersenlab.dev/registration/online-registration",
+
+    "sendRegistrationType": "https://beebank-registration-ms-main.andersenlab.dev/registration/registration-type",
+
+    "sendRegistrationVerifyCode": "https://beebank-registration-ms-main.andersenlab.dev/registration/verify-code",
+
+    "sendRegistrationSignUp": "https://beebank-registration-ms-main.andersenlab.dev/registration/sign-up",
+
+    "sendRegistrationFinancial": "https://beebank-registration-ms-main.andersenlab.dev/registration/financial",
+
+    "sendRegistrationOfflineStep": "https://beebank-registration-ms-main.andersenlab.dev/registration/offline-registration",
+
+    "sendRegistrationCourier": "https://beebank-registration-ms-main.andersenlab.dev/registration/offline-registration/courier",
+
+    "sendRegistrationFinal": "https://beebank-registration-ms-main.andersenlab.dev/registration/final",
+
+    "getRegistrationStart": "https://beebank-registration-ms-main.andersenlab.dev/registration",
+
+    "getRegistrationInitial": "https://beebank-registration-ms-main.andersenlab.dev/registration/initial",
+
+    "getVideoLink": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/intro-page/",
+
+    "sendBackButtonStep" : "https://beebank-registration-ms-main.andersenlab.dev/registration/go-back",
+
+    "sendLoginData": "https://beebank-registration-ms-main.andersenlab.dev/authorization",
+
+    "sendLoginVerificationCode": "https://beebank-registration-ms-main.andersenlab.dev/authorization/verify-code",
+
+    "sendClientProduct": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/client-product/open-new-client-product",
+
+    "sendVerifyClientProduct": "https://abank-user-management-ms-main.andersenlab.dev/a-banking/client-product/verify-new-client-product",
+
+    "sendInvalidate": "https://abank-auth-ms-main.andersenlab.dev/authorization/invalidate"
+  }
+}

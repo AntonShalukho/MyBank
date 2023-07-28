@@ -1,0 +1,123 @@
+@import '../../../shared/assets/scss/variables.module.scss';
+@import '../../../shared/assets/scss/mixins.scss';
+
+.container {
+  padding: 24px;
+}
+
+.top_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid $primary_input_hover;
+  @media screen and (max-width: 440px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 30px;
+    padding-bottom: 20px;
+  }
+    
+}
+
+.bottom_container {
+  font-style: 16px;
+  line-height: 22px;
+  color: $secondary_text;
+  padding-top: 40px;
+  border-top: 1px solid $primary_input_hover;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: $primary_cross_button;
+}
+
+.logo_wrapper {
+  @include flexContainer(176px, 48px);
+  align-items: center;
+  column-gap: 10px;
+}
+
+.logo_wrapper:hover {
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.wrapperCards {
+  min-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  @media screen and (max-width: 1280px) {
+    column-gap: 20px;
+  }
+  @media screen and (max-width: 440px) {
+    flex-direction: column;
+    min-width: 50%;
+  }
+}
+
+.card_wrapper {
+  max-width: 500px;
+  @media screen and (max-width: 1440px) {
+    width: 316px;
+  }
+  @media screen and (max-width: 1280px) {
+    width: 349px;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 264px;
+  }
+  @media screen and (max-width: 768px) {
+    width: 178px;
+  }
+}
+
+.block_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 20px;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    row-gap: 12px;
+    align-items: start;
+  }
+}
+
+.address {
+  padding-left: 92px;
+  max-width: 316px;
+  @media screen and (max-width: 1440px) {
+    padding-left: 12px;
+  }
+  @media screen and (max-width: 1280px) {
+    width: 349px;
+    padding-left: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 264px;
+  }
+  @media screen and (max-width: 768px) {
+    width: 178px;
+  }
+}

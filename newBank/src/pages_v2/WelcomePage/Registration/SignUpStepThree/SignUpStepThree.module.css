@@ -1,0 +1,71 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 24px;
+  width: 368px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 20px;
+  color: var(--secondary-middle-gray);
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input_pesel,
+.input_nationalIdNumber,
+.input_documentExpirationDate,
+.input_documentID {
+  position: relative;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input_documentID {
+  margin-top: 40px;
+}
+
+.radioBtn_subtitles {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: var(--secondary-middle-gray);
+}
+
+.radioBtn_id, .radioBtn_passport {
+  height: 16px;
+  margin-bottom: 16px;
+  margin-left: 12px;
+}
+
+.input_nationalIdNumber {
+  margin-top: 28px;
+}
+
+.button {
+  width: 320px;
+}
+
+.popup {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.55);
+  z-index: 15;
+}

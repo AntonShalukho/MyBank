@@ -1,0 +1,47 @@
+@import "../../../shared/assets/scss/variables.module.scss";
+@import "../../../shared/assets/scss/mixins.scss";
+
+.wrapper {
+  @include flexContainer(551px, 284px);
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 23px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 20px;
+  color: $secondary_middle_gray;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sub_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $secondary_middle_gray;
+  margin-bottom: 16px;
+}
+
+.icon_pic {
+  margin: 0 auto;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button {
+  width: 243px;
+}

@@ -1,0 +1,68 @@
+.policy {
+  margin-bottom: 20px;
+}
+
+.policy__wrapper {
+  display: flex;
+  column-gap: 19px;
+  margin-bottom: 4px;
+  margin-left: 3px;
+  position: relative;
+  color: var(--primary-text);
+}
+
+.policy__unchecked,
+.policy__checked,
+.policy__unchecked_error {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  align-self: center;
+  justify-self: center;
+  margin-right: 19px;
+}
+
+.policy__checked::before {
+  content: url("../../../../../uikit/static/policyAgreeIcon.svg");
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  background-color: var(--primary-white);
+  cursor: pointer;
+}
+
+.policy__unchecked::before {
+  content: url("../../../../../uikit/static/policyAgreeIconCheck.svg");
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  background-color: var(--primary-white);
+  cursor: pointer;
+}
+.policy__unchecked_error::before {
+  content: url("../../../../../uikit/static/policyAgreeIconError.svg");
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  background-color: var(--primary-white);
+  cursor: pointer;
+}
+
+.policy__link {
+  color: var(--secondary-light-blue);
+}
+
+.policy__link:hover {
+  text-decoration: underline;
+}
+
+.policy__error {
+  opacity: 0;
+}
+
+.policy__error_active {
+  opacity: 1;
+}

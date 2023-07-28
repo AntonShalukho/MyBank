@@ -1,0 +1,31 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+@import "../../../../../shared/assets/scss/mixins.scss";
+
+.account_name_wrapper {
+  @include flexContainer(320px, 52px);
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 4px;
+  background-color: $secondary_hover_gray;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid $secondary_light_blue;
+}
+
+.account_name__title {
+  line-height: 14px;
+  font-weight: 500;
+  font-size: 12px;
+  color: $primary-text;
+}
+
+.account_name__input {
+  line-height: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  border: none;
+  background-color: $secondary_hover_gray;
+  outline: none;
+  color: $primary_text;
+}

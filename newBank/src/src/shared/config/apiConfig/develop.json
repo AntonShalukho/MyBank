@@ -1,0 +1,48 @@
+{
+  "api": {
+    "sendOnlineRegistrationStep": "https://beebank-registration-ms-dev.andersenlab.dev/registration/online-registration",
+
+    "sendRegistrationType": "https://beebank-registration-ms-dev.andersenlab.dev/registration/registration-type",
+
+    "sendRegistrationVerifyCode": "https://beebank-registration-ms-dev.andersenlab.dev/registration/verify-code",
+
+    "sendRegistrationSignUp": "https://beebank-registration-ms-dev.andersenlab.dev/registration/sign-up",
+
+    "sendRegistrationFinancial": "https://beebank-registration-ms-dev.andersenlab.dev/registration/financial",
+
+    "sendRegistrationOfflineStep": "https://beebank-registration-ms-dev.andersenlab.dev/registration/offline-registration",
+
+    "sendRegistrationCourier": "https://beebank-registration-ms-dev.andersenlab.dev/registration/offline-registration/courier",
+
+    "sendRegistrationFinal": "https://beebank-registration-ms-dev.andersenlab.dev/registration/final",
+
+    "getRegistrationStart": "https://beebank-registration-ms-dev.andersenlab.dev/registration",
+
+    "getRegistrationInitial": "https://beebank-registration-ms-dev.andersenlab.dev/registration/initial",
+      
+    "getVideoLink": "https://abank-user-management-ms.andersenlab.dev/a-banking/intro-page/",
+
+    "sendBackButtonStep" : "https://beebank-registration-ms-dev.andersenlab.dev/registration/go-back",
+
+    "getAccountProducts": "https://abank-user-management-ms.andersenlab.dev/a-banking/product-type/",
+
+    "sendLoginVerificationCode": "https://beebank-registration-ms-dev.andersenlab.dev/authorization/verify-code",
+
+    "sendClientProduct": "https://abank-user-management-ms.andersenlab.dev/a-banking/client-product/open-new-client-product",
+
+    "sendVerifyClientProduct": "https://abank-user-management-ms.andersenlab.dev/a-banking/client-product/verify-new-client-product",
+
+    "getClientProducts": "https://abank-user-management-ms.andersenlab.dev/a-banking/client-product/",
+
+    "getAccountDetails": "https://abank-user-management-ms.andersenlab.dev/a-banking/client-product/",
+
+    "setAccountDetails": "https://abank-user-management-ms.andersenlab.dev/a-banking/client-product/",
+
+    "sendInvalidate": "https://abank-auth-ms.andersenlab.dev/authorization/invalidate", 
+    
+    "sendLoginData": "https://beebank-registration-ms-dev.andersenlab.dev/authorization",
+
+    "getAdvertisementProducts": "https://abank-user-management-ms.andersenlab.dev/a-banking/promo-offer/"
+
+  }
+}

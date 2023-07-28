@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering CameraPrepare component Get snapshot 1`] = `
+<div
+  class="container"
+>
+  <h1
+    class="title"
+  >
+    Sign up
+  </h1>
+  <h2
+    class="sub_title"
+  >
+    Please prepare for using the camera
+  </h2>
+  <div
+    class="container"
+  >
+    <img
+      alt="icon"
+      class="icon"
+      src="camera.svg"
+    />
+    <p
+      class="description"
+    />
+    <button
+      class="default primarySmall button"
+      type="button"
+    >
+      Continue
+    </button>
+  </div>
+</div>
+`;

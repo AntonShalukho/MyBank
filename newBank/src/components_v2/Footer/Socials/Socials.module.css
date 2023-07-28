@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 216px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  fill: var(--primary-cross-button);
+}
+
+.item:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,129 @@
+.wrapper {
+  width: 540px;
+  height: 241px;
+  position: absolute;
+  top: 13px;
+  right: 16px;
+  background: var(--secondary-background);
+  border: 1px solid var(--primary-border-2);
+  border-radius: 12px;
+  z-index: 2;
+}
+
+.top, .bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.top_header, .bottom_header {
+  padding: 12px 12px 12px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bottom_header {
+  height: 52px;
+}
+
+.top_title {
+  padding-left: 12px;
+  height: 24px;
+  display: flex;
+  column-gap: 15px;
+}
+
+.top_content {
+  display: flex;
+}
+
+.dr {
+  background-color: var(--primary-border-2);
+  border: none;
+  height: 1px;
+}
+
+.online {
+  padding: 12px;
+  width: 270px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 14px;
+  color: var(--primary-text);
+}
+
+.online:hover {
+  background-color: var(--secondary-hover-gray);
+  border-bottom-left-radius: 12px;
+}
+
+.online_field {
+  width: 72px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-align: center;
+  color: var(--primary-text);
+  background: var(--secondary-button-default);
+}
+
+.contactWrapper {
+  width: 270px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 8px;
+  padding: 12px 0px 12px 12px;
+}
+
+.contactWrapper:hover {
+  background-color: var(--secondary-hover-gray);
+  border-bottom-right-radius: 12px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  color: var(--primary-text);
+}
+
+.context {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: var(--primary-text-2);
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    width: 342px;
+    height: 383px;
+    top: 13px;
+    right: 16px;
+  }
+  
+  .top_content {
+    flex-direction: column;
+  }
+
+  .online {
+    width: 100%;
+  }
+
+  .online:hover {
+    border-bottom-left-radius: 0px;
+  }
+
+  .contactWrapper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contactWrapper:hover {
+    border-bottom-left-radius: 12px;
+  }
+}

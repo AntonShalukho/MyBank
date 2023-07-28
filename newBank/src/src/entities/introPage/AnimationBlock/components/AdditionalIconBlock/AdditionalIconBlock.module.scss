@@ -1,0 +1,26 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+@import "../../../../../shared/assets/scss/mixins.scss";
+
+.wrapper {
+  @include flexContainer(296px, 92px);
+  flex-direction: row;
+  column-gap: 12px;
+  background-color: $secondary_background;
+  padding: 16px;
+  @media screen and (max-width: 767px) {
+    padding: 0 0;
+  }
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $secondary_text;
+}

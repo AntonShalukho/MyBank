@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.account_info {
+  padding-top: 40px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  padding: 6px 12px;
+  justify-content: end;
+  color: var(--primary-text-2); 
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 18px;
+  background: var(--primary-input-default);
+  border: 1px solid var(--primary-input-hover);
+  border-radius: 8px;
+}
+
+.copied_message {
+  position: absolute;
+  top: 3px;
+  right: 56px;
+}
+
+.icon_container {
+  padding: 8px 0 8px 25px;
+  border-left: 1px solid var(--primary-border);
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .account_info {
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 0 34px;
+  }
+
+  .title {
+    top: 50px;
+    right: 168px;
+    margin-bottom: 0;
+  }
+
+  .copied_message {
+    top: 53px;
+    right: 223px;
+  }
+
+  .arrow_link {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    margin-bottom: 0;
+  }
+
+  .copy_icon {
+    margin-top: -3px;
+    margin-left: -19px;
+  }
+}

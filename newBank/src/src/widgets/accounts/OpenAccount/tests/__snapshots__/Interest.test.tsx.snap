@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account interest block de Get snapshot 1`] = `
+<div>
+  <div
+    class="account_name_wrapper"
+  >
+    <div
+      class="account_name__title"
+    >
+      Interest Rate
+    </div>
+    <div
+      class="account_name__input"
+    >
+      11
+      %
+    </div>
+  </div>
+</div>
+`;

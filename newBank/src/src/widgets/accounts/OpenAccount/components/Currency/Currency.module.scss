@@ -1,0 +1,24 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+@import "../../../../../shared/assets/scss/mixins.scss";
+
+.wrapper {
+  @include flexContainer(98px, 32px);
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: $secondary_hover_gray;
+  color: $secondary_middle_gray;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wrapper_active {
+  background-color: $primary_white;
+  cursor: default;
+}
+
+.currency {
+  font-weight: 300;
+}

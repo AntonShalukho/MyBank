@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering ProgressBar component Rendering components snapshot 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="container"
+  >
+    <button
+      class="button"
+      type="button"
+    >
+      <svg
+        class="arrow"
+      >
+        arrow-left.svg
+      </svg>
+      <span
+        class="title"
+      >
+        Back
+      </span>
+    </button>
+    <div
+      class="cross_icon"
+    >
+      <svg>
+        crossicon.svg
+      </svg>
+    </div>
+  </div>
+</div>
+`;

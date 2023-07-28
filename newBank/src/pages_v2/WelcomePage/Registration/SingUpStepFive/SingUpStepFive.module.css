@@ -1,0 +1,32 @@
+.container {
+  width: 458px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--primary-text-2);
+}
+
+.sub_title {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-text-2);
+}
+
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.55);
+  z-index: 15;
+}

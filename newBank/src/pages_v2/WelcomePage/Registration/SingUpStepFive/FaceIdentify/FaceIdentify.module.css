@@ -1,0 +1,57 @@
+.container, .face_id {
+  width: 520px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--primary-text-2);
+}
+
+.sub_title {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-text-2);
+}
+
+.icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.description {
+  text-align: center;
+  margin: 26px 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--primary-text-2);
+}
+
+.button {
+  margin: 0 auto;
+  width: 320px;
+}
+
+.canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.popup {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.55);
+  z-index: 15;
+}

@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  width: 98px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--secondary-hover-gray);
+  color: var(--secondary-middle-gray);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wrapper_active {
+  background-color: var(--primary-white);
+  cursor: default;
+}
+
+.currency {
+  font-weight: 300;
+}

@@ -1,0 +1,30 @@
+@import "../../../../shared/assets/scss/variables.module.scss";
+
+.input {
+  width: 40px;
+  height: 40px;
+  border: 1px solid $secondary_light_gray;
+  outline: none;
+  border-radius: 8px;
+  background-color: $secondary_light_gray;
+  margin: 0px 2px;
+  padding: 12px;
+  color: $primary_text;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  &::-webkit-inner-spin-button {
+    display: none;
+  }
+}
+
+.input_active {
+  border: 1px solid $secondary_light_blue;
+}
+
+.input__error {
+  width: 38px;
+  height: 38px;
+  border: 1px solid $primary_red;
+}

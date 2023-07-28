@@ -1,0 +1,14 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+@import "../../../../../shared/assets/scss/mixins.scss";
+
+.list {
+  @include flexContainer(216px);
+  justify-content: space-between;
+}
+
+.item {
+  @include flexContainer(24px, 24px);
+  align-items: center;
+  fill: $primary_cross_button;
+  cursor: pointer;
+}

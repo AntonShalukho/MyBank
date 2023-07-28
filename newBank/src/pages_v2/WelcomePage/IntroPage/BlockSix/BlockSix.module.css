@@ -1,0 +1,143 @@
+.wrapper {
+  margin: auto;
+  width: 1120px;
+  height: 652px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--secondary-background);
+  border-radius: 12px;
+}
+
+.block_left {
+  width: 550px;
+  position: relative;
+}
+
+.bubbleBlock {
+  background-image: url(../../../../uikit_v2/static/bubblePicForBlockWithCalendar.svg);
+  height: 567px;
+  width: 510px;
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  top: 5%;
+}
+
+.block_right {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+}
+
+.block_right_title {
+  width: 452px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  color: var(--primary-text);
+}
+
+.block_right_description {
+  width: 452px;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--secondary-text);
+}
+
+.calendar {
+  margin-left: 90px;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 944px;
+  }
+
+  .block_left {
+    width: 542px;
+  }
+
+  .block_right {
+    width: 406px;
+  }
+
+  .block_right_description, .block_right_title {
+    width: 276px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 696px;
+    height: 620px;
+    gap: 0px
+  }
+
+  .calendar {
+    width: 296;
+    height: 356px;
+    margin-left: 80px;
+    margin-top: 44px;
+  }
+
+  .block_left, .block_right {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+
+  .block_left {
+    overflow: visible;
+  }
+
+  .block_right_title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .bubbleBlock {
+    background-image:  url(../../../../uikit_v2/static/bubblesVersionTwo.svg);
+    width: 488px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .wrapper {
+    width: 343px;
+    height: 520px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .block_right_title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .block_right_description {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .calendar {
+    width: 148px;
+    height: 178px;
+    margin-left: 112px;
+    margin-top: 55px;
+  }
+
+  .block_left, .block_right {
+    width: 100%;
+  }
+  
+  .bubbleBlock {
+    background-image:  url(../../../../uikit_v2/static/bubbleMobCalendarBlock.svg);
+    width: 203px;
+    height: 300px;
+  }
+}

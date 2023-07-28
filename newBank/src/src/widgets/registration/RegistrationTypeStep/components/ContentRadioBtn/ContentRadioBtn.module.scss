@@ -1,0 +1,31 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 0 12px;
+  color: $primary_text_2;
+  max-width: 280px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 26px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 8px 0 8px;
+}
+
+.description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $secondary_text;
+}

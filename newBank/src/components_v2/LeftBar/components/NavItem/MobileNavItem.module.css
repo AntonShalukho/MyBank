@@ -1,0 +1,70 @@
+.wrapper, .wrapper_extend, .wrapper_collapsed {
+  width: 176px;
+  min-height: 48px;
+}
+
+.wrapper_collapsed {
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.link, .link_item, .collapsed_link {
+  width: 176px;
+  min-height: 48px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--primary-text);
+  margin: 12px 0;
+  padding: 0 5px;
+  padding-left: 20px;
+  stroke: var(--primary-text);
+  
+}
+
+.collapsed_link {
+  width: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.link_active{
+  background-color: var(--active-background); 
+  border: 2px solid var(--active-border); 
+  border-radius: 12px;
+  fill: var(--primary-white);
+  color: var(--primary-text-left-bar);
+  stroke: none;
+}
+
+.sidebar_list {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.wrapper, .wrapper_extend, .wrapper_collapsed {
+  min-height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+};
+
+.wrapper_collapsed {
+  width: 40px;
+}
+
+.link, .link_item, .collapsed_lin {
+  min-height: 40px;
+  width: calc(100vw - 24px);
+  padding: 0px 12px;
+}
+
+.collapsed_link {
+  width: 40px;
+  margin: 0px 0px;
+}

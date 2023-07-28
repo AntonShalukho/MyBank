@@ -1,0 +1,78 @@
+.wrapper {
+  height: 96%;
+  width: 100%;
+}
+
+.account_form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.form_body {
+  height: 307px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 24px;
+  border: solid 1px var(--secondary-light-gray);
+  border-radius: 8px;
+  background-color: var(--primary-white);
+}
+
+.form_body_saving{
+  height: 367px;
+}
+
+.account_submit {
+  width: 160px;
+  height: 40px;
+  border-radius: 8px;
+  line-height: 18.75px;
+  font-size: 16px;
+  color: var(--primary-white);
+  background-color: #AAB9CE;
+}
+
+.account_submit_active {
+  background-color: var(--secondary-light-blue);
+}
+
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.55);
+  z-index: 15;
+}
+
+.modal_wrapper {
+  width: 428px;
+  padding: 24px;
+  border: 1px solid var( --secondary-light-gray);
+}
+
+.wrapper_button {
+  margin: 24px 24px 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .modal_wrapper {
+    width: 303px;
+    height: 323px;
+  }
+
+  .account_form{
+    margin: 0px;
+  }
+
+  .form_body {
+    padding: 0 11px;
+  }
+} 
+

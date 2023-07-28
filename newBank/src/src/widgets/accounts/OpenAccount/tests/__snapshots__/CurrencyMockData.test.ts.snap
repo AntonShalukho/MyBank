@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get snapshot Accounts CurrencyMockData 1`] = `
+Array [
+  Object {
+    "currency": "PLN",
+    "interest": "11",
+  },
+  Object {
+    "currency": "USD",
+    "interest": "11",
+  },
+  Object {
+    "currency": "EUR",
+    "interest": "11",
+  },
+]
+`;

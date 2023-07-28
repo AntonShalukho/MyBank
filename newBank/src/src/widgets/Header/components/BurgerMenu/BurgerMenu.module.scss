@@ -1,0 +1,40 @@
+@import "../../../../shared/assets/scss/variables.module.scss";
+
+.wrapper {
+  height: 102px;
+  width: 164px;
+  position: absolute;
+  top: 13px;
+  right: 16px;
+  background: $secondary_background;
+  border: 1px solid $primary_border_2;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.firstBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondBlock, .firstBlock {
+  padding: 13px;
+}
+
+.dr {
+  background-color: $primary_border_2;
+  border: none;
+  height: 1px;
+  width: 100%;
+}
+
+.link {
+  font-size: 16px;
+  line-height: 19px;
+  color: $primary_text;
+}

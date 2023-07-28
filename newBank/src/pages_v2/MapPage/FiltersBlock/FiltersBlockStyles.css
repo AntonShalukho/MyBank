@@ -1,0 +1,7 @@
+.filter-button-container {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px 13px;
+}
+

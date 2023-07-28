@@ -1,0 +1,41 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+
+.wrapper {
+  width: 100%;
+}
+
+.interest_wrapper {
+  margin-bottom: 16px;
+}
+
+.interest_wrapper,
+.date_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.interest_container,
+.data_container {
+  padding: 6px 12px;
+  background: $secondary_hover_gray;
+  border-radius: 8px;
+}
+ 
+.interest_container {
+  border: 1px solid $secondary_light_blue;
+}
+
+.title {
+  width: 120px;
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 16px;
+  color: $secondary_text;
+}
+
+.value {
+  display: flex;
+  color: $primary_text_2;
+  font-size: 12px;
+  line-height: 14px;
+}

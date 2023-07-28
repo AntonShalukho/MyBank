@@ -1,0 +1,208 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "prettier",
+    "@typescript-eslint",
+    "functional",
+    "react-hooks",
+    "import"
+  ],
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "prettier",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:functional/recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/jsx-runtime"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "allowImportExportEverywhere": true,
+    "sourceType": "module",
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "globals": {
+    "navigator": false
+  },
+  "rules": {
+    "camelcase": [
+      "off",
+      {
+        "properties": "never",
+        "ignoreDestructuring": true
+      }
+    ],
+
+    "jsx-a11y/anchor-is-valid": "warn",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/aria-role": [ 2, {
+      "allowedInvalidRoles": ["top", "bottom"]
+    }],
+    "no-unneeded-ternary": "warn",
+    "functional/prefer-readonly-type": "off",
+    "functional/prefer-type-literal": "off",
+    "functional/no-return-void": "off",
+    "functional/functional-parameters": "off",
+    "react/self-closing-comp": [
+      "warn",
+      {
+        "component": true,
+        "html": true
+      }
+    ],
+    "@typescript-eslint/no-unused-expressions": [
+      "warn",
+      {
+        "allowShortCircuit": true,
+        "allowTernary": true
+      }
+    ],
+    "react/jsx-no-target-blank": "warn",
+    "react/jsx-no-bind": "warn",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "functional/no-expression-statement": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "react/no-unescaped-entities": "off",
+    "react/display-name": "off",
+    "import/no-default-export": "error",
+    "import/prefer-default-export": "off",
+    "import/no-deprecated": "off",
+    "import/order": [
+      "warn",
+      {
+        "groups": [
+          ["internal", "builtin"],
+          "external",
+          ["parent", "sibling", "index"]
+        ],
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "internal",
+            "position": "before"
+          },
+          {
+            "pattern": "components/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "services/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "static/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "assets/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "./*Styles",
+            "group": "index",
+            "position": "after"
+          }
+        ],
+        "newlines-between": "always-and-inside-groups"
+      }
+    ],
+    "functional/immutable-data": [
+      "warn",
+      {
+        "ignoreImmediateMutation": true
+      }
+    ],
+    "functional/no-conditional-statement": [
+      "off",
+      {
+        "allowReturningBranches": "ifExhaustive"
+      }
+    ],
+    "functional/no-mixed-type": "off",
+    "@typescript-eslint/camelcase": "off",
+    "no-console": "warn",
+    "prefer-arrow-callback": "warn",
+    "no-nested-ternary": "warn",
+    "arrow-body-style": ["warn", "as-needed"],
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "react/jsx-boolean-value": ["warn", "always"],
+    "functional/no-let": "warn",
+    "functional/no-class": "warn",
+    "functional/no-this-expression": "warn",
+    "functional/no-try-statement": "warn",
+    "functional/no-throw-statement": "off",
+    "functional/no-loop-statement": "warn",
+    "@typescript-eslint/no-empty-function": "warn",
+    "@typescript-eslint/no-var-requires": "warn",
+    "@typescript-eslint/ban-ts-comment": "warn",
+    "@typescript-eslint/ban-types": "warn",
+    "@typescript-eslint/no-shadow": "warn",
+    "react/no-find-dom-node": "warn",
+    "react/prop-types": "warn",
+    "react/jsx-key": "warn",
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+    "react/react-in-jsx-scope": "off",
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["**/*.stories.tsx"]
+      }
+    ]
+  },
+  "settings": {
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*.stories.tsx"],
+      "rules": {
+        "import/no-default-export": "off",
+        "functional/immutable-data": "off",
+        "react/jsx-no-bind": "off"
+      }
+    },
+    {
+      "files": [
+        "src/store/**/*",
+        "src/slices/**/*",
+        "src/reducers/**/*",
+        "src/actions/**/*"
+      ],
+      "rules": {
+        "no-param-reassign": "off",
+        "functional/immutable-data": "off"
+      }
+    },
+    {
+      "files": ["src/services/index.ts"],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "warn"
+      }
+    }
+  ]
+}

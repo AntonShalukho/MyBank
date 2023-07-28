@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering MainLogoBlock component with token Get snapshot 1`] = `
+<div
+  class="wrapper mainLogo"
+>
+  <svg
+    class="icon"
+  >
+    mainLogo_v2.svg
+  </svg>
+  <div
+    class="wrapper_description mainLogo"
+  >
+    <span
+      class="title"
+    >
+      Bee·Bank
+    </span>
+    <span
+      class="description"
+    >
+      Solutions for life.
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Rendering MainLogoBlock component with token Rendering wrapperDescription with isSidebarOpen={false} 1`] = `
+<div
+  class="wrapper mainLogo"
+>
+  <svg
+    class="icon"
+  >
+    mainLogo_v2.svg
+  </svg>
+</div>
+`;

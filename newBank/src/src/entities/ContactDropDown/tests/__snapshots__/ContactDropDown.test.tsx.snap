@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering ContactDropDown component Get snapshot 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="top"
+  >
+    <div
+      class="top_header"
+    >
+      <div
+        class="top_title"
+      >
+        <img
+          alt="phone"
+          src="phone.png"
+        />
+        Our phones
+      </div>
+      <button
+        class="crossButton"
+        type="button"
+      >
+        <span
+          class="cross"
+        >
+          <span
+            class="crossLine"
+          />
+        </span>
+      </button>
+    </div>
+    <div
+      class="top_content"
+    >
+      <div
+        class="wrapper"
+      >
+        <a
+          class="title"
+          href="tel:7788"
+        >
+          7788
+        </a>
+        <div
+          class="context"
+        >
+          Working hours: 24/7
+        </div>
+      </div>
+      <div
+        class="wrapper"
+      >
+        <a
+          class="title"
+          href="tel:+48 79 203 32 33"
+        >
+          +48 79 203 32 33
+        </a>
+        <div
+          class="context"
+        >
+          From 8:00 am to 18:00 pm
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr
+    class="dr"
+  />
+  <div
+    class="bottom"
+  >
+    <div
+      class="bottom_header"
+    >
+      <div
+        class="top_title"
+      >
+        <img
+          alt="binoculars"
+          src="binoculars.png"
+        />
+        Other ways to find us
+      </div>
+    </div>
+    <div
+      class="top_content"
+    >
+      <div
+        class="online"
+      >
+        Chat us
+        <div
+          class="online_field"
+        >
+          Online
+        </div>
+      </div>
+      <div
+        class="contactWrapper"
+      >
+        <div
+          class="title"
+        >
+          Branches & ATMs
+        </div>
+        <div
+          class="context"
+        >
+          Find the nearest bank on the map
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+.container {
+  width: 458px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--primary-text-2);
+}
+
+.sub_title {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-text-2);
+}

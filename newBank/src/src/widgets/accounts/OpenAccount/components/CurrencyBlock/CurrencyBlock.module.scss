@@ -1,0 +1,43 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+@import "../../../../../shared/assets/scss/mixins.scss";
+
+.currency_title {
+  line-height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 24px 0 16px 0;
+  color: $primary_text;
+}
+
+.currency_block {
+  @include flexContainer(320px, 40px);
+  justify-content: space-around;
+  align-items: center;
+  background-color: $secondary_hover_gray;
+  border-radius: 8px;
+}
+
+.currency_block__input {
+  width: 80px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  background-color: $secondary_hover_gray;
+}
+
+.currency_block__input:checked {
+  border: none;
+  border-radius: 8px;
+  background-color: $primary_white;
+}
+  
+.currency_block__input:checked::before {
+  content: "";
+  transform: scale(1);
+  background-color: $primary_white;
+}
+
+.currency_block__span {
+  position: absolute;
+  left: 8px;
+}

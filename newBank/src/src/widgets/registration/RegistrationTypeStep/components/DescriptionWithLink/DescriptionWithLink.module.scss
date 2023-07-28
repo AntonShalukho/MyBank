@@ -1,0 +1,14 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+
+.description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  width: 280px;
+}
+
+.link {
+  margin: 0 4px;
+  color: $primary_text_3;
+}

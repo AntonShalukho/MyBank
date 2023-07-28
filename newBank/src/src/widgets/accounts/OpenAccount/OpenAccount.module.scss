@@ -1,0 +1,61 @@
+@import "../../../shared/assets/scss/variables.module.scss";
+
+.wrapper {
+  height: 96%;
+  width: 100%;
+}
+
+.account_form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  @media screen and (max-width: 375px) {
+    margin: 0px;
+  } 
+}
+
+.form_body {
+  height: 307px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 24px;
+  border: solid 1px $secondary_light_gray;
+  border-radius: 8px;
+  background-color: $primary_white;
+  @media screen and (max-width: 375px) {
+    padding: 0 11px;
+  } 
+}
+
+.form_body_saving{
+  height: 367px;
+}
+
+.account_submit {
+  width: 160px;
+  height: 40px;
+  border-radius: 8px;
+  line-height: 18.75px;
+  font-weight: 600;
+  color: $primary_white;
+  background-color: $primary_button_disabled;
+}
+
+.account_submit_active {
+  background-color: $secondary_light_blue;
+}
+
+.modal_wrapper {
+  width: 428px;
+  padding: 24px;
+  border: 1px solid $secondary_light_gray;
+  @media screen and (max-width: 375px) {
+    width: 303px;
+    height: 323px;
+  } 
+}
+
+.wrapper_button {
+  margin: 24px 24px 20px;
+}

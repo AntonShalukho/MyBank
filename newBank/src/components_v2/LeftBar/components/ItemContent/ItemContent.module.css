@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon, .title, .arrow {
+  align-self: center;
+}
+
+.icon, .icon_collapsed {
+  margin-right: 12px;
+  transition: .3s;
+}
+
+.icon_collapsed {
+  margin-right: 0px;
+}
+
+.arrow {
+  transform: rotate(180deg);
+  justify-self: end;
+}
+
+.arrow_bottom {
+  transform: rotate(0deg);
+}

@@ -1,0 +1,128 @@
+@import '../../../shared/assets/scss/variables.module.scss';
+@import '../../../shared/assets/scss/mixins.scss';
+
+.wrapper {
+  @include flexContainer(1120px, 652px);
+  margin: auto;
+  justify-content: center;
+  gap: 20px;
+  background-color: $secondary_background;
+  border-radius: 12px;
+  @media screen and (max-width: 1024px) {
+    width: 944px;
+  }
+  @media screen and (max-width: 900px) {
+    @include flexContainer(696px, 620px);
+    gap: 0px
+  }
+  @media screen and (max-width: 767px) {
+    @include flexContainer(343px, 520px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.block_left {
+  width: 550px;
+  position: relative;
+  @media screen and (max-width: 1024px) {
+    width: 542px;
+  }
+  @media screen and (max-width: 900px) {
+    overflow: visible;
+  }
+}
+
+.bubbleBlock {
+  background-image: url(../../../shared/assets/icons/static/bubblePicForBlockWithCalendar.svg);
+  height: 567px;
+  width: 510px;
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  top: 5%;
+  @media screen and (max-width: 900px) {
+    background-image:  url(../../../shared/assets/icons/static/bubblesVersionTwo.svg);
+    width: 488px;
+  }
+  @media screen and (max-width: 767px) {
+    background-image:  url(../../../shared/assets/icons/static/bubbleMobCalendarBlock.svg);
+    width: 203px;
+    height: 300px;
+  }
+}
+
+.block_right {
+  @include flexContainer(550px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+  @media screen and (max-width: 1024px) {
+    width: 406px;
+  }
+}
+
+.block_right_title {
+  width: 452px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  color: $primary_text;
+  @media screen and (max-width: 900px) {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.block_right_description {
+  width: 452px;
+  font-size: 16px;
+  line-height: 22px;
+  color: $secondary_text;
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.calendar {
+  margin-left: 90px;
+  margin-top: 45px;
+  @media screen and (max-width: 900px) {
+    width: 296;
+    height: 356px;
+    margin-left: 80px;
+    margin-top: 44px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 148px;
+    height: 178px;
+    margin-left: 112px;
+    margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .block_right_description, .block_right_title {
+    width: 276px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .block_left, .block_right {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .block_left, .block_right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,76 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+@import "../../../../../shared/assets/scss/mixins.scss";
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primary_background_transparent;
+}
+
+.wrapper {
+  @include flexContainer(428px);
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  background-color: $primary_white;
+  border: 1px solid $secondary_light_gray;
+  border-radius: 8px;
+  @media screen and (max-width: 375px) {
+    width: 371px;
+    height: 216px;
+    padding: 20px;
+  }
+}
+
+.button_block .change_btn {
+  background: $secondary_button_active;
+}
+
+.button_block .change_btn:hover {
+  background: $primary_button_hover;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: $primary_dark_gray;
+}
+
+.input_block {
+  width: 380px;
+}
+
+.button_block {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button_block button {
+  width: 173.5px;
+  height: 40px;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: $primary_white;
+  background-color: $primary;
+  @media screen and (max-width: 375px) {
+    width: 155.5px;
+    height: 40px;
+  }
+}
+
+.button_block .close_btn {
+  border: transparent;
+  color: $secondary_text;
+  background-color: $secondary_hover_gray;
+  margin-left: 20px;
+}

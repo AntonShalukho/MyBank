@@ -1,0 +1,39 @@
+.wrapper {
+  width: 100%;
+}
+
+.interest_wrapper {
+  margin-bottom: 16px;
+}
+
+.interest_wrapper,
+.date_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.interest_container,
+.data_container {
+  padding: 6px 12px;
+  background: var(--secondary-hover-gray);
+  border-radius: 8px;
+}
+ 
+.interest_container {
+  border: 1px solid var(--secondary-light-blue);
+}
+
+.title {
+  width: 120px;
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--secondary-text);
+}
+
+.value {
+  display: flex;
+  color: var(--primary-text-2);
+  font-size: 12px;
+  line-height: 14px;
+}

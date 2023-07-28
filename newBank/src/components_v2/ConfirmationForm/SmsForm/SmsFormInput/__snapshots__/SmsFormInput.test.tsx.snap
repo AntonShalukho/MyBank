@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering SmsFormInput component with error Get snapshot 1`] = `
+<input
+  class="input input__error input_active"
+  id="id"
+  name="name"
+  type="text"
+  value="value"
+/>
+`;

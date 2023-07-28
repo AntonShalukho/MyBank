@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering CabinetPage component Get snapshot 1`] = `
+<div
+  class="wrapper"
+>
+  <div
+    class="wrapper_without_auth"
+  >
+    <div
+      class="logo"
+    >
+      <div
+        class="wrapper logoBlock"
+      >
+        <svg
+          class="icon"
+        >
+          mainLogo_v2.svg
+        </svg>
+        <div
+          class="wrapper_description logoBlock"
+        >
+          <span
+            class="title header_title"
+          >
+            Bee·Bank
+          </span>
+          <span
+            class="description header_description"
+          >
+            Solutions for life.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="btn_wrapper"
+    >
+      <button
+        class="primarySmall login_btn"
+        type="button"
+      >
+        Log in
+      </button>
+      <div
+        class="contact_us_btn"
+      >
+        <button
+          class="secondarySmall greyBtn"
+          type="button"
+        >
+          <svg
+            class="icon"
+          >
+            phone.svg
+          </svg>
+          Contact us
+        </button>
+      </div>
+    </div>
+    <button
+      class="burgerButton"
+      type="button"
+    >
+      <span
+        class="burger"
+      >
+        <span
+          class="burgerLine"
+        />
+      </span>
+    </button>
+  </div>
+</div>
+`;

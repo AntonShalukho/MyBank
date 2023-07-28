@@ -1,0 +1,70 @@
+@import "../../../shared/assets/scss/variables.module.scss";
+
+.modal_backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  @media screen and (max-width: 360px) {
+    top: 5px;
+  }
+}
+
+.modal_backdrop.visible {
+  background-color: $primary_background_transparent;
+  z-index: 15;
+}
+
+.modal_wrapper {
+  position: relative;
+  background-color: $primary_white;
+  height: fit-content;
+  width: min(800px, 60%);
+  padding: 15px 15px 45px;
+  margin: auto;
+  border-radius: 8px;
+  opacity: 1;
+  @media screen and (max-width: 768px) {
+    width: min(800px, 73%);
+  }
+  @media screen and (max-width: 360px) {
+    box-sizing: border-box;
+    padding: 16px 32px;
+    width: 360px;
+  }
+}
+
+.button_container {
+  width: fit-content;
+  position: absolute;
+  top: 30px;
+  cursor: pointer;
+}
+
+.button_container.back {
+  left: 30px;
+}
+
+.button_container.close {
+  right: 30px;
+}
+
+.modal_body_wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: stretch;
+}
+
+.atm_change_location_modal {
+  height: 100vh;
+  top: 0;
+}
+
+@media screen and (max-width: 360px) {
+  .registration_modal {
+    margin: 0;
+  }
+}

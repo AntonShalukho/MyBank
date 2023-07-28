@@ -1,0 +1,53 @@
+@import "../../../shared/assets/scss/mixins.scss";
+@import "../../../shared/assets/scss/variables.module.scss";
+
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 24px;
+  @media screen and (max-width: 375px) {
+    padding: 17px 21px;
+  }
+}
+
+.account {
+  @include flexContainer(100%);
+  padding: 24px;
+  flex-direction: column;
+  background: $primary_white;
+  border: 1px solid $secondary_light_gray;
+  border-radius: 8px;
+  @media screen and (max-width: 375px) {
+    padding: 12px;
+  }
+}
+
+.account_content {
+  @include flexContainer(100%);
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $secondary_border; 
+  @media screen and (max-width: 375px) {
+    flex-direction: column;
+  }
+}
+
+.account_info {
+  margin-top: 20px;
+}
+
+.account_name {
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: $primary_text;
+  align-items: center;
+}
+
+.account_name__title {
+  margin-right: 12px;
+}

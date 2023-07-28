@@ -1,17 +1,21 @@
-const fs = require('fs')
+const http = require('http')
+const path = require('path');
+const fs = require('fs');
 
-setTimeout(() => console.log('SetTimeout'), 0)
-setImmediate(() => console.log('setImm'))
-fs.readFile(__filename, () => {
-  console.log("fs")
-  setTimeout(() => console.log('SetTimeout in fs'), 0)
-  setImmediate(() => console.log('setImm in fs'))
-  Promise.resolve()
-  .then(() => {
-    console.log('resolve promise in fs')
-  })
+// console.log('path: ')
+// console.log('path: ', __dirname)
+
+// const server = http.createServer((req, res) => {
+//   res.end()
+// })
+
+// const readStream = fs.createReadStream(path.resolve(__dirname, "text.txt"))
+
+// const writeStream = fs.createWriteStream(path.resolve(__dirname, "text_4.txt"))
+
+const text = fs.readFile(path.resolve(__dirname, 'text.txt'), (err, data) => {
+  console.log('read file')
+  console.log(data)
 })
-Promise.resolve()
-.then(() => {
-  console.log('resolve promise')
-})
+console.log(process)
+// text.on('data', (data) => console.log(data))

@@ -1,0 +1,143 @@
+.container {
+  padding: 24px;
+}
+
+.top_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--primary-input-hover);
+}
+
+.bottom_container {
+  font-style: 16px;
+  line-height: 22px;
+  color: var(--secondary-text);
+  padding-top: 40px;
+  border-top: 1px solid var(--primary-input-hover);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--primary-cross-button);
+}
+
+.logo_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  width: 176px;
+  height: 48px;
+}
+
+.logo_wrapper:hover {
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.wrapperCards {
+  min-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.card_wrapper {
+  max-width: 500px;
+}
+
+.block_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 20px;
+}
+
+.address {
+  padding-left: 92px;
+  max-width: 316px;
+}
+
+@media screen and (max-width: 1440px) {
+  .card_wrapper {
+    width: 316px;
+  }
+
+  .address {
+    padding-left: 12px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .card_wrapper {
+    width: 349px;
+  }
+
+  .address {
+    width: 349px;
+    padding-left: 0;
+  }
+
+  .wrapperCards {
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .block_wrapper{
+    flex-direction: column;
+    row-gap: 12px;
+    align-items: start;
+  }
+
+  .card_wrapper {
+    width: 264px;
+  }
+
+  .address {
+    width: 264px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card_wrapper {
+    width: 178px;
+  }
+
+  .address {
+    width: 178px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .top_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .wrapperCards {
+    flex-direction: column;
+    min-width: 50%;
+  }
+}

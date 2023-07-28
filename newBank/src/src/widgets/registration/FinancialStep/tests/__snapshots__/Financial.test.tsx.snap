@@ -1,0 +1,577 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Financial component Financial snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <h2
+          class="title"
+        >
+          Sign up
+        </h2>
+        <form
+          action="#"
+        >
+          <div
+            class="input_pesel"
+          >
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="pesel"
+                >
+                  PESEL
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="11"
+                  name="pesel"
+                  placeholder="Enter your PESEL"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+          </div>
+          <h3
+            class="radioBtn_subtitles"
+          >
+            Choose Identity Document type
+          </h3>
+          <div
+            class="radioBtn_id"
+          >
+            <label
+              class="container radioBtn_isID"
+            >
+              <input
+                checked=""
+                class="input"
+                name="documentType"
+                type="radio"
+                value="POLISH_ID"
+              />
+              <div
+                class="content"
+              >
+                <span
+                  class="span"
+                />
+                <div
+                  class="container"
+                >
+                  <h2
+                    class="title"
+                  >
+                    ID (for Polish citizens)
+                  </h2>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div
+            class="radioBtn_passport"
+          >
+            <label
+              class="container isPassport"
+            >
+              <input
+                class="input"
+                name="documentType"
+                type="radio"
+                value="PASSPORT"
+              />
+              <div
+                class="content"
+              >
+                <span
+                  class="span"
+                />
+                <div
+                  class="container"
+                >
+                  <h2
+                    class="title"
+                  >
+                    Passport
+                  </h2>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div
+            class="input_documentID"
+          >
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="documentID"
+                >
+                  National identification number
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="9"
+                  minlength="0"
+                  name="documentID"
+                  placeholder="Enter national identification number"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+          </div>
+          <div
+            class="input_documentExpirationDate"
+          >
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="documentExpirationDate"
+                >
+                  Expiration date of the ID
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="10"
+                  name="documentExpirationDate"
+                  placeholder="DD/MM/YYYY"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+          </div>
+          <button
+            class="default primarySmall button button__disabled"
+            disabled=""
+            type="submit"
+          >
+            Confirm
+          </button>
+        </form>
+      </div>
+    </div>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <h2
+          class="title"
+        >
+          Sign up
+        </h2>
+        <form
+          action="#"
+        >
+          <div
+            class="input_pesel"
+          >
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="pesel"
+                >
+                  PESEL
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="11"
+                  name="pesel"
+                  placeholder="Enter your PESEL"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+          </div>
+          <h3
+            class="radioBtn_subtitles"
+          >
+            Choose Identity Document type
+          </h3>
+          <div
+            class="radioBtn_id"
+          >
+            <label
+              class="container radioBtn_isID"
+            >
+              <input
+                checked=""
+                class="input"
+                name="documentType"
+                type="radio"
+                value="POLISH_ID"
+              />
+              <div
+                class="content"
+              >
+                <span
+                  class="span"
+                />
+                <div
+                  class="container"
+                >
+                  <h2
+                    class="title"
+                  >
+                    ID (for Polish citizens)
+                  </h2>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div
+            class="radioBtn_passport"
+          >
+            <label
+              class="container isPassport"
+            >
+              <input
+                class="input"
+                name="documentType"
+                type="radio"
+                value="PASSPORT"
+              />
+              <div
+                class="content"
+              >
+                <span
+                  class="span"
+                />
+                <div
+                  class="container"
+                >
+                  <h2
+                    class="title"
+                  >
+                    Passport
+                  </h2>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div
+            class="input_documentID"
+          >
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="documentID"
+                >
+                  National identification number
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="9"
+                  minlength="0"
+                  name="documentID"
+                  placeholder="Enter national identification number"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+          </div>
+          <div
+            class="input_documentExpirationDate"
+          >
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="documentExpirationDate"
+                >
+                  Expiration date of the ID
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="10"
+                  name="documentExpirationDate"
+                  placeholder="DD/MM/YYYY"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+          </div>
+          <button
+            class="default primarySmall button button__disabled"
+            disabled=""
+            type="submit"
+          >
+            Confirm
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="wrapper"
+    >
+      <h2
+        class="title"
+      >
+        Sign up
+      </h2>
+      <form
+        action="#"
+      >
+        <div
+          class="input_pesel"
+        >
+          <div>
+            <div
+              class="wrapper_short wrapper_long"
+            >
+              <label
+                class="label_short label_long"
+                for="pesel"
+              >
+                PESEL
+              </label>
+              <input
+                class="input_short input_long"
+                maxlength="11"
+                name="pesel"
+                placeholder="Enter your PESEL"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="below_input_block"
+            />
+          </div>
+        </div>
+        <h3
+          class="radioBtn_subtitles"
+        >
+          Choose Identity Document type
+        </h3>
+        <div
+          class="radioBtn_id"
+        >
+          <label
+            class="container radioBtn_isID"
+          >
+            <input
+              checked=""
+              class="input"
+              name="documentType"
+              type="radio"
+              value="POLISH_ID"
+            />
+            <div
+              class="content"
+            >
+              <span
+                class="span"
+              />
+              <div
+                class="container"
+              >
+                <h2
+                  class="title"
+                >
+                  ID (for Polish citizens)
+                </h2>
+              </div>
+            </div>
+          </label>
+        </div>
+        <div
+          class="radioBtn_passport"
+        >
+          <label
+            class="container isPassport"
+          >
+            <input
+              class="input"
+              name="documentType"
+              type="radio"
+              value="PASSPORT"
+            />
+            <div
+              class="content"
+            >
+              <span
+                class="span"
+              />
+              <div
+                class="container"
+              >
+                <h2
+                  class="title"
+                >
+                  Passport
+                </h2>
+              </div>
+            </div>
+          </label>
+        </div>
+        <div
+          class="input_documentID"
+        >
+          <div>
+            <div
+              class="wrapper_short wrapper_long"
+            >
+              <label
+                class="label_short label_long"
+                for="documentID"
+              >
+                National identification number
+              </label>
+              <input
+                class="input_short input_long"
+                maxlength="9"
+                minlength="0"
+                name="documentID"
+                placeholder="Enter national identification number"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="below_input_block"
+            />
+          </div>
+        </div>
+        <div
+          class="input_documentExpirationDate"
+        >
+          <div>
+            <div
+              class="wrapper_short wrapper_long"
+            >
+              <label
+                class="label_short label_long"
+                for="documentExpirationDate"
+              >
+                Expiration date of the ID
+              </label>
+              <input
+                class="input_short input_long"
+                maxlength="10"
+                name="documentExpirationDate"
+                placeholder="DD/MM/YYYY"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="below_input_block"
+            />
+          </div>
+        </div>
+        <button
+          class="default primarySmall button button__disabled"
+          disabled=""
+          type="submit"
+        >
+          Confirm
+        </button>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

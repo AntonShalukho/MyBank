@@ -1,0 +1,33 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+
+.container {
+  width: 652px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: $primary_text_2;
+}
+
+.sub_title {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: $primary_text_2;
+}
+
+.radio_btn_container {
+  display: flex;
+  width: 660px;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.button {
+  width: 320px;
+  margin: 0 auto;
+}

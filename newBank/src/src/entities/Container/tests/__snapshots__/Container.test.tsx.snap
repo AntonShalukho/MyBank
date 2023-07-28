@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering CabinetPage component Rendering auth container with sidebar 1`] = `
+<div
+  class="wrapper wrapper_folded wrapper_auth"
+>
+  I'am children
+</div>
+`;
+
+exports[`Rendering CabinetPage component Rendering auth header inside 1`] = `
+<div
+  class="wrapper wrapper_auth"
+>
+  I'am children
+</div>
+`;
+
+exports[`Rendering CabinetPage component Rendering non auth container with sidebar 1`] = `
+<div
+  class="wrapper wrapper_folded wrapper_not_auth"
+>
+  I'am children
+</div>
+`;
+
+exports[`Rendering CabinetPage component Rendering non auth header inside 1`] = `
+<div
+  class="wrapper wrapper_not_auth"
+>
+  I'am children
+</div>
+`;

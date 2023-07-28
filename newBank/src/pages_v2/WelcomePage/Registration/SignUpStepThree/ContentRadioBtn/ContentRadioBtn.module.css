@@ -1,0 +1,12 @@
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: var(--secondary-middle-gray);
+  margin-bottom: 2px;
+  margin-left: 12px;
+  padding-bottom: 10px;
+}

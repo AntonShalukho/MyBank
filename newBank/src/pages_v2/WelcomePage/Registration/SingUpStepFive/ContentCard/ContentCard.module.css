@@ -1,0 +1,17 @@
+.icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.description {
+  text-align: center;
+  margin: 26px 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--primary-text-2);
+}
+
+.button {
+  margin: 0 auto;
+  width: 320px;
+}

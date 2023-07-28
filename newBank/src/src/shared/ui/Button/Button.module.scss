@@ -1,0 +1,86 @@
+@import '../../assets/scss/variables.module.scss';
+
+@mixin button($backColor, $color) {
+  height: 40px;
+  min-width: 82px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  transition: 0.3s;
+  font-size: 16px;
+  background-color: $backColor;
+  color: $color;
+};
+
+@mixin buttonState($width, $borderColor, $backColor) {
+  border: $width solid $borderColor;
+  background-color: $backColor;
+}
+
+.default {
+  height: 40px;
+  min-width: 82px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.primarySmall, .primaryThick {
+  background-color: $primary_button_default;
+  color: $primary_white;
+  padding: 9px;
+  border: 2px solid $primary_button_default;
+  &:hover {
+    @include buttonState(2px, $primary_button_hover, $primary_button_hover);
+    cursor: pointer;
+  };
+  &:active {
+    @include buttonState(2px, $primary_button_active, $primary_button_active);
+  };
+  &:disabled {
+    @include buttonState(2px, $primary_button_disabled, $primary_button_disabled);
+  };
+  &:focus-visible {
+    @include buttonState(2px, $primary_white, $primary_button_tab);
+  };
+}
+
+.secondarySmall, .secondaryThick {
+  background-color: $secondary_button_default;
+  color: $secondary_text;
+  padding: 10px 15px;
+  border: 1px solid var(primary_scroll_bar);
+  &:hover {
+    @include buttonState(1px, $secondary_button_active, $secondary_button_hover);
+    color: $secondary_button_active;
+    cursor: pointer;
+  };
+  &:active {
+    @include buttonState(1px, $secondary_button_active, $secondary_button_active);
+    color: $primary_white
+  };
+  &:disabled {
+    @include buttonState(1px, $secondary_button_disabled, $secondary_button_active);
+    color: $secondary_text
+  };
+  &:focus-visible {
+    @include buttonState(1px, $secondary_button_active, $secondary_button_hover);
+    color: $secondary_button_active
+  };
+}
+
+.primaryThick, .secondaryThick {
+  height: 52px;
+}
+
+.advertisement {
+  background-color: $primary_white;
+  color: $secondary_light_blue;
+  width: 318px;
+}

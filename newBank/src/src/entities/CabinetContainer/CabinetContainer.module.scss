@@ -1,0 +1,16 @@
+@import "../../shared/assets/scss/variables.scss";
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: $secondary_very_light_gray;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70px calc(100% - 70px);
+  @media screen and (max-width: 1024px) {
+    overflow-y: scroll;
+  }
+  @media screen and (max-width: 375px) {
+    grid-template-rows: 100%;
+  }
+}

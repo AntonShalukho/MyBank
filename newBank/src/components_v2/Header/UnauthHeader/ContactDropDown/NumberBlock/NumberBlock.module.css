@@ -1,0 +1,38 @@
+.wrapper {
+  width: 270px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 8px;
+  padding: 12px 0px 12px 12px;
+}
+
+.wrapper:hover {
+  background-color: var(--secondary-hover-gray);
+}
+
+.title {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: var(--primary-text);
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+.context {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: var(--primary-text-2);
+}
+
+@media screen and (max-width: 700px)  {
+  .wrapper {
+    width: 100%;
+  }
+}

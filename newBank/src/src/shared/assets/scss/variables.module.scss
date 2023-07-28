@@ -1,0 +1,103 @@
+$primary_yellow: #ffd600;
+  $primary_white: #ffffff;
+  $primary_gray: #e0e0e0;
+  $primary_dark_gray: #212529;
+  $primary_red: #f2453d;
+  $primary_black: #000000;
+  $secondary_yellow: #fff176;
+  $secondary_light_yellow: #fff9c4;
+  $secondary_light_yellow_50: #fffde7;
+  $secondary_gray: #9e9e9e; 
+  $secondary_dark_gray: #616161;
+  $secondary_light_gray: #eeeeee;
+  $secondary_very_light_gray: #fafafa;
+  $secondary_hover_gray: #f5f5f5;
+  $secondary_blue: #4054b2;
+  $secondary_green: #4caf50;
+  $secondary_middle_gray: #6d6d82;
+  $secondary_gray_account: #5a5a5a;
+  $primary: #6db720;
+  $secondary: #d6ff96;
+  $tertiary: #ebffca;
+  $disabled: #f7ffeb;
+  $secondary_light_blue: #0b6cff;
+  $secondary_middle_gray: #6d6d82;
+
+  /* DESIGN _V2 */
+  /* BACKGROUND Styles */
+  $primary_background: #fafafa;
+  $secondary_background: #ffffff;
+  $primary_background_left_bar: #242429;
+  $primary_background_transparent: rgba(255, 255, 255, 0.55);
+  $primary_background_shadow: rgb(0 0 0 / 12%);
+
+  /* TEXT styles */
+  $primary_text: #212529;
+  $primary_text_2: #6d6d82;
+  $primary_text_3: #0b6cff;
+  $secondary_text: #86868e;
+
+  /* BUTTONS PRIMARY Styles */
+  $primary_button_default: #0b6cff;
+  $primary_button_hover: #0056d6;
+  $primary_button_active: #0056d6;
+  $primary_button_disabled: #aab9ce;
+  $primary_button_tab: #0056d6;
+
+  /* BUTTONS SECONDARY Styles */
+  $secondary_button_default: #e7f1ff;
+  $secondary_button_hover: #d6e7ff;
+  $secondary_button_active: #0b6cff;
+  $secondary_button_disabled: #f9f9fa;
+  $secondary_button_tab: #e7f1ff;
+
+  /* SYSTEM COLORS  Styles */
+  $error: #d02b32;
+  $error_secondary: #d02b32;
+  $approve: #008a27;
+  $approve_secondary: #008a27;
+
+  /* ICON Styles */
+  $primary_characters_counter: #9e9e9e;
+  $primary_on_the_left_bar: #5a5a5a;
+  $active_on_the_left_bar: #ffffff;
+  $socials: #A0A0A6;
+
+  /* INPUT Styles */
+  $primary_input_default: #f5f5f5;
+  $primary_input_hover: #f4f4f6;
+
+  $primary_input_focus: #0b6cff;
+  $primary_input_error: #d02b32;
+
+  /* ACCENT COLORS Styles */
+  $primary: #6db720;
+  $secondary: #d6ff96;
+  $tertiary: #ebffca;
+  $disabled: #f7ffeb;
+
+  /* SIDEBAR Styles */
+  $primary_sidebar: #b3b3b3;
+  $active_background: #3f3f4b;
+  $active_border: #474957;
+
+  /* Styles */
+  $primary_border: #b2b2b7;
+  $primary_border_2: #f4f4f6;
+  $secondary_border: #e9e9ed;
+  $secondary_border_2: #eeeeee;
+  $primary_shadow: rgba(0, 0, 0, 0.4);
+
+  /* SCROLLBAR Styles */
+  $primary_scroll_bar: #f5f5f5;
+  $primary_scroll_bar_thumb: #b3b3b3;
+  $primary_cross_button: #a0a0a6;
+
+  /* User Avatar */
+  $primary_user_avatar: #abacba;
+
+  $box_shadow:  rgba(188, 186, 186, 0.2);
+
+  :export {
+    primary_text_2: $primary_text_2;
+  }

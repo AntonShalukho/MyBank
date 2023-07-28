@@ -1,0 +1,490 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render SingUpStepTwo component SingUpStepTwo snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <h2
+          class="title"
+        >
+          Sign up
+        </h2>
+        <form
+          action="#"
+        >
+          <div
+            class="inputs_container"
+          >
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="name"
+                >
+                  Name
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="100"
+                  name="name"
+                  placeholder="Enter your name"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="surname"
+                >
+                  Surname
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="100"
+                  name="surname"
+                  placeholder="Enter your surname"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="email"
+                >
+                  E-mail
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="100"
+                  name="email"
+                  placeholder="Enter your email"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="password"
+                >
+                  Password
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="50"
+                  name="password"
+                  placeholder="Enter your password"
+                  type="password"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="repeatedPassword"
+                >
+                  Password
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="50"
+                  name="repeatedPassword"
+                  placeholder="Re-enter your password"
+                  type="password"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+          </div>
+          <button
+            class="primarySmall button button__disabled"
+            disabled=""
+            type="submit"
+          >
+            Confirm
+          </button>
+        </form>
+      </div>
+    </div>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <h2
+          class="title"
+        >
+          Sign up
+        </h2>
+        <form
+          action="#"
+        >
+          <div
+            class="inputs_container"
+          >
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="name"
+                >
+                  Name
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="100"
+                  name="name"
+                  placeholder="Enter your name"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="surname"
+                >
+                  Surname
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="100"
+                  name="surname"
+                  placeholder="Enter your surname"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="email"
+                >
+                  E-mail
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="100"
+                  name="email"
+                  placeholder="Enter your email"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="password"
+                >
+                  Password
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="50"
+                  name="password"
+                  placeholder="Enter your password"
+                  type="password"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+            <div>
+              <div
+                class="wrapper_short wrapper_long"
+              >
+                <label
+                  class="label_short label_long"
+                  for="repeatedPassword"
+                >
+                  Password
+                </label>
+                <input
+                  class="input_short input_long"
+                  maxlength="50"
+                  name="repeatedPassword"
+                  placeholder="Re-enter your password"
+                  type="password"
+                  value=""
+                />
+              </div>
+              <div
+                class="below_input_block"
+              />
+            </div>
+          </div>
+          <button
+            class="primarySmall button button__disabled"
+            disabled=""
+            type="submit"
+          >
+            Confirm
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="wrapper"
+    >
+      <h2
+        class="title"
+      >
+        Sign up
+      </h2>
+      <form
+        action="#"
+      >
+        <div
+          class="inputs_container"
+        >
+          <div>
+            <div
+              class="wrapper_short wrapper_long"
+            >
+              <label
+                class="label_short label_long"
+                for="name"
+              >
+                Name
+              </label>
+              <input
+                class="input_short input_long"
+                maxlength="100"
+                name="name"
+                placeholder="Enter your name"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="below_input_block"
+            />
+          </div>
+          <div>
+            <div
+              class="wrapper_short wrapper_long"
+            >
+              <label
+                class="label_short label_long"
+                for="surname"
+              >
+                Surname
+              </label>
+              <input
+                class="input_short input_long"
+                maxlength="100"
+                name="surname"
+                placeholder="Enter your surname"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="below_input_block"
+            />
+          </div>
+          <div>
+            <div
+              class="wrapper_short wrapper_long"
+            >
+              <label
+                class="label_short label_long"
+                for="email"
+              >
+                E-mail
+              </label>
+              <input
+                class="input_short input_long"
+                maxlength="100"
+                name="email"
+                placeholder="Enter your email"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="below_input_block"
+            />
+          </div>
+          <div>
+            <div
+              class="wrapper_short wrapper_long"
+            >
+              <label
+                class="label_short label_long"
+                for="password"
+              >
+                Password
+              </label>
+              <input
+                class="input_short input_long"
+                maxlength="50"
+                name="password"
+                placeholder="Enter your password"
+                type="password"
+                value=""
+              />
+            </div>
+            <div
+              class="below_input_block"
+            />
+          </div>
+          <div>
+            <div
+              class="wrapper_short wrapper_long"
+            >
+              <label
+                class="label_short label_long"
+                for="repeatedPassword"
+              >
+                Password
+              </label>
+              <input
+                class="input_short input_long"
+                maxlength="50"
+                name="repeatedPassword"
+                placeholder="Re-enter your password"
+                type="password"
+                value=""
+              />
+            </div>
+            <div
+              class="below_input_block"
+            />
+          </div>
+        </div>
+        <button
+          class="primarySmall button button__disabled"
+          disabled=""
+          type="submit"
+        >
+          Confirm
+        </button>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

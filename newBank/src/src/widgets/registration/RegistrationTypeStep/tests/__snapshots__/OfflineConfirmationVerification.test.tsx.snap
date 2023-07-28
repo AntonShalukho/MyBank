@@ -1,0 +1,412 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render OfflineConfirmationVerification component SingUpStepFour snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <h1
+          class="title"
+        >
+          Sign up
+        </h1>
+        <h2
+          class="sub_title"
+        >
+          Please choose the best confirmation variant for you. Make sure that you are in Poland.
+        </h2>
+        <form
+          action="#"
+        >
+          <div
+            class="radio_btn_container"
+          >
+            <label
+              class="container isCard"
+            >
+              <input
+                checked=""
+                class="input"
+                name="registrationType"
+                type="radio"
+                value="courier"
+              />
+              <div
+                class="content"
+              >
+                <span
+                  class="span"
+                />
+                <div
+                  class="container"
+                >
+                  <img
+                    alt="icon"
+                    class="icon"
+                    src="courier-car.svg"
+                  />
+                  <h1
+                    class="title"
+                  >
+                    Meeting a courier
+                  </h1>
+                  <p
+                    class="description"
+                  >
+                    Confirm your registration by meeting the courier
+                  </p>
+                </div>
+              </div>
+            </label>
+            <label
+              class="container isCard"
+            >
+              <input
+                class="input"
+                name="registrationType"
+                type="radio"
+                value="bank"
+              />
+              <div
+                class="content"
+              >
+                <span
+                  class="span"
+                />
+                <div
+                  class="container"
+                >
+                  <img
+                    alt="icon"
+                    class="icon"
+                    src="offline-sing-up.svg"
+                  />
+                  <h1
+                    class="title"
+                  >
+                    Visiting the bank office
+                  </h1>
+                  <p
+                    class="description"
+                  >
+                    <p
+                      class="description"
+                    >
+                      Find the nearest bank
+                      <a
+                        class="link"
+                        href="/atms"
+                        target="_blank"
+                      >
+                        on the map
+                      </a>
+                      to finish your registration
+                    </p>
+                  </p>
+                </div>
+              </div>
+            </label>
+          </div>
+          <button
+            class="default primarySmall button"
+            type="submit"
+          >
+            Confirm
+          </button>
+        </form>
+      </div>
+    </div>
+    <div>
+      <div
+        class="container"
+      >
+        <h1
+          class="title"
+        >
+          Sign up
+        </h1>
+        <h2
+          class="sub_title"
+        >
+          Please choose the best confirmation variant for you. Make sure that you are in Poland.
+        </h2>
+        <form
+          action="#"
+        >
+          <div
+            class="radio_btn_container"
+          >
+            <label
+              class="container isCard"
+            >
+              <input
+                checked=""
+                class="input"
+                name="registrationType"
+                type="radio"
+                value="courier"
+              />
+              <div
+                class="content"
+              >
+                <span
+                  class="span"
+                />
+                <div
+                  class="container"
+                >
+                  <img
+                    alt="icon"
+                    class="icon"
+                    src="courier-car.svg"
+                  />
+                  <h1
+                    class="title"
+                  >
+                    Meeting a courier
+                  </h1>
+                  <p
+                    class="description"
+                  >
+                    Confirm your registration by meeting the courier
+                  </p>
+                </div>
+              </div>
+            </label>
+            <label
+              class="container isCard"
+            >
+              <input
+                class="input"
+                name="registrationType"
+                type="radio"
+                value="bank"
+              />
+              <div
+                class="content"
+              >
+                <span
+                  class="span"
+                />
+                <div
+                  class="container"
+                >
+                  <img
+                    alt="icon"
+                    class="icon"
+                    src="offline-sing-up.svg"
+                  />
+                  <h1
+                    class="title"
+                  >
+                    Visiting the bank office
+                  </h1>
+                  <p
+                    class="description"
+                  >
+                    <p
+                      class="description"
+                    >
+                      Find the nearest bank
+                      <a
+                        class="link"
+                        href="/atms"
+                        target="_blank"
+                      >
+                        on the map
+                      </a>
+                      to finish your registration
+                    </p>
+                  </p>
+                </div>
+              </div>
+            </label>
+          </div>
+          <button
+            class="default primarySmall button"
+            type="submit"
+          >
+            Confirm
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <h1
+        class="title"
+      >
+        Sign up
+      </h1>
+      <h2
+        class="sub_title"
+      >
+        Please choose the best confirmation variant for you. Make sure that you are in Poland.
+      </h2>
+      <form
+        action="#"
+      >
+        <div
+          class="radio_btn_container"
+        >
+          <label
+            class="container isCard"
+          >
+            <input
+              checked=""
+              class="input"
+              name="registrationType"
+              type="radio"
+              value="courier"
+            />
+            <div
+              class="content"
+            >
+              <span
+                class="span"
+              />
+              <div
+                class="container"
+              >
+                <img
+                  alt="icon"
+                  class="icon"
+                  src="courier-car.svg"
+                />
+                <h1
+                  class="title"
+                >
+                  Meeting a courier
+                </h1>
+                <p
+                  class="description"
+                >
+                  Confirm your registration by meeting the courier
+                </p>
+              </div>
+            </div>
+          </label>
+          <label
+            class="container isCard"
+          >
+            <input
+              class="input"
+              name="registrationType"
+              type="radio"
+              value="bank"
+            />
+            <div
+              class="content"
+            >
+              <span
+                class="span"
+              />
+              <div
+                class="container"
+              >
+                <img
+                  alt="icon"
+                  class="icon"
+                  src="offline-sing-up.svg"
+                />
+                <h1
+                  class="title"
+                >
+                  Visiting the bank office
+                </h1>
+                <p
+                  class="description"
+                >
+                  <p
+                    class="description"
+                  >
+                    Find the nearest bank
+                    <a
+                      class="link"
+                      href="/atms"
+                      target="_blank"
+                    >
+                      on the map
+                    </a>
+                    to finish your registration
+                  </p>
+                </p>
+              </div>
+            </div>
+          </label>
+        </div>
+        <button
+          class="default primarySmall button"
+          type="submit"
+        >
+          Confirm
+        </button>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

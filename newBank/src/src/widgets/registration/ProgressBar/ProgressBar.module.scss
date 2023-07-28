@@ -1,0 +1,115 @@
+@import "../../../shared/assets/scss/variables.module.scss";
+
+.wrapper {
+  width: 100%;
+  height: 92px;
+  padding: 0px 24px 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.withBackButton {
+  justify-content: end;
+}
+
+.steps_container {
+  width: 70%;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  position: relative;
+}
+
+.progress_line {
+  position: absolute;
+  top: calc(100% - 52px);
+  left: 79px;
+  width: 87%;
+  height: 2px;
+  background-color: $primary_border_2;
+  z-index: 1;
+  @media screen and (max-width: 1440px) {
+    width: 83%;
+  }
+  @media screen and (max-width: 1280px) {
+    width: 81%;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 78%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 75%;
+    left: 60px;
+  }
+}
+
+.steps_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.step_button, 
+.step_button_previous,
+.step_button_nextStep, 
+.step_button_next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step_button_previous {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background-color: $secondary_light_blue;
+}
+
+.step_button_nextStep {
+  box-sizing: border-box;
+  width: 36px;
+  height: 36px;
+  border: solid 1px $secondary_light_blue;
+  border-radius: 12px;
+  background-color: $primary_white;
+}
+
+.step_button_next {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background-color: $secondary_hover_gray;
+}
+
+.step_number_previous {
+  color: $primary_white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.step_number_nextStep,
+.step_number_next  {
+  color: $secondary_light_blue;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.step_name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: $secondary_middle_gray;
+}
+
+.cross_icon {
+    margin-top: 36px;
+    cursor: pointer;
+}

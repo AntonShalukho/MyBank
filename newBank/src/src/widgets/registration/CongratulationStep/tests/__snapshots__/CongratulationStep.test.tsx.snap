@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering CongratulationStep component Snapshot 1`] = `
+<div
+  class="popup"
+>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="title"
+    >
+      Congratulations!
+    </div>
+    <svg>
+      congratulations.svg
+    </svg>
+    <div
+      class="description"
+    >
+      Your form has been sent successfully!
+    </div>
+  </div>
+  <div
+    class="confetti"
+  />
+</div>
+`;

@@ -1,0 +1,74 @@
+@import url("../../assets/theme/palette.css");
+
+.modal-backdrop {
+  position: fixed;
+  width: 100vw;
+  height: calc(100vh - 96px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+
+.modal-backdrop.visible {
+  background-color: rgba(255, 255, 255, 0.55);
+  z-index: 15;
+}
+
+.modal-wrapper {
+  position: relative;
+  background-color: var(--primary-white);
+  height: fit-content;
+  width: min(800px, 60%);
+  padding: 15px 15px 45px;
+  margin: auto;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.button-container {
+  width: fit-content;
+  position: absolute;
+  top: 30px;
+}
+
+.button-container.back {
+  left: 30px;
+}
+
+.button-container.close {
+  right: 30px;
+}
+
+.modal-body-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: stretch;
+}
+
+.atm-change-location-modal {
+  height: 100vh;
+  top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-wrapper {
+    width: min(800px, 73%);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .modal-backdrop {
+    top: 5px;
+  }
+
+  .modal-wrapper {
+    box-sizing: border-box;
+    padding: 16px 32px;
+    width: 360px;
+  }
+
+  .registration-modal {
+    margin: 0;
+  }
+}

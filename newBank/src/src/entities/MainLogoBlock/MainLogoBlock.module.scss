@@ -1,0 +1,51 @@
+@import "../../shared/assets/scss/variables.module.scss";
+
+.wrapper {
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  @media screen and (max-width: 375px) {
+    display: flex;
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-left: 23px;
+    align-items: center;
+  }
+}
+
+.wrapper_description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  @media screen and (max-width: 768px) {
+    display: none; 
+  }
+  @media screen and (max-width: 375px) {
+    display: flex;
+  }
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: $secondary_background;
+}
+
+.header_title {
+  color: $primary_text;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: $primary_input_default;
+  opacity: 0.6;
+}
+
+.header_description {
+  color: $primary_text_2;
+}

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering EmailForm component EN Get snapshot 1`] = `
+<form
+  class="email_form"
+>
+  <div
+    class="inputs"
+  >
+    <input
+      class="input input_active"
+      id="firstInput"
+      name="firstInput"
+      type="text"
+      value=""
+    />
+    <input
+      class="input"
+      id="secondInput"
+      name="secondInput"
+      type="text"
+      value=""
+    />
+    <input
+      class="input"
+      id="thirdInput"
+      name="thirdInput"
+      type="text"
+      value=""
+    />
+    <input
+      class="input"
+      id="fourthInput"
+      name="fourthInput"
+      type="text"
+      value=""
+    />
+    <input
+      class="input"
+      id="fifthInput"
+      name="fifthInput"
+      type="text"
+      value=""
+    />
+    <input
+      class="input"
+      id="sixthInput"
+      name="sixthInput"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    class="wrapper"
+  >
+    <p
+      class="email_timer"
+    >
+      You can resend a code in
+       
+      <span
+        class="email_timer_numbers"
+      >
+        05
+        :
+        00
+      </span>
+    </p>
+  </div>
+  <div
+    class="button_group"
+  >
+    <button
+      class="default primarySmall button_group__submit button__disabled"
+      disabled=""
+      type="submit"
+    >
+      Confirm
+    </button>
+    <button
+      class="default secondarySmall button_group__cancel"
+      type="button"
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;

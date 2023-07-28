@@ -1,0 +1,69 @@
+@import "../../shared/assets/scss/variables.module.scss";
+
+section {
+  margin-bottom: 24px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+.title {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+}
+.button_text {
+  display: inline-block;
+  margin-left: 6px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 23px 12px 12px;
+  border: 1px solid $primary_border_2;
+  border-radius: 12px;
+  &_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+  }
+  &_wrapper_with_image {
+    padding-top: 20px;
+  }
+  &_with_image {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &_image {
+    position: relative;
+    width: 84px;
+    height: 84px;
+    margin-right: 20px;
+    border: 1px solid $primary_user_avatar;
+    border-radius: 12px;
+    &_inner_block {
+      position: absolute;
+      display: none;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      padding-top: 30px;
+      text-align: center;
+      border-radius: 11px;
+      background-color: $primary_shadow;
+    }
+    &:hover .image_inner_block {
+      display: block;
+    }
+  }
+  &_edit_button {
+    background-color: none;
+  }  
+  &_button_edit_mode {
+    display: flex;
+    width: 305px;
+    justify-content: space-between;
+    align-content: flex-end;
+  }  
+}

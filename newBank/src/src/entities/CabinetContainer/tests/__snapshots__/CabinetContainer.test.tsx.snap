@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering CabinetPage component Get snapshot with auth header 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="wrapper"
+    >
+      <h1
+        class="title"
+      >
+        Main page
+      </h1>
+      <a
+        class="link"
+        href="/products"
+      >
+        + Open product
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Rendering CabinetPage component Get snapshot with non auth header 1`] = `null`;

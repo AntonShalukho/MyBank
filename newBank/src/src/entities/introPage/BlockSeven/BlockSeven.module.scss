@@ -1,0 +1,234 @@
+@import "../../../shared/assets/scss/variables.module.scss";
+@import "../../../shared/assets/scss/mixins.scss";
+
+.wrapper {
+  @include flexContainer(1120px);
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 64px;
+  @media screen and (max-width: 900px) {
+    width: 688px;
+  }
+}
+
+.block_top {
+  @include flexContainer(100%);
+  padding: 40px 60px;
+  justify-content: center;
+  column-gap: 40px;
+  background-color: $primary_text;
+  border-radius: 12px;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px 40px;
+  }
+}
+
+.block_top_left,
+.block_top_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.top_left_title,
+.top_right_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  color: $primary_white;
+}
+
+.top_left_title {
+  padding: 0 70px;
+  @media screen and (max-width: 1024px) {
+    padding: 0 50px;
+  }
+  @media screen and (max-width: 900px) {
+    padding: 0 21px;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 0 62px;
+  }
+}
+
+.top_left_description,
+.top_right_description {
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  color: $primary_white;
+}
+
+.container {
+  @include flexContainer(1120px);
+  justify-content: center;
+  gap: 20px;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    width: 688px;
+  }
+}
+
+.block_left,
+.block_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  background-color: $primary_white;
+  border-radius: 12px;
+  padding: 20px 20px;
+}
+
+.block_right {
+  row-gap: 4px;
+  @media screen and (max-width: 1024px) {
+    row-gap: 20px;
+  }
+  @media screen and (max-width: 900px) {
+    height: 689px;
+  }
+  @media screen and (max-width: 767px) {
+    height: 480px;
+    row-gap: 8px;
+    padding: 15px;
+  }
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding: 20px 20px 0;
+  @media screen and (max-width: 1024px) {
+    padding: 4px 4px 0;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 16px 9px 0;
+  }
+}
+
+.left_title,
+.right_title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  color: $primary_text;
+}
+
+.left_description {
+  font-size: 16px;
+  line-height: 140%;
+  color: $secondary_text;
+}
+
+.right_description {
+  font-size: 16px;
+  line-height: 140%;
+  color: $secondary_text;
+}
+
+.blockVideo {
+  width: 510px;
+  height: 401px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  @media screen and (max-width: 1024px) {
+    width: 422px;
+    height: 401px;
+  }
+  @media screen and (max-width: 900px) {
+    width: 648px;
+    height: 436px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 313px;
+    height: 210px;
+    border-radius: 5px;
+  }
+}
+
+.windTurbinesVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  @media screen and (max-width: 767px) {
+    width: 400px;
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper,
+  .container {
+    width: 944px;
+  }
+
+  .top_left_description {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .top_left_description {
+    padding: 0;
+  }
+
+  .top_left_title,
+  .top_right_title,
+  .right_title,
+  .left_title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .block_left {
+    row-gap: 63px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper,
+  .container {
+    width: 343px;
+  }
+
+  .top_left_title,
+  .top_right_title,
+  .left_title,
+  .right_title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .top_left_description,
+  .left_description,
+  .right_description {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .top_right_description {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .top_left_description {
+    padding: 0 10px;
+  }
+
+  .block_left {
+    padding: 30px 15px;
+    row-gap: 58px;
+  }
+}

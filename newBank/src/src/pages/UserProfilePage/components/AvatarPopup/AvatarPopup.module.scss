@@ -1,0 +1,51 @@
+@import "../../../../shared/assets/scss/variables.module.scss";
+
+.popup {
+  position: fixed;
+  top: calc(50% - 210px);
+  right: calc(50% - 162px);
+  width: 324px;
+  height: 420px;
+  padding: 26px;
+  border-radius: 16px;
+  box-shadow: $primary_shadow 0px 5px 15px;
+  &_title {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+  }
+  &_image {
+    width: 276px;
+    height: 276px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    border: 1px solid $primary_border_2;
+  }
+  &_button {
+    text-transform: capitalize;
+    &_icon {
+      margin-right: 5px;
+    }
+    &_delete {
+      color: $primary_input_error;
+      background-color: transparent;
+      border: none;
+      &:hover {
+        background-color: transparent;
+        border: none;
+      }
+    }
+    &_container {
+      display: flex;
+      justify-content: space-between;
+    }
+    &_close {
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+      background-color: $secondary_light_blue;
+      background-image: none;
+    }
+  }
+}

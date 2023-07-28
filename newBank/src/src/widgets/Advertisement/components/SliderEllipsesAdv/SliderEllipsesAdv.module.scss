@@ -1,0 +1,52 @@
+@import "../../../../shared/assets/scss/variables.module.scss";
+@import "../../../../shared/assets/scss/mixins.scss";
+
+.slider_wrapper {
+  @include flexContainer(auto, 12px);
+  align-content: center;
+  background-size: cover;
+  transition: 0.3s;
+  margin-bottom: 37px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.loginSliderWrapper {
+  margin-bottom: 47px;
+}
+
+.slider_container {
+  min-width: 53px;
+  display: flex;
+  overflow: hidden;
+}
+
+.slider {
+  min-width: 8px;
+  height: 8px;
+  margin: 0px 4px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: $primary_white;
+  transition: 0.3s;
+}
+
+.slider_selected {
+  min-width: 28px;
+  border-radius: 12px;
+  background-color: #0b6cff;
+  transition: 0.3s;
+}
+
+.arrow_right,
+.arrow_left {
+  @include flexContainer(6.59px, 11.18px);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrow_left {
+  transform: rotate(180deg);
+}

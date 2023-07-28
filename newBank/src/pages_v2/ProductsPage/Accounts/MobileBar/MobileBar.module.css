@@ -1,0 +1,14 @@
+.container {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+    background-color: var(--primary-white);
+  }
+}

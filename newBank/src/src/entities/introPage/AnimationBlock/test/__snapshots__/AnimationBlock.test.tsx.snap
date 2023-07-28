@@ -1,0 +1,541 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering AnimationBlock component Components AnimationBlocks snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <div
+          class="wrapper"
+        >
+          <div
+            class="description description_mobile"
+            role="top"
+          >
+            <div
+              class="info"
+            >
+              <div
+                class="description"
+              >
+                <div
+                  class="title large_title"
+                >
+                  The Bank you can trust. 
+                </div>
+                <div
+                  class="title_desc"
+                >
+                  Empowering your financial journey with personalized solutions and exceptional service. Because your success is our top priority.
+                </div>
+                <button
+                  class="default primarySmall button"
+                  type="button"
+                >
+                  Sign up
+                </button>
+              </div>
+            </div>
+            <div
+              class="icon"
+            >
+              <svg>
+                Group.svg
+              </svg>
+            </div>
+            <div
+              class="animation_container"
+            >
+              <svg
+                class="browser"
+                style="top: 0%; right: 0%; width: 100%; height: 100%; border-radius: 50%;"
+              >
+                Browser.svg
+              </svg>
+              <video
+                autoplay=""
+                class="video"
+                loop=""
+                style="top: 0%; right: 0%; width: 100%; height: 100%; border-radius: 52%;"
+              >
+                <source
+                  height="500px"
+                  type="video"
+                  width="500px"
+                />
+                <track
+                  kind="captions"
+                  src=""
+                />
+              </video>
+            </div>
+            <video
+              autoplay=""
+              class="video_mobile"
+              loop=""
+            >
+              <source
+                height="500px"
+                type="video"
+                width="500px"
+              />
+              <track
+                kind="captions"
+                src=""
+              />
+            </video>
+          </div>
+          <div
+            class="description"
+            role="bottom"
+          >
+            <div
+              class="wrapper"
+            >
+              <div
+                class="icon"
+              >
+                <img
+                  alt="euro"
+                  src="euro-dynamic-color.png"
+                />
+              </div>
+              <div
+                class="description"
+              >
+                Get your account from the comfort of your own home
+              </div>
+            </div>
+            <div
+              class="wrapper"
+            >
+              <div
+                class="icon"
+              >
+                <img
+                  alt="card"
+                  src="card-dynamic-color.png"
+                />
+              </div>
+              <div
+                class="description"
+              >
+                Open a virtual card in a couple of minutes
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="wrapper"
+        >
+          <div
+            class="description"
+          >
+            <div
+              class="title"
+            >
+              Open account with us
+            </div>
+            <div
+              class="title_desc"
+            >
+              At our bank, you are our top priority. We offer personalized banking solutions that cater to your unique financial needs, with a commitment to providing exceptional customer service that exceeds your expectations.
+            </div>
+            <button
+              class="default primarySmall button"
+              type="button"
+            >
+              Get started
+            </button>
+          </div>
+          <img
+            alt="Browser"
+            class="browser"
+            src="Browser_mobile.png"
+          />
+          <div
+            class="icon"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <div
+          class="wrapper"
+        >
+          <div
+            class="description description_mobile"
+            role="top"
+          >
+            <div
+              class="info"
+            >
+              <div
+                class="description"
+              >
+                <div
+                  class="title large_title"
+                >
+                  The Bank you can trust. 
+                </div>
+                <div
+                  class="title_desc"
+                >
+                  Empowering your financial journey with personalized solutions and exceptional service. Because your success is our top priority.
+                </div>
+                <button
+                  class="default primarySmall button"
+                  type="button"
+                >
+                  Sign up
+                </button>
+              </div>
+            </div>
+            <div
+              class="icon"
+            >
+              <svg>
+                Group.svg
+              </svg>
+            </div>
+            <div
+              class="animation_container"
+            >
+              <svg
+                class="browser"
+                style="top: 0%; right: 0%; width: 100%; height: 100%; border-radius: 50%;"
+              >
+                Browser.svg
+              </svg>
+              <video
+                autoplay=""
+                class="video"
+                loop=""
+                style="top: 0%; right: 0%; width: 100%; height: 100%; border-radius: 52%;"
+              >
+                <source
+                  height="500px"
+                  type="video"
+                  width="500px"
+                />
+                <track
+                  kind="captions"
+                  src=""
+                />
+              </video>
+            </div>
+            <video
+              autoplay=""
+              class="video_mobile"
+              loop=""
+            >
+              <source
+                height="500px"
+                type="video"
+                width="500px"
+              />
+              <track
+                kind="captions"
+                src=""
+              />
+            </video>
+          </div>
+          <div
+            class="description"
+            role="bottom"
+          >
+            <div
+              class="wrapper"
+            >
+              <div
+                class="icon"
+              >
+                <img
+                  alt="euro"
+                  src="euro-dynamic-color.png"
+                />
+              </div>
+              <div
+                class="description"
+              >
+                Get your account from the comfort of your own home
+              </div>
+            </div>
+            <div
+              class="wrapper"
+            >
+              <div
+                class="icon"
+              >
+                <img
+                  alt="card"
+                  src="card-dynamic-color.png"
+                />
+              </div>
+              <div
+                class="description"
+              >
+                Open a virtual card in a couple of minutes
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="wrapper"
+        >
+          <div
+            class="description"
+          >
+            <div
+              class="title"
+            >
+              Open account with us
+            </div>
+            <div
+              class="title_desc"
+            >
+              At our bank, you are our top priority. We offer personalized banking solutions that cater to your unique financial needs, with a commitment to providing exceptional customer service that exceeds your expectations.
+            </div>
+            <button
+              class="default primarySmall button"
+              type="button"
+            >
+              Get started
+            </button>
+          </div>
+          <img
+            alt="Browser"
+            class="browser"
+            src="Browser_mobile.png"
+          />
+          <div
+            class="icon"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="wrapper"
+    >
+      <div
+        class="wrapper"
+      >
+        <div
+          class="description description_mobile"
+          role="top"
+        >
+          <div
+            class="info"
+          >
+            <div
+              class="description"
+            >
+              <div
+                class="title large_title"
+              >
+                The Bank you can trust. 
+              </div>
+              <div
+                class="title_desc"
+              >
+                Empowering your financial journey with personalized solutions and exceptional service. Because your success is our top priority.
+              </div>
+              <button
+                class="default primarySmall button"
+                type="button"
+              >
+                Sign up
+              </button>
+            </div>
+          </div>
+          <div
+            class="icon"
+          >
+            <svg>
+              Group.svg
+            </svg>
+          </div>
+          <div
+            class="animation_container"
+          >
+            <svg
+              class="browser"
+              style="top: 0%; right: 0%; width: 100%; height: 100%; border-radius: 50%;"
+            >
+              Browser.svg
+            </svg>
+            <video
+              autoplay=""
+              class="video"
+              loop=""
+              style="top: 0%; right: 0%; width: 100%; height: 100%; border-radius: 52%;"
+            >
+              <source
+                height="500px"
+                type="video"
+                width="500px"
+              />
+              <track
+                kind="captions"
+                src=""
+              />
+            </video>
+          </div>
+          <video
+            autoplay=""
+            class="video_mobile"
+            loop=""
+          >
+            <source
+              height="500px"
+              type="video"
+              width="500px"
+            />
+            <track
+              kind="captions"
+              src=""
+            />
+          </video>
+        </div>
+        <div
+          class="description"
+          role="bottom"
+        >
+          <div
+            class="wrapper"
+          >
+            <div
+              class="icon"
+            >
+              <img
+                alt="euro"
+                src="euro-dynamic-color.png"
+              />
+            </div>
+            <div
+              class="description"
+            >
+              Get your account from the comfort of your own home
+            </div>
+          </div>
+          <div
+            class="wrapper"
+          >
+            <div
+              class="icon"
+            >
+              <img
+                alt="card"
+                src="card-dynamic-color.png"
+              />
+            </div>
+            <div
+              class="description"
+            >
+              Open a virtual card in a couple of minutes
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="wrapper"
+      >
+        <div
+          class="description"
+        >
+          <div
+            class="title"
+          >
+            Open account with us
+          </div>
+          <div
+            class="title_desc"
+          >
+            At our bank, you are our top priority. We offer personalized banking solutions that cater to your unique financial needs, with a commitment to providing exceptional customer service that exceeds your expectations.
+          </div>
+          <button
+            class="default primarySmall button"
+            type="button"
+          >
+            Get started
+          </button>
+        </div>
+        <img
+          alt="Browser"
+          class="browser"
+          src="Browser_mobile.png"
+        />
+        <div
+          class="icon"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

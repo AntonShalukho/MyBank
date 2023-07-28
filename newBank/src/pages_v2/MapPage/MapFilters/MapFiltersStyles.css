@@ -1,0 +1,41 @@
+@import url("../../../assets/theme/palette.css");
+
+.filters-input-container {
+  position: absolute;
+  left: 2.5vw;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.atms-container > svg {
+  z-index: 2;
+  position: absolute;
+  top: 46px;
+}
+
+.atms-container > svg:nth-child(1) {
+  left: 8%;
+}
+
+.atms-container > svg:nth-child(3) {
+  left: 88%;
+  cursor: pointer;
+}
+
+.filter-header-button {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.filter-header-button span {
+  text-decoration: underline 1px dashed var(--primary-yellow);
+  text-underline-offset: 5px;
+  color: var(--primary-yellow)
+}
+
+.region-modal {
+  position: relative;
+  top: -10%;
+  padding: 45px;
+  width: 50%;
+}

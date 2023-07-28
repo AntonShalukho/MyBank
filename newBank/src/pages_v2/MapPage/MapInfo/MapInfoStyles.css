@@ -1,0 +1,76 @@
+@import url("../../../assets/theme/palette.css");
+
+.filters-input-container {
+  position: absolute;
+  left: 2.5vw;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.map-info-container {
+  position: relative;
+  background-color: var(--primary-white);
+  transition: all 0.15s;
+  max-width: 1000px;
+  top: -50px;
+  height: 100%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.12);
+  clip-path: inset(0px -8px -8px 0px);
+  padding: 90px 0 30px;
+}
+
+.map-info-container.disappear {
+  max-width: 0px;
+  overflow: hidden;
+}
+
+.bank-list-wrapper, .map-filters-wrapper {
+  margin: auto;
+  max-width: 360px;
+  height: 95%;
+}
+
+.map-filters-wrapper {
+  overflow-y: scroll;
+}
+
+.map-filters-wrapper h3 {
+  font-weight: 400;
+}
+
+.map-filters-wrapper {
+  scrollbar-color: var(--secondary-dark-gray) transparent;
+  scrollbar-width: thin;
+}
+
+.map-filters-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.map-filters-wrapper::-webkit-scrollbar-track {
+  border-radius: 6px;
+}
+
+.map-filters-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color:  var(--secondary-gray);
+}
+
+.map-filters-wrapper::-webkit-scrollbar-thumb:hover {
+  background-color: var(--secondary-dark-gray);
+}
+
+.map-filters-wrapper::-webkit-scrollbar-thumb:active {
+  background-color: var(--secondary-dark-gray);
+}
+
+.hidden {
+  position: absolute;
+  display: none;
+}
+
+.map-info-container h4 {
+  color: var(--secondary-gray);
+  font-weight: 400;
+  margin: 20px 0 15px;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+    height: 29px;
+    border-bottom: 1px solid var(--primary-input-hover);
+ }
+ 
+ .sidebar_list {
+     display: flex;
+ }
+ 
+ .link {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 19px;
+     color: var(--secondary-middle-gray);
+     margin-right: 20px;
+     margin-bottom: 8px;
+ }
+ 
+ .link_active {
+     color: var(--secondary-light-blue);
+     border-bottom: 2px solid var(--secondary-light-blue);
+     padding-bottom: 8px;
+     text-transform: capitalize;
+ }
+ 

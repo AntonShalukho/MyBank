@@ -40,13 +40,7 @@
   },
   "scripts": {
     "start": "craco start --config ./craco.config.development.js",
-    "start:development": "craco start --config ./craco.config.development.js",
-    "start:test": "craco start --config ./craco.config.release.js",
-    "start:production": "craco start --config ./craco.config.main.js",
     "build": "craco build",
-    "build:development": "craco build --config ./craco.config.development.js",
-    "build:test": "craco build --config ./craco.config.release.js",
-    "build:prod": "craco build --config ./craco.config.main.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --debug --fix",

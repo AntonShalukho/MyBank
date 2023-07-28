@@ -1,0 +1,25 @@
+@import "../../shared/assets/scss/variables.module.scss";
+
+.popup {
+  position: absolute;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px $primary_background_shadow;
+  font-size: 16px;
+  font-weight: 400;
+  color: $primary_dark_gray;
+  z-index: 1;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: $primary_background_transparent;
+  z-index: 15;
+}

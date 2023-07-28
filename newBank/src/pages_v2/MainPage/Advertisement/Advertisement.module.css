@@ -1,0 +1,202 @@
+.slider_component_wrapper {
+  position: relative;
+  width: 368px;
+  height: 598px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: cover;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.loginSliderWrapper {
+  width: 612px;
+  height: 898px;
+}
+
+.slider_carousel {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slider_carousel_item {
+  text-align: -webkit-center;
+}
+
+.slider_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  width: 368px;
+  height: 598px;
+  border-radius: 12px;
+}
+
+.loginSliderImg {
+    width: 612px;
+    height: 898px;
+}
+
+.slider_icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.adv_content {
+  position: absolute;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 24px 24px 0px 24px;
+}
+
+.loginContent {
+  width: 100%;
+  justify-content: start;
+  row-gap: 20px;
+  margin: 0;
+  padding: 24px;
+}
+
+.adv_button {
+  position: absolute;
+  margin: 12px 24px;
+  bottom: 68px;
+}
+
+.loginAdvButton {
+  width: 564px;
+  bottom: 98px
+}
+
+.btn_title {
+  display: flex;
+  align-items: center;
+  padding: 11px 0;
+}
+
+.slider_text_title_top {
+  width: 320px;
+  height: 28px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: var(--primary-white);
+  cursor: pointer;
+}
+
+.slider_text_title_bottom {
+  composes: slider_text_title_top;
+  margin-top: 300px;
+}
+
+.slider_text_description_top {
+  width: 320px;
+  height: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: var(--primary-white);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.slider_text_description_bottom {
+  width: 320px;
+  height: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: var(--primary-white);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.slider_text_small_add {
+  width: 320px;
+  height: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: var(--primary-white);
+}
+
+.loginText {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  width: auto;
+  height: auto;
+  margin-top: 0;
+}
+
+.loginDescription {
+  margin: 0;
+}
+
+.arrow_right_blue {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider_component_wrapper {
+    justify-self: end;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .loginSliderWrapper, .loginSliderImg {
+    width: 472px;
+    height: 680px;
+  }
+  
+  .loginAdvButton {
+    width: 432px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slider_component_wrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .slider_component_wrapper {
+    justify-self: center;
+    width: 334px;
+    height: 570px;
+  }
+
+  .adv_button {
+    margin: 12px 16px;
+    width: 302px;
+  }
+
+  .slider_img {
+    width: 343px;
+    height: 570px;
+  }
+}

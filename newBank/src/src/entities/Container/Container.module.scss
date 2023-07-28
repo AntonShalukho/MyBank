@@ -1,0 +1,57 @@
+@import "../../shared/assets/scss/mixins.scss";
+
+.wrapper {
+  @include flexContainer();
+  max-width: 1920px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  overflow: clip;
+  transition: .3s;
+  @media screen and (max-width: 1440px) {
+    max-width: 1440px;
+  }
+  @media screen and (max-width: 1280px) {
+    max-width: 1280px;
+  }
+  @media screen and (max-width: 1024px) {
+    max-width: 1024px;
+  }
+  @media screen and (max-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (max-width: 375px) {
+    max-width: 375px;
+  }
+}
+
+.wrapper_not_auth {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 70px 1fr;
+}
+
+.wrapper_auth {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100%;
+  @media screen and (max-width: 768px) {
+  grid-template-columns: 72px 1fr;
+  }
+  @media screen and (max-width: 375px) {
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 1fr;
+  }
+}
+
+.wrapper_folded {
+  grid-template-columns: 72px 1fr;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 72px 1fr;
+  }
+  @media screen and (max-width: 375px) {
+    grid-template-columns: 100%;
+    grid-template-rows: 80px 1fr;
+  }
+}

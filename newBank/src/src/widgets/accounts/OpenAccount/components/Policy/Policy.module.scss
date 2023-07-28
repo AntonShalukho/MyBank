@@ -1,0 +1,70 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+
+.policy {
+  margin-bottom: 20px;
+}
+
+.policy__wrapper {
+  display: flex;
+  column-gap: 19px;
+  margin-bottom: 4px;
+  margin-left: 3px;
+  position: relative;
+  color: $primary_text;
+}
+
+.policy__unchecked,
+.policy__checked,
+.policy__unchecked_error {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  align-self: center;
+  justify-self: center;
+  margin-right: 19px;
+}
+
+.policy__checked::before {
+  content: url("../../assets/icons/static/policyAgreeIcon.svg");
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  background-color: $primary_white;
+  cursor: pointer;
+}
+
+.policy__unchecked::before {
+  content: url("../../assets/icons/static/policyAgreeIconCheck.svg");
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  background-color: $primary_white;
+  cursor: pointer;
+}
+.policy__unchecked_error::before {
+  content: url("../../assets/icons/static/policyAgreeIconError.svg");
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 0px;
+  background-color: $primary_white;
+  cursor: pointer;
+}
+
+.policy__link {
+  color: $secondary_light_blue;
+}
+
+.policy__link:hover {
+  text-decoration: underline;
+}
+
+.policy__error {
+  opacity: 0;
+}
+
+.policy__error_active {
+  opacity: 1;
+}

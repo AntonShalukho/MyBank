@@ -1,0 +1,30 @@
+@import "../../shared/assets/scss/variables.module.scss";
+
+.section_info {
+  display: inline-block;
+  width: 240px;
+  height: max-content;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 16px;
+  &:nth-last-child(-n+2) {
+    margin-bottom: 0px; 
+  } 
+  &::nth-child(odd) {
+    margin-right: 28px;
+  } 
+  &_title {
+    margin-bottom: 14px;
+    color: var(--primary-text);
+    text-transform: capitalize;
+  }
+  &_description {
+    height: 40px;
+    padding-top: 10px;
+    color: $secondary_middle_gray;
+  }
+  &_wrapper {
+    width: 240px;
+  }
+}

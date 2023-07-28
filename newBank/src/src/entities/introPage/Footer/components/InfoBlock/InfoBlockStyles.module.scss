@@ -1,0 +1,29 @@
+.wrapper {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.data_wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 13px;
+  height: 22px;
+}
+
+.number {
+  color: inherit;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.description {
+  font-size: 12px;
+  line-height: 14px;
+}

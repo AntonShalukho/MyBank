@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering ContentWithoutCamera  component Get snapshot 1`] = `
+<div
+  class="wrapper"
+>
+  <h2
+    class="title"
+  >
+    Sorry you can’t continue without using a camera!
+  </h2>
+  <svg>
+    unsuccess.svg
+  </svg>
+  <p
+    class="description"
+  >
+    Please choose the another way to register or cancel registration process.
+  </p>
+  <div
+    class="wrapper_button"
+  >
+    <button
+      class="default primarySmall "
+      type="button"
+    >
+      Continue offline
+    </button>
+    <button
+      class="default secondarySmall "
+      type="button"
+    >
+      Cancel
+    </button>
+  </div>
+</div>
+`;

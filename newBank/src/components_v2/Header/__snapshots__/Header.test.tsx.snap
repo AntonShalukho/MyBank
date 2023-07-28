@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render AuthHeader component Header snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <h1
+          class="title"
+        >
+          Main page
+        </h1>
+        <a
+          class="link"
+          href="/products"
+        >
+          + Open product
+        </a>
+      </div>
+    </div>
+    <div>
+      <div
+        class="wrapper"
+      >
+        <h1
+          class="title"
+        >
+          Main page
+        </h1>
+        <a
+          class="link"
+          href="/products"
+        >
+          + Open product
+        </a>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="wrapper"
+    >
+      <h1
+        class="title"
+      >
+        Main page
+      </h1>
+      <a
+        class="link"
+        href="/products"
+      >
+        + Open product
+      </a>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
+
+exports[`Render UnauthHeader component UnauthHeader snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="wrapper_without_auth"
+      >
+        <div
+          class="logo"
+        >
+          <div
+            class="wrapper logoBlock"
+          >
+            <svg
+              class="icon"
+            >
+              mainLogo_v2.svg
+            </svg>
+            <div
+              class="wrapper_description logoBlock"
+            >
+              <span
+                class="title header_title"
+              >
+                Bee·Bank
+              </span>
+              <span
+                class="description header_description"
+              >
+                Solutions for life.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="btn_wrapper"
+        >
+          <button
+            class="primarySmall login_btn"
+            type="button"
+          >
+            Log in
+          </button>
+          <div
+            class="contact_us_btn"
+          >
+            <button
+              class="secondarySmall greyBtn"
+              type="button"
+            >
+              <svg
+                class="icon"
+              >
+                phone.svg
+              </svg>
+              Contact us
+            </button>
+          </div>
+        </div>
+        <button
+          class="burgerButton"
+          type="button"
+        >
+          <span
+            class="burger"
+          >
+            <span
+              class="burgerLine"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+    <div>
+      <div
+        class="wrapper_without_auth"
+      >
+        <div
+          class="logo"
+        >
+          <div
+            class="wrapper logoBlock"
+          >
+            <svg
+              class="icon"
+            >
+              mainLogo_v2.svg
+            </svg>
+            <div
+              class="wrapper_description logoBlock"
+            >
+              <span
+                class="title header_title"
+              >
+                Bee·Bank
+              </span>
+              <span
+                class="description header_description"
+              >
+                Solutions for life.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="btn_wrapper"
+        >
+          <button
+            class="primarySmall login_btn"
+            type="button"
+          >
+            Log in
+          </button>
+          <div
+            class="contact_us_btn"
+          >
+            <button
+              class="secondarySmall greyBtn"
+              type="button"
+            >
+              <svg
+                class="icon"
+              >
+                phone.svg
+              </svg>
+              Contact us
+            </button>
+          </div>
+        </div>
+        <button
+          class="burgerButton"
+          type="button"
+        >
+          <span
+            class="burger"
+          >
+            <span
+              class="burgerLine"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="wrapper_without_auth"
+    >
+      <div
+        class="logo"
+      >
+        <div
+          class="wrapper logoBlock"
+        >
+          <svg
+            class="icon"
+          >
+            mainLogo_v2.svg
+          </svg>
+          <div
+            class="wrapper_description logoBlock"
+          >
+            <span
+              class="title header_title"
+            >
+              Bee·Bank
+            </span>
+            <span
+              class="description header_description"
+            >
+              Solutions for life.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="btn_wrapper"
+      >
+        <button
+          class="primarySmall login_btn"
+          type="button"
+        >
+          Log in
+        </button>
+        <div
+          class="contact_us_btn"
+        >
+          <button
+            class="secondarySmall greyBtn"
+            type="button"
+          >
+            <svg
+              class="icon"
+            >
+              phone.svg
+            </svg>
+            Contact us
+          </button>
+        </div>
+      </div>
+      <button
+        class="burgerButton"
+        type="button"
+      >
+        <span
+          class="burger"
+        >
+          <span
+            class="burgerLine"
+          />
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

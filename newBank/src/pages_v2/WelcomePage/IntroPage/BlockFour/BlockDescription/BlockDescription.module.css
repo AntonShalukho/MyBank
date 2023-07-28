@@ -1,0 +1,24 @@
+.description {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0px 40px
+}
+
+@media screen and (max-width: 1024px) {
+  .description{
+    max-width: 382px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .description{
+    padding: 0 24px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .description{
+    padding: 0px 20px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+

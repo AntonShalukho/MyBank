@@ -1,0 +1,91 @@
+@import "../../../shared/assets/scss/variables.module.scss";
+@import "../../../shared/assets/scss/mixins.scss";
+
+.wrapper {
+  @include flexContainer(368px, 531px);
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 20px;
+  color: $secondary_middle_gray;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input_country, 
+.input_city,
+.input_streetname,
+.input_housenumber,
+.input_apartmentnumber {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subProgressBar {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  height: 36px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.button {
+  width: 320px;
+}
+
+.step_button {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background-color: $secondary_light_blue;
+  margin-right: 8px;
+  margin-left: 16px;
+}
+
+.step_button_disable {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background-color: $secondary_hover_gray;
+  margin-left: 20px;
+}
+
+.step_value {
+  color: $primary_white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 12px;
+  padding-top: 8px;
+}
+
+.step_value_disable {
+  color: $secondary_light_blue;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 12px;
+  padding-top: 8px;
+}
+
+.location_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: $secondary_middle_gray;
+  margin-right: 86px;
+}

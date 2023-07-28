@@ -1,0 +1,39 @@
+.section_info {
+  display: inline-block;
+  width: 240px;
+  height: max-content;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 16px;
+  overflow: hidden;
+}
+
+.section_info_id {
+  width: 400px;
+}
+
+
+.section_info:nth-last-child(-n+2) {
+  margin-bottom: 0px; 
+}
+
+.section_info:nth-child(odd) {
+  margin-right: 28px;
+}
+
+.section_info_title {
+  margin-bottom: 14px;
+  color: var(--primary-text);
+  text-transform: capitalize;
+}
+
+.section_info_description {
+  height: 40px;
+  padding-top: 10px;
+  color: var(--secondary-middle-gray)
+}
+
+.section_info_wrapper {
+  width: 240px;
+}

@@ -1,0 +1,41 @@
+@import "../../assets/scss/variables.module.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  &:hover {
+    cursor: pointer;
+  };
+}
+
+.isCard {
+  width: 320px;
+  padding-left: 12px;
+  border: 1px solid $primary_border_2;
+  border-radius: 12px;
+}
+
+.input {
+  outline: none;
+  width: 16px;
+  height: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../../assets/icons/static/not-checked-radio-btn.svg");
+  background-repeat: no-repeat;
+  &:checked {
+    background-position-x: -4px;
+    background-position-y: -4px;
+    background-image: url("../../assets/icons/static/checked-radio-btn.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 12px;
+  color: $primary_text_2;
+}

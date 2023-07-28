@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account Policy block en-us Get Snapshot 1`] = `
+<div>
+  <div
+    class="policy"
+  >
+    <div
+      class="policy__wrapper"
+    >
+      <label>
+        <input
+          checked=""
+          class="policy__unchecked"
+          name="isConfirm"
+          type="checkbox"
+          value="true"
+        />
+        <span>
+          I agree with the
+          <a
+            class="policy__link"
+            href="https://wiki.andersenlab.com/pages/viewpage.action?spaceKey=VMN&title=Vacation+Management+new+%28Bee+bank+WEB%29+Home"
+            rel="noreferrer"
+            target="_blank"
+          >
+             
+            Terms and conditions
+          </a>
+        </span>
+      </label>
+    </div>
+    <div
+      class="policy__error"
+    >
+      <p
+        class="input_error_text"
+      >
+        You must agree with Terms and Conditions
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,126 @@
+@import "../../assets/scss/variables.module.scss";
+@import "../../assets/scss/mixins.scss";
+
+.wrapper_short, .wrapper_short_focus, .wrapper_long, .wrapper_hide_icon {
+  min-width: 200px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $primary_input_default;
+  border-radius: 8px;
+  border: 1px solid $primary_input_default;
+}
+
+.wrapper_hover {
+  border: 1px solid $primary_input_hover;
+}
+
+.wrapper_short_focus {
+  border: 1px solid $primary_input_focus;
+}
+
+.wrapper_long, .wrapper_hide_icon {
+  position: relative;
+  width: 320px;
+}
+
+.wrapper_error, .wrapper_error_icon {
+  position: relative;
+  border: 1px solid $primary_input_error;
+}
+
+.wrapper_error_icon {
+  &::before {
+    content: url("../../assets/icons/static/error_icon.svg");
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 16px;
+    right: 8px;
+    z-index: 1;
+  }
+}
+
+.label_short, .label_long {
+  @include flexContainer(184px, 20px);
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: $primary_text;
+  line-height: 14px;
+  margin: 4px 8px 4px 8px;
+}
+
+.label_focus {
+  color: $primary_text_2;
+}
+
+.input_short, .input_long {
+  @include flexContainer(170px, 20px);
+  position: relative;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: $primary_text;
+  line-height: 16px;
+  border: none;
+  background: $primary_input_default;
+  outline: none;
+  margin: 0px 8px 4px 8px;
+}
+
+.input_short {
+  &:focus {
+    color: $primary_text_2;
+  }
+}
+
+.input_long {
+  &:focus {
+    color: $primary_text_2;
+  }
+}
+
+.input_long, .label_long {
+  width: 285px;
+}
+
+.input_hide_icon, .label_hide_icon {
+  width: 274px;
+}
+
+.cross_short, .cross_long {
+  width: 8.75px;
+  height: 8.75px;
+  position: absolute;
+  top: 32px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.cross_short {
+  top: 58px;
+}
+
+.hide_icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 16px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.counter {
+  width: 160px;
+  height: 12px;
+  margin-top: 8px;
+  padding-left: 8px;
+  color: $primary_characters_counter;
+  font-size: 12px;
+}

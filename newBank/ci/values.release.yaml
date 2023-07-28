@@ -1,0 +1,14 @@
+replicaCount: 1
+
+fullnameOverride: frontend-react
+
+image:
+  repository: nexus-docker.andersenlab.dev/a-banking-new-frontend-react-release
+  pullPolicy: IfNotPresent
+  tag: "latest"
+  secrets: and-registry
+
+service:
+  type: NodePort
+  port: 8081
+  nodePort: 30108

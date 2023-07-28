@@ -1,0 +1,24 @@
+.wrapper {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-background-left-bar);
+  width: 200px;
+  height: 100vh;
+  transition: 0.3s;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.wrapper_inactive {
+  width: 72px;
+  transition: 0.3s;
+}
+
+.wrapper_mobile {
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}

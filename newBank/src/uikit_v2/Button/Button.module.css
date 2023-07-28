@@ -1,0 +1,98 @@
+.primarySmall, .primaryThick {
+  height: 40px;
+  min-width: 82px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  color: var(--primary-white);
+  padding: 10px 24px;
+  border-radius: 12px;
+  border: 2px solid var(--primary-button-default);
+  background-color: var(--primary-button-default);
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.primarySmall:hover, .primaryThick:hover {
+  border: 2px solid var(--primary-button-hover);
+  background-color: var(--primary-button-hover);
+}
+
+.primarySmall:active, .primaryThick:active {
+  border: 2px solid var(--primary-button-active);
+  background-color: var(--primary-button-active);
+}
+
+.primarySmall:disabled, .primaryThick:disabled {
+  border: 2px solid var(--primary-button-disabled);
+  background-color: var(--primary-button-disabled);
+}
+
+.primarySmall:focus-visible, .primaryThick:focus-visible {
+  border: 2px solid var(--primary-white);
+  background-color: var(--primary-button-tab);
+}
+
+.secondarySmall, .secondaryThick {
+  height: 40px;
+  min-width: 82px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  color: var(--secondary-text);
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 1px solid var(--primary-scroll-bar);
+  background-color: var(--secondary-button-default);
+  transition: 0.3s; 
+  font-size: 16px;
+}
+
+.secondarySmall:hover, .secondaryThick:hover {
+  border: 1px solid var(--secondary-button-active);
+  background-color: var(--secondary-button-hover);
+  color: var(--secondary-button-active);
+}
+
+.secondarySmall:active, .secondaryThick:active {
+  border: 1px solid var(--secondary-button-active);
+  background-color: var(--secondary-button-active);
+  color: var(--primary-white);
+}
+
+.secondarySmall:disabled, .secondaryThick:disabled {
+  border: 1px solid var(--secondary-button-disabled);
+  background-color: var(--secondary-button-disabled);
+  color: var(--secondary-text);
+}
+
+.secondarySmall:focus-visible, .secondaryThick:focus-visible {
+  border: 1px solid var(--secondary-button-active);
+  background-color: var(--secondary-button-hover);
+  color: var(--secondary-button-active);
+}
+
+.primaryThick {
+  height: 52px;
+}
+
+.secondaryThick {
+  height: 52px;
+}
+
+.advertisement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 318px;
+  height: 40px;
+  background-color: var(--primary-white);
+  border-radius: 12px;
+  color: var(--secondary-light-blue);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  transition: all 0.3s;
+}

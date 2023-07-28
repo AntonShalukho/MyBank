@@ -1,0 +1,42 @@
+.current_account_name {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 17px;
+}
+
+.logo_currency {
+  width: 24px;
+  height: 18px;
+}
+
+.name_currency {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 4px;
+  color: var(--primary-text-2); 
+}
+
+.value_currency {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  margin-left: 12px;
+}
+
+.currency_block__icon {
+  width: 24px;
+  height: 18px;
+}
+
+.current_account_data {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  .name_currency {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

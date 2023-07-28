@@ -1,0 +1,14 @@
+@import "../../../../../shared/assets/scss/variables.module.scss";
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: $secondary_middle_gray;
+  margin-bottom: 2px;
+  margin-left: 12px;
+  padding-bottom: 10px;
+}

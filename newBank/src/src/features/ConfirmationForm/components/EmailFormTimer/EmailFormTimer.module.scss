@@ -1,0 +1,32 @@
+@import "../../../../shared/assets/scss/variables.module.scss";
+@import "../../../../shared/assets/scss/mixins.scss";
+
+.wrapper {
+  @include flexContainer(380px, 16px);
+  justify-content: center;
+  align-items: center;
+}
+
+.code_sending {
+  color: $primary_dark_gray;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  color: $primary_red;
+}
+
+.email_timer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 3px;
+  align-items: center;
+  justify-content: center;
+  color: $secondary_text;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.email_timer_numbers {
+  color: $primary_red;
+}

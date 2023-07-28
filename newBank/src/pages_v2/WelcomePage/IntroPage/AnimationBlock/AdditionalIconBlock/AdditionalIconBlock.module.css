@@ -1,0 +1,28 @@
+.wrapper {
+  width: 296px;
+  height: 92px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  background-color: var(--active-on-the-left-bar);
+  padding: 16px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-text);
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .wrapper {
+    padding: 0 0;
+  }
+}

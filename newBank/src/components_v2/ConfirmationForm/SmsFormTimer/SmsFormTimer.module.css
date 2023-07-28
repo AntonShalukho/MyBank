@@ -1,0 +1,31 @@
+.wrapper {
+  width: 380px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code_sending {
+  color: var(--primary-dark-gray);
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  color: var(--primary-red);
+}
+
+.sms_timer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 3px;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-text);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.sms_timer_numbers {
+  color: var(--primary-red);
+}
